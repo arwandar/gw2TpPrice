@@ -4,7 +4,6 @@ export const updateEfficiencyShoppingList = (
   efficiencyShoppingList: any[],
   currentOrders: { [x: string]: number }
 ) => {
-  console.log(efficiencyShoppingList, currentOrders);
   return efficiencyShoppingList
     .map((item) => {
       if (currentOrders[item.id]) {
@@ -34,3 +33,6 @@ export const priceToString = (price: number | undefined) => {
 
   return res;
 };
+
+export const getOptions = () =>
+  Object.entries(dict).map(([label, id]) => ({ label, id }));

@@ -1,5 +1,6 @@
 import { isAfter, sub } from "date-fns";
 import { Item } from "./type";
+import { getId } from "./utils";
 
 type Data = {
   orderPrice: number;
@@ -43,7 +44,6 @@ export const getPrices = async (shoppingList: Item[]) => {
   try {
     for (let index in shoppingList) {
       const item = shoppingList[index];
-      console.log("item", item);
       const res = await fetch(`/api/gw2tp/${item.id}`);
       // const res = await fetch(`http://localhost:5174/api/gw2tp/${item.id}`);
       const response = await res.json();
@@ -51,10 +51,18 @@ export const getPrices = async (shoppingList: Item[]) => {
         ...item,
         price: setupGoodPrice(response),
       });
-      console.log(newShoppingList);
     }
   } catch (error) {
     console.error(error);
   }
   return newShoppingList;
+};
+
+export const getPrice = async (label: string) => {
+  const id = getId(label);
+  if (!id) return;
+  const res = await fetch(`http://localhost:5174/api/gw2tp/${id}`);
+  const response = await res.json();
+
+  return setupGoodPrice(response);
 };
