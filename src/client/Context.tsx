@@ -33,7 +33,8 @@ export const ContextProvider = ({ children }: { children: any }) => {
   useEffect(() => {
     (async () => {
       setLoading(true);
-      if (currentOrders.length === 0) await updateCurrentOrders();
+      const apiKey = localStorage.getItem("apiKey");
+      if (currentOrders.length === 0 && apiKey) await updateCurrentOrders();
 
       let neededPriceIds = calculateNeededPriceIds(
         effiencyShoppingList,
