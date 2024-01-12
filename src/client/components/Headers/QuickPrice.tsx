@@ -1,14 +1,28 @@
-import { Grid, Autocomplete, TextField } from "@mui/material";
+import {
+  Grid,
+  Autocomplete,
+  TextField,
+  Switch,
+  FormControlLabel,
+} from "@mui/material";
 import { getOptions, priceToString } from "../../utils/utils";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { getPriceByLabel } from "../../utils/gw2TpApi";
 
 const QuickPrice = () => {
+  const [input, setInput] = useState<string>("");
   const [selectedPrice, setSelectedPrice] = useState<number | undefined>();
+  const [isSelling, setSelling] = useState<boolean>(false);
+
+  useEffect(() => {
+    (async () => {
+      const price = await getPriceByLabel(input, isSelling);
+      if (price) setSelectedPrice(price);
+    })();
+  }, [input, isSelling]);
 
   const handleSelectItem = async (e: any) => {
-    const price = await getPriceByLabel(e.target.value);
-    if (price) setSelectedPrice(price);
+    setInput(e.target.value);
   };
 
   const options = useMemo(() => getOptions(), []);
@@ -35,6 +49,17 @@ const QuickPrice = () => {
             readOnly: true,
           }}
           size="small"
+        />
+      </Grid>
+      <Grid item>
+        <FormControlLabel
+          control={
+            <Switch
+              checked={!isSelling}
+              onChange={() => setSelling(!isSelling)}
+            />
+          }
+          label="Buy"
         />
       </Grid>
     </Grid>

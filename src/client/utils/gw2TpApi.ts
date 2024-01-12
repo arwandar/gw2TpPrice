@@ -2,50 +2,77 @@ import { isAfter, sub } from "date-fns";
 import { Item } from "./type";
 import { getId } from "./utils";
 
-function percentile(arr: number[]) {
-  const p = parseInt(localStorage.getItem("percentile") || "50") / 100;
-
-  arr = arr.sort();
-
-  if (arr.length === 0) return 0;
-  if (typeof p !== "number") throw new TypeError("p must be a number");
-  if (p <= 0) return arr[0];
-  if (p >= 1) return arr[arr.length - 1];
-
-  var index = (arr.length - 1) * p,
-    lower = Math.floor(index),
-    upper = lower + 1,
-    weight = index % 1;
-
-  if (upper >= arr.length) return arr[lower];
-  return arr[lower] * (1 - weight) + arr[upper] * weight;
-}
-
-const setupGoodPrice = (data: [number, number, number, number, number][]) => {
-  const dataSet = data.reduce((toKeep: number[], d) => {
-    const date = new Date(d[0]);
-    if (isAfter(date, sub(new Date(), { weeks: 1 }))) toKeep.push(d[2]);
-    return toKeep;
-  }, []);
-
-  return percentile(dataSet);
-};
-
-export const getPriceById = async (id: string): Promise<number> => {
+export const getPriceById = async (
+  id: string,
+  isSelling: boolean = false
+): Promise<number> => {
   try {
     const res = await fetch(`/api/gw2tp/${id}`);
-    const response = await res.json();
-    const price = setupGoodPrice(response);
+    const data = await res.json();
 
-    return price;
+    const dataSet = data
+      .reduce((toKeep: number[], d: number[]) => {
+        const date = new Date(d[0]);
+        if (isAfter(date, sub(new Date(), { weeks: 1 })))
+          toKeep.push(d[isSelling ? 1 : 2]);
+        return toKeep;
+      }, [])
+      .sort();
+
+    const p = parseInt(localStorage.getItem("percentile") || "50") / 100;
+
+    if (dataSet.length === 0) return 0;
+    if (typeof p !== "number") throw new TypeError("p must be a number");
+    if (p <= 0) return dataSet[0];
+    if (p >= 1) return dataSet[dataSet.length - 1];
+
+    const index = (dataSet.length - 1) * p,
+      lower = Math.floor(index),
+      upper = lower + 1,
+      weight = index % 1;
+
+    if (upper >= dataSet.length) return dataSet[lower];
+    return dataSet[lower] * (1 - weight) + dataSet[upper] * weight;
   } catch (error) {
     console.error("getPrice", error);
     return 10000000;
   }
 };
 
-export const getPriceByLabel = (label: string) => {
+export const getPriceByLabel = (label: string, isSelling?: boolean) => {
   const id = getId(label);
   if (!id) return;
-  return getPriceById(id);
+  return getPriceById(id, isSelling);
+};
+
+export const getCurrentPercentile = async (
+  id: string,
+  value: number,
+  isSelling: boolean = false
+) => {
+  try {
+    const res = await fetch(`/api/gw2tp/${id}`);
+    const data = await res.json();
+
+    const dataSet = data.reduce((toKeep: number[], d: number[]) => {
+      const date = new Date(d[0]);
+      if (isAfter(date, sub(new Date(), { weeks: 1 })))
+        toKeep.push(d[isSelling ? 1 : 2]);
+      return toKeep;
+    }, []);
+
+    let count = 0;
+    dataSet.forEach((v: number) => {
+      if (v < value) {
+        count++;
+      } else if (v == value) {
+        count += 0.5;
+      }
+    });
+    console.log("plop");
+    return (100 * count) / dataSet.length;
+  } catch (error) {
+    console.error(error);
+    return 10000000;
+  }
 };

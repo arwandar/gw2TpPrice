@@ -1,32 +1,13 @@
 import dict from "./dict.json";
 import { Item, Transaction } from "./type";
 
-export const calculateNeededPriceIds = (
-  efficiencyShoppingList: Item[],
-  currentOrders: Transaction[]
-) => {
-  const currentOrdersSet = currentOrders.reduce(
-    (list: { [x: string]: number }, item: Transaction) => {
-      if (!list[item.item_id]) list[item.item_id] = 0;
-      list[item.item_id] += item.quantity;
-      return list;
-    },
-    {}
-  );
-
-  return efficiencyShoppingList
-    .map((item: Item) => {
-      if (currentOrdersSet[item.id]) {
-        item.count -= currentOrdersSet[item.id];
-      }
-      return item;
-    })
-    .filter((item) => item.count >= 0)
-    .map(({ id }) => id);
-};
-
 export const getId = (label: string) => {
   if (dict[label]) return dict[label];
+};
+
+export const getLabel = (idToFind: string) => {
+  const res = Object.entries(dict).find(([label, id]) => id === idToFind);
+  if (res) return res[0];
 };
 
 export const priceToString = (price: number | undefined) => {

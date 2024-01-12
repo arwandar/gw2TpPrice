@@ -1,7 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import { Item, Transaction } from "./utils/type";
 import { getCurrentOrders } from "./utils/gw2Api";
-import { calculateNeededPriceIds } from "./utils/utils";
 import { getPriceById } from "./utils/gw2TpApi";
 
 export const Context = createContext<{
@@ -10,6 +9,8 @@ export const Context = createContext<{
   currentOrders: Transaction[];
   updateCurrentOrders: () => Promise<void>;
   prices: Record<string, number>;
+  getPrice: (id: string) => void;
+  resetPrices: () => void;
   isLoading: boolean;
 }>({
   effiencyShoppingList: [],
@@ -17,6 +18,8 @@ export const Context = createContext<{
   currentOrders: [],
   updateCurrentOrders: () => Promise.resolve(),
   prices: {},
+  getPrice: () => {},
+  resetPrices: () => {},
   isLoading: false,
 });
 
@@ -28,23 +31,28 @@ export const ContextProvider = ({ children }: { children: any }) => {
   const [currentOrders, setCurrentOrders] = useState<Transaction[]>([]);
   const [isLoading, setLoading] = useState<boolean>(false);
 
-  // const updateCurrentOrders = () => getCurrentOrders().then(setCurrentOrders);
+  const [priceQueue, setPriceQueue] = useState<string[]>([]);
+
+  useEffect(() => {
+    (async () => {
+      if (priceQueue.length === 0) return;
+
+      const current = priceQueue[0];
+
+      if (!prices[current]) {
+        const price = await getPriceById(current);
+        setPrices((oldPrices) => ({ ...oldPrices, [current]: price }));
+      }
+
+      setPriceQueue((oldQueue) => [...oldQueue.slice(1)]);
+    })();
+  }, [priceQueue]);
 
   useEffect(() => {
     (async () => {
       setLoading(true);
       const apiKey = localStorage.getItem("apiKey");
       if (currentOrders.length === 0 && apiKey) await updateCurrentOrders();
-
-      let neededPriceIds = calculateNeededPriceIds(
-        effiencyShoppingList,
-        currentOrders
-      );
-
-      for (const id of neededPriceIds) {
-        const price = await getPriceById(id);
-        await setPrices((oldPrices) => ({ ...oldPrices, [id]: price }));
-      }
 
       setLoading(false);
     })();
@@ -56,6 +64,12 @@ export const ContextProvider = ({ children }: { children: any }) => {
     Promise.resolve();
   };
 
+  const getPrice = (id: string) => {
+    setPriceQueue((queue) => [...queue, id]);
+  };
+
+  const resetPrices = () => setPrices({});
+
   return (
     <Context.Provider
       value={{
@@ -64,6 +78,8 @@ export const ContextProvider = ({ children }: { children: any }) => {
         currentOrders,
         updateCurrentOrders,
         prices,
+        getPrice,
+        resetPrices,
         isLoading,
       }}
     >

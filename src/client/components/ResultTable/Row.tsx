@@ -1,11 +1,15 @@
 import { TableRow, TableCell } from "@mui/material";
 import { priceToString } from "../../utils/utils";
 import { Item } from "../../utils/type";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
 import { Context } from "../../Context";
 
 const Row = ({ row }: { row: Item }) => {
-  const { prices } = useContext(Context);
+  const { prices, getPrice } = useContext(Context);
+
+  useEffect(() => {
+    getPrice(row.id);
+  }, []);
 
   const price = prices[row.id];
 
@@ -29,3 +33,6 @@ const Row = ({ row }: { row: Item }) => {
 };
 
 export default Row;
+function getPrice(item_id: any) {
+  throw new Error("Function not implemented.");
+}

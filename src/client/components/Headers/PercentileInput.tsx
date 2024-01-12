@@ -1,7 +1,10 @@
 import { Slider } from "@mui/material";
-import { useEffect, useState } from "react";
+import { useContext, useState } from "react";
+import { Context } from "../../Context";
 
 const PercentileInput = () => {
+  const { resetPrices } = useContext(Context);
+
   const [percentile, setPercentile] = useState<number | undefined>(
     parseInt(localStorage.getItem("percentile") || "50", 10)
   );
@@ -9,6 +12,7 @@ const PercentileInput = () => {
   const onChange = (e: any) => {
     setPercentile(e.target.value);
     localStorage.setItem("percentile", e.target.value);
+    resetPrices();
   };
 
   return (

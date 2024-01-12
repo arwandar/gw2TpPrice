@@ -50,7 +50,7 @@ const ResultTable = () => {
         </TableHead>
         <TableBody>
           {rows.map((row) => (
-            <Row row={row} />
+            <Row row={row} key={row.id} />
           ))}
         </TableBody>
       </Table>
