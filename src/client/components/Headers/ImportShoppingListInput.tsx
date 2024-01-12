@@ -1,7 +1,9 @@
-import { ChangeEvent } from "react";
+import { ChangeEvent, useContext } from "react";
 import { getId } from "../../utils/utils";
 import { CloudUpload } from "@mui/icons-material";
 import { Button, styled } from "@mui/material";
+import { Context } from "../../Context";
+import { Item } from "../../utils/type";
 
 const VisuallyHiddenInput = styled("input")({
   clip: "rect(0 0 0 0)",
@@ -15,11 +17,9 @@ const VisuallyHiddenInput = styled("input")({
   width: 1,
 });
 
-const ImportShoppingList = ({
-  setShoppingList,
-}: {
-  setShoppingList: Function;
-}) => {
+const ImportShoppingList = () => {
+  const { setEfficiencyShoppingList } = useContext(Context);
+
   const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (!e.target || e.target.files?.length !== 1) return;
     const file = e.target.files[0];
@@ -32,17 +32,17 @@ const ImportShoppingList = ({
           .slice(1)
           .map((row: string) => {
             const values = row.split(",");
-            const obj = {
-              count: values[1],
+            const obj: Item = {
+              count: parseInt(values[1]),
               name: values[2],
-              id: getId(values[2]),
-              effPrice: values[3],
+              id: getId(values[2]) || "",
+              price: parseInt(values[3]),
             };
             return obj;
           })
           .filter((item) => item.id);
 
-        setShoppingList(arrayOfObjects);
+        setEfficiencyShoppingList(arrayOfObjects);
       }
     };
 

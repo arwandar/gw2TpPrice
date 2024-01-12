@@ -7,6 +7,9 @@ let lastPage = false;
 const dict = {};
 
 try {
+  let res = await fetch(`https://api.guildwars2.com/v2/commerce/listings`);
+  let tpIds = await res.json();
+
   do {
     console.log("Process: ", page);
     const res = await fetch(
@@ -18,23 +21,23 @@ try {
       for (let i = 0; i < response.length; i++) {
         let item = response[i];
         if (
-          !["Armor", "Weapon", "Back", "Container", "MiniPet"].includes(
-            item.type
-          ) &&
-          !item.flags.includes("AccountBound") &&
-          !item.flags.includes("SoulbindOnAcquire")
+          !["Armor", "Weapon", "Back", "Container"].includes(item.type) &&
+          !item.name.includes("Recette") &&
+          !item.name.includes("Apparence") &&
+          !item.name.includes("Zone") &&
+          tpIds.includes(item.id)
         ) {
-          console.log(item.type, item.id, item.name);
+          console.log("+", item.type, item.id, item.name);
           dict[item.name] = item.id;
         } else {
+          console.log("-", item.type, item.id, item.name);
         }
       }
     }
 
     page++;
   } while (!lastPage);
+  await writeFile("./src/client/utils/dict.json", JSON.stringify(dict));
 } catch (error) {
   console.error(error);
 }
-
-await writeFile("./src/utils/dict.json", JSON.stringify(dict));

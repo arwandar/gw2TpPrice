@@ -1,11 +1,7 @@
-const express = require("express");
-const path = require("path");
-var cors = require("cors");
+import express from "express";
+import ViteExpress from "vite-express";
 
 const app = express();
-
-app.use(express.static(path.join(__dirname, "dist")));
-app.use(cors());
 
 app.get("/api/gw2tp/:id", async (req, resp) => {
   try {
@@ -20,6 +16,6 @@ app.get("/api/gw2tp/:id", async (req, resp) => {
   }
 });
 
-app.listen(5174, () => {
-  console.log("http://localhost:5174");
-});
+ViteExpress.listen(app, 5174, () =>
+  console.log("Server is listening on port 5174...")
+);

@@ -1,16 +1,10 @@
 import { TextField } from "@mui/material";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
-const ApiKeyInput = ({
-  apiKey,
-  setApiKey,
-}: {
-  apiKey: string;
-  setApiKey: Function;
-}) => {
-  useEffect(() => {
-    setApiKey(localStorage.getItem("apiKey"));
-  }, []);
+const ApiKeyInput = () => {
+  const [apiKey, setApiKey] = useState<string>(
+    localStorage.getItem("apiKey") || ""
+  );
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setApiKey(e.target?.value);
