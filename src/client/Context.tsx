@@ -52,11 +52,11 @@ export const ContextProvider = ({ children }: { children: any }) => {
     (async () => {
       setLoading(true);
       const apiKey = localStorage.getItem("apiKey");
-      if (currentOrders.length === 0 && apiKey) await updateCurrentOrders();
+      if (apiKey) await updateCurrentOrders();
 
       setLoading(false);
     })();
-  }, [effiencyShoppingList, currentOrders]);
+  }, [effiencyShoppingList]);
 
   const updateCurrentOrders = async () => {
     const localCurrentOrders = await getCurrentOrders();
