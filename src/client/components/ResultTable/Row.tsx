@@ -21,8 +21,15 @@ const Row = ({ row }: { row: Item }) => {
       <TableCell component="th" scope="row">
         {row.id}
       </TableCell>
-      <TableCell>{row.name}</TableCell>
-      <TableCell align="right">{row.count}</TableCell>
+      <TableCell onClick={() => navigator.clipboard.writeText(row.name)}>
+        {row.name}
+      </TableCell>
+      <TableCell
+        align="right"
+        onClick={() => navigator.clipboard.writeText(row.count.toString())}
+      >
+        {row.count}
+      </TableCell>
       <TableCell align="right">{priceToString(row.price)}</TableCell>
       <TableCell align="right">{priceToString(price)}</TableCell>
       <TableCell align="right">

@@ -29,8 +29,15 @@ const Row = ({ row }: { row: Transaction }) => {
       <TableCell component="th" scope="row">
         {row.item_id}
       </TableCell>
-      <TableCell>{label}</TableCell>
-      <TableCell align="right">{row.quantity}</TableCell>
+      <TableCell onClick={() => navigator.clipboard.writeText(label || "")}>
+        {label}
+      </TableCell>
+      <TableCell
+        align="right"
+        onClick={() => navigator.clipboard.writeText(row.quantity.toString())}
+      >
+        {row.quantity}
+      </TableCell>
       <TableCell align="right">{priceToString(row.price)}</TableCell>
       <TableCell align="right">{priceToString(price)}</TableCell>
       <TableCell align="right">{percentile}</TableCell>
