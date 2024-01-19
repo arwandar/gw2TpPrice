@@ -12,3 +12,18 @@ export type Transaction = {
   quantity: number;
   created: string;
 };
+
+export type Recipe = {
+  id: string;
+  name: string;
+  recipeId: string;
+  canBeSend: boolean;
+  mainUnlocked?: boolean;
+  secondaryUnlocked?: boolean;
+};
+
+export enum Stats {
+  sinistre = "sinistre",
+  viperrin = "vipérin",
+  pionni = "pionni",
+}

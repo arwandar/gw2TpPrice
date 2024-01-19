@@ -1,6 +1,7 @@
-import { createContext, useEffect, useState } from "react";
 import { Item, Transaction } from "./utils/type";
-import { getCurrentOrders } from "./utils/gw2Api";
+import { createContext, useEffect, useState } from "react";
+import { getCurrentOrders, getUnlockedRecipes } from "./utils/gw2Api";
+
 import { getPriceById } from "./utils/gw2TpApi";
 
 export const Context = createContext<{
@@ -12,6 +13,8 @@ export const Context = createContext<{
   getPrice: (id: string) => void;
   resetPrices: () => void;
   isLoading: boolean;
+  updateUnlockedRecipes: () => void;
+  unlockedRecipes: { main: string[]; secondary: string[] };
 }>({
   effiencyShoppingList: [],
   setEfficiencyShoppingList: () => {},
@@ -21,6 +24,8 @@ export const Context = createContext<{
   getPrice: () => {},
   resetPrices: () => {},
   isLoading: false,
+  updateUnlockedRecipes: () => {},
+  unlockedRecipes: { main: [], secondary: [] },
 });
 
 export const ContextProvider = ({ children }: { children: any }) => {
@@ -32,6 +37,11 @@ export const ContextProvider = ({ children }: { children: any }) => {
   const [isLoading, setLoading] = useState<boolean>(false);
 
   const [priceQueue, setPriceQueue] = useState<string[]>([]);
+
+  const [unlockedRecipes, setUnlockedRecipes] = useState<{
+    main: string[];
+    secondary: string[];
+  }>({ main: [], secondary: [] });
 
   useEffect(() => {
     (async () => {
@@ -70,6 +80,11 @@ export const ContextProvider = ({ children }: { children: any }) => {
 
   const resetPrices = () => setPrices({});
 
+  const updateUnlockedRecipes = async () => {
+    const result = await getUnlockedRecipes();
+    setUnlockedRecipes(result);
+  };
+
   return (
     <Context.Provider
       value={{
@@ -81,6 +96,8 @@ export const ContextProvider = ({ children }: { children: any }) => {
         getPrice,
         resetPrices,
         isLoading,
+        updateUnlockedRecipes,
+        unlockedRecipes,
       }}
     >
       {children}

@@ -1,6 +1,7 @@
-import { Slider } from "@mui/material";
 import { useContext, useState } from "react";
+
 import { Context } from "../../Context";
+import { Slider } from "@mui/material";
 
 const PercentileInput = () => {
   const { resetPrices } = useContext(Context);

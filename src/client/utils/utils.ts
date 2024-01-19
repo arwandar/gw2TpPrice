@@ -1,12 +1,14 @@
-import dict from "./dict.json";
-import { Item, Transaction } from "./type";
+import { Recipe, Stats } from "./type";
+
+import items from "./items.json";
+import recipes from "./recipes.json";
 
 export const getId = (label: string) => {
-  if (dict[label]) return dict[label];
+  if (items[label]) return items[label];
 };
 
 export const getLabel = (idToFind: string) => {
-  const res = Object.entries(dict).find(([label, id]) => id === idToFind);
+  const res = Object.entries(items).find(([, id]) => id === idToFind);
   if (res) return res[0];
 };
 
@@ -29,4 +31,4 @@ export const priceToString = (price: number | undefined) => {
   return res;
 };
 
-export const getOptions = () => Object.keys(dict).map((label) => label);
+export const getOptions = () => Object.keys(items).map((label) => label);

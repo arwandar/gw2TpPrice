@@ -1,13 +1,14 @@
 import {
-  Grid,
   Autocomplete,
-  TextField,
-  Switch,
   FormControlLabel,
+  Grid,
+  Switch,
+  TextField,
 } from "@mui/material";
-import { getOptions, priceToString } from "../../utils/utils";
+import { getOptions, priceToString } from "../utils/utils";
 import { useEffect, useMemo, useState } from "react";
-import { getPriceByLabel } from "../../utils/gw2TpApi";
+
+import { getPriceByLabel } from "../utils/gw2TpApi";
 
 const QuickPrice = () => {
   const [input, setInput] = useState<string>("");

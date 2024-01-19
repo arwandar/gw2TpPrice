@@ -1,5 +1,5 @@
 import { isAfter, sub } from "date-fns";
-import { Item } from "./type";
+
 import { getId } from "./utils";
 
 export const getPriceById = async (
@@ -69,7 +69,7 @@ export const getCurrentPercentile = async (
         count += 0.5;
       }
     });
-    console.log("plop");
+
     return (100 * count) / dataSet.length;
   } catch (error) {
     console.error(error);

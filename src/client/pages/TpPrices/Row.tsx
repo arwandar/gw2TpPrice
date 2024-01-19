@@ -1,8 +1,9 @@
-import { TableRow, TableCell } from "@mui/material";
-import { priceToString } from "../../utils/utils";
-import { Item } from "../../utils/type";
+import { TableCell, TableRow } from "@mui/material";
 import { useContext, useEffect } from "react";
+
 import { Context } from "../../Context";
+import { Item } from "../../utils/type";
+import { priceToString } from "../../utils/utils";
 
 const Row = ({ row }: { row: Item }) => {
   const { prices, getPrice } = useContext(Context);

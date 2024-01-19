@@ -37,7 +37,8 @@ try {
 
     page++;
   } while (!lastPage);
-  await writeFile("./src/client/utils/dict.json", JSON.stringify(dict));
+  await writeFile("./src/client/utils/items.json", JSON.stringify(dict));
 } catch (error) {
   console.error(error);
 }
+a;

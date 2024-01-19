@@ -1,8 +1,7 @@
 import {
-  Button,
   Dialog,
   DialogTitle,
-  Paper,
+  MenuItem,
   Table,
   TableBody,
   TableCell,
@@ -11,11 +10,12 @@ import {
   TableRow,
 } from "@mui/material";
 import { useContext, useEffect, useState } from "react";
-import { RateReview } from "@mui/icons-material";
+
 import { Context } from "../../Context";
+import { RateReview } from "@mui/icons-material";
 import Row from "./Row";
 
-const CurrentOrderModal = () => {
+const CurrentOrderModal = ({ handleOpen }: { handleOpen: () => void }) => {
   const { currentOrders, updateCurrentOrders } = useContext(Context);
   const [isOpen, setOpen] = useState<boolean>(false);
 
@@ -23,16 +23,17 @@ const CurrentOrderModal = () => {
     if (isOpen) updateCurrentOrders();
   }, [isOpen]);
 
+  const handleClickMenu = () => {
+    handleOpen();
+    setOpen(true);
+  };
+
   return (
     <>
-      <Button
-        component="label"
-        variant="outlined"
-        startIcon={<RateReview />}
-        onClick={() => setOpen(true)}
-      >
+      <MenuItem onClick={handleClickMenu}>
+        <RateReview />
         View Orders
-      </Button>
+      </MenuItem>
       <Dialog
         onClose={() => setOpen(false)}
         open={isOpen}

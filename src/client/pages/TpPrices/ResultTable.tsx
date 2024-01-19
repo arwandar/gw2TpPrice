@@ -1,3 +1,4 @@
+import { Item, Transaction } from "../../utils/type";
 import {
   Paper,
   Table,
@@ -8,8 +9,8 @@ import {
   TableRow,
 } from "@mui/material";
 import { useContext, useMemo } from "react";
+
 import { Context } from "../../Context";
-import { Item, Transaction } from "../../utils/type";
 import Row from "./Row";
 
 const ResultTable = () => {
