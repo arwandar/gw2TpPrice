@@ -31,7 +31,7 @@ const RecipesProcess = () => {
   const [rowsPerPage, setRowsPerPage] = useState(defaultRowsPerPage);
 
   const [prices, setPrices] = useState<Record<string, number>>({});
-  const [queuePrices, setQueuePrices] = useState<string[]>([]);
+  const [queuePrices, setQueuePrices] = useState<number[]>([]);
 
   useEffect(() => {
     (async () => {

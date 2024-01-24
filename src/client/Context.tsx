@@ -10,7 +10,7 @@ export const Context = createContext<{
   currentOrders: Transaction[];
   updateCurrentOrders: () => Promise<void>;
   prices: Record<string, number>;
-  getPrice: (id: string) => void;
+  getPrice: (id: number) => void;
   resetPrices: () => void;
   isLoading: boolean;
   updateUnlockedRecipes: () => void;
@@ -32,11 +32,11 @@ export const ContextProvider = ({ children }: { children: any }) => {
   const [effiencyShoppingList, setEfficiencyShoppingList] = useState<Item[]>(
     []
   );
-  const [prices, setPrices] = useState<Record<string, number>>({});
+  const [prices, setPrices] = useState<Record<number, number>>({});
   const [currentOrders, setCurrentOrders] = useState<Transaction[]>([]);
   const [isLoading, setLoading] = useState<boolean>(false);
 
-  const [priceQueue, setPriceQueue] = useState<string[]>([]);
+  const [priceQueue, setPriceQueue] = useState<number[]>([]);
 
   const [unlockedRecipes, setUnlockedRecipes] = useState<{
     main: string[];
@@ -74,7 +74,7 @@ export const ContextProvider = ({ children }: { children: any }) => {
     Promise.resolve();
   };
 
-  const getPrice = (id: string) => {
+  const getPrice = (id: number) => {
     setPriceQueue((queue) => [...queue, id]);
   };
 

@@ -9,8 +9,10 @@ import {
   Typography,
   useMediaQuery,
 } from "@mui/material";
-import { ListChildComponentProps, VariableSizeList } from "react-window";
 import {
+  HTMLAttributes,
+  ReactElement,
+  ReactNode,
   createContext,
   forwardRef,
   useContext,
@@ -19,9 +21,11 @@ import {
   useRef,
   useState,
 } from "react";
+import { ListChildComponentProps, VariableSizeList } from "react-window";
 import { getOptions, priceToString } from "../utils/utils";
 import { styled, useTheme } from "@mui/material/styles";
 
+import Price from "./Price";
 import { autocompleteClasses } from "@mui/material/Autocomplete";
 import { getPriceByLabel } from "../utils/gw2TpApi";
 
@@ -35,12 +39,27 @@ function renderRow(props: ListChildComponentProps) {
     top: (style.top as number) + LISTBOX_PADDING,
   };
 
+  if (dataSet.hasOwnProperty("group")) {
+    return (
+      <ListSubheader key={dataSet.key} component="div" style={inlineStyle}>
+        {dataSet.group}
+      </ListSubheader>
+    );
+  }
+
   return (
     <Typography component="li" {...dataSet[0]} noWrap style={inlineStyle}>
       {dataSet[1]}
     </Typography>
   );
 }
+
+const OuterElementContext = createContext({});
+
+const OuterElementType = forwardRef<HTMLDivElement>((props, ref) => {
+  const outerProps = useContext(OuterElementContext);
+  return <div ref={ref} {...props} {...outerProps} />;
+});
 
 function useResetCache(data: any) {
   const ref = useRef<VariableSizeList>(null);
@@ -52,22 +71,15 @@ function useResetCache(data: any) {
   return ref;
 }
 
-const OuterElementContext = createContext({});
-
-const OuterElementType = forwardRef<HTMLDivElement>((props, ref) => {
-  const outerProps = useContext(OuterElementContext);
-  return <div ref={ref} {...props} {...outerProps} />;
-});
-
 // Adapter for react-window
 const ListboxComponent = forwardRef<
   HTMLDivElement,
-  React.HTMLAttributes<HTMLElement>
+  HTMLAttributes<HTMLElement>
 >(function ListboxComponent(props, ref) {
   const { children, ...other } = props;
-  const itemData: React.ReactElement[] = [];
-  (children as React.ReactElement[]).forEach(
-    (item: React.ReactElement & { children?: React.ReactElement[] }) => {
+  const itemData: ReactElement[] = [];
+  (children as ReactElement[]).forEach(
+    (item: ReactElement & { children?: ReactElement[] }) => {
       itemData.push(item);
       itemData.push(...(item.children || []));
     }
@@ -80,7 +92,13 @@ const ListboxComponent = forwardRef<
   const itemCount = itemData.length;
   const itemSize = smUp ? 36 : 48;
 
-  const getChildSize = (child: React.ReactElement) => itemSize;
+  const getChildSize = (child: ReactElement) => {
+    if (child.hasOwnProperty("group")) {
+      return 48;
+    }
+
+    return itemSize;
+  };
 
   const getHeight = () => {
     if (itemCount > 8) {
@@ -111,7 +129,6 @@ const ListboxComponent = forwardRef<
     </div>
   );
 });
-
 const QuickPrice = () => {
   const [input, setInput] = useState<string>("");
   const [selectedPrice, setSelectedPrice] = useState<number | undefined>();
@@ -131,8 +148,10 @@ const QuickPrice = () => {
 
   const options = useMemo(
     () =>
-      getOptions().sort((a: string, b: string) =>
-        a.toUpperCase().localeCompare(b.toUpperCase())
+      getOptions().sort(
+        (a, b) =>
+          a.type.localeCompare(b.type) ||
+          a.label.toUpperCase().localeCompare(b.label.toUpperCase())
       ),
     []
   );
@@ -156,25 +175,19 @@ const QuickPrice = () => {
           ListboxComponent={ListboxComponent}
           onSelect={handleSelectItem}
           options={options}
+          groupBy={(option) => option.type}
+          // groupBy={(option) => option.label.toUpperCase()}
+          getOptionKey={(option) => option.id}
           sx={{ width: 300 }}
           size="small"
           renderInput={(params) => <TextField {...params} label="Item" />}
           renderOption={(props, option, state) =>
-            [props, option, state.index] as React.ReactNode
+            [props, option.label, state.index] as ReactNode
           }
+          renderGroup={(params) => params as any}
         />
       </Grid>
-      <Grid item>
-        <TextField
-          id="apiKey"
-          label="Price "
-          value={priceToString(selectedPrice)}
-          InputProps={{
-            readOnly: true,
-          }}
-          size="small"
-        />
-      </Grid>
+      <Price price={selectedPrice} />
       <Grid item>
         <FormControlLabel
           control={

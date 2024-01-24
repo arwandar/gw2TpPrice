@@ -1,5 +1,5 @@
 export type Item = {
-  id: string;
+  id: number;
   name: string;
   count: number;
   price: number;
@@ -7,16 +7,16 @@ export type Item = {
 
 export type Transaction = {
   id: string;
-  item_id: string;
+  item_id: number;
   price: number;
   quantity: number;
   created: string;
 };
 
 export type Recipe = {
-  id: string;
+  id: number;
   name: string;
-  recipeId: string;
+  recipeId: number;
   canBeSend: boolean;
   mainUnlocked?: boolean;
   secondaryUnlocked?: boolean;

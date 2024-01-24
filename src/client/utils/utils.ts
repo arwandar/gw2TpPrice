@@ -7,21 +7,26 @@ export const getId = (label: string) => {
   if (items[label]) return items[label];
 };
 
-export const getLabel = (idToFind: string) => {
+export const getLabel = (idToFind: number) => {
   const res = Object.entries(items).find(([, id]) => id === idToFind);
   if (res) return res[0];
 };
 
-export const priceToString = (price: number | undefined) => {
-  if (!price) return "";
+export const splitPrice = (price: number) => {
   const isNeg = price < 0;
   price = Math.abs(price);
 
-  const str = price.toString();
+  const str = price.toString().padStart(5, "0");
 
   const pc = Number.parseInt(str.slice(-2));
   const pa = Number.parseInt(str.slice(-4, -2));
   const po = Number.parseInt(str.slice(0, -4));
+  return { isNeg, pc, pa, po };
+};
+
+export const priceToString = (price: number | undefined) => {
+  if (!price) return "";
+  const { isNeg, pc, pa, po } = splitPrice(price);
 
   let res = `${pc} PC`;
   if (pa || po) res = `${pa} PA ${res}`;
@@ -31,4 +36,23 @@ export const priceToString = (price: number | undefined) => {
   return res;
 };
 
-export const getOptions = () => Object.keys(items).map((label) => label);
+const getType = (label: string, id: number) => {
+  if (label.includes("Lingot") || label.includes("Minerai")) return "Metaux";
+  if (label.includes("Planche") || label.includes("Rondin")) return "Bois";
+  if (label.includes("Segment") || label.includes("Pièce de cuir"))
+    return "Cuir";
+
+  if ([24295, 24358, 24351, 24277, 24357, 24289, 24300, 24283].includes(id))
+    return "T6";
+  if ([24294, 24341, 24350, 24276, 24356, 24288, 24299, 24282].includes(id))
+    return "T5";
+
+  return "XXX";
+};
+
+export const getOptions = () =>
+  Object.entries(items).map(([label, id]) => ({
+    label,
+    id,
+    type: getType(label, id),
+  }));

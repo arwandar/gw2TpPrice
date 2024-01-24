@@ -36,7 +36,7 @@ const ImportShoppingList = () => {
             const obj: Item = {
               count: parseInt(values[1]),
               name: values[2],
-              id: getId(values[2]) || "",
+              id: getId(values[2]) || 0,
               price: parseInt(values[3]),
             };
             return obj;

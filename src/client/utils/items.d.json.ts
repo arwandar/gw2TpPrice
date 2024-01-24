@@ -1,2 +1,2 @@
-declare const data: Record<string, string>;
+declare const data: Record<string, number>;
 export default data;

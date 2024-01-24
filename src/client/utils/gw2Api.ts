@@ -29,7 +29,7 @@ export const getUnlockedRecipes = async (): Promise<{
   return result;
 };
 
-export const getCurrentPrices = async (ids: string[]) => {
+export const getCurrentPrices = async (ids: number[]) => {
   if (ids.length === 0) return {};
 
   try {

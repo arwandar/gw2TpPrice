@@ -3,7 +3,7 @@ import { isAfter, sub } from "date-fns";
 import { getId } from "./utils";
 
 export const getPriceById = async (
-  id: string,
+  id: number,
   isSelling: boolean = false
 ): Promise<number> => {
   try {
@@ -46,7 +46,7 @@ export const getPriceByLabel = (label: string, isSelling?: boolean) => {
 };
 
 export const getCurrentPercentile = async (
-  id: string,
+  id: number,
   value: number,
   isSelling: boolean = false
 ) => {
