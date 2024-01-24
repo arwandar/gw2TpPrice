@@ -3,7 +3,7 @@ import { useContext, useEffect } from "react";
 
 import { Context } from "../../Context";
 import { Item } from "../../utils/type";
-import { priceToString } from "../../utils/utils";
+import Price from "../../components/Price";
 
 const Row = ({ row }: { row: Item }) => {
   const { prices, getPrice } = useContext(Context);
@@ -31,16 +31,17 @@ const Row = ({ row }: { row: Item }) => {
       >
         {row.count}
       </TableCell>
-      <TableCell align="right">{priceToString(row.price)}</TableCell>
-      <TableCell align="right">{priceToString(price)}</TableCell>
       <TableCell align="right">
-        {price ? priceToString((row.price - price) * row.count) : ""}
+        <Price price={row.price} />
+      </TableCell>
+      <TableCell align="right">
+        <Price price={price} />
+      </TableCell>
+      <TableCell align="right">
+        <Price price={price ? (row.price - price) * row.count : undefined} />
       </TableCell>
     </TableRow>
   );
 };
 
 export default Row;
-function getPrice(item_id: any) {
-  throw new Error("Function not implemented.");
-}

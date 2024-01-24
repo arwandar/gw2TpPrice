@@ -22,11 +22,11 @@ import {
   useState,
 } from "react";
 import { ListChildComponentProps, VariableSizeList } from "react-window";
-import { getOptions, priceToString } from "../utils/utils";
 import { styled, useTheme } from "@mui/material/styles";
 
 import Price from "./Price";
 import { autocompleteClasses } from "@mui/material/Autocomplete";
+import { getOptions } from "../utils/utils";
 import { getPriceByLabel } from "../utils/gw2TpApi";
 
 const LISTBOX_PADDING = 8; // px

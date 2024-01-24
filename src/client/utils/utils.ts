@@ -24,18 +24,6 @@ export const splitPrice = (price: number) => {
   return { isNeg, pc, pa, po };
 };
 
-export const priceToString = (price: number | undefined) => {
-  if (!price) return "";
-  const { isNeg, pc, pa, po } = splitPrice(price);
-
-  let res = `${pc} PC`;
-  if (pa || po) res = `${pa} PA ${res}`;
-  if (po) res = `${po} PO ${res}`;
-  if (isNeg) res = `- ${res}`;
-
-  return res;
-};
-
 const getType = (label: string, id: number) => {
   if (label.includes("Lingot") || label.includes("Minerai")) return "Metaux";
   if (label.includes("Planche") || label.includes("Rondin")) return "Bois";

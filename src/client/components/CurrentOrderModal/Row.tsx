@@ -1,11 +1,12 @@
 import { TableCell, TableRow } from "@mui/material";
-import { getLabel, priceToString } from "../../utils/utils";
 import { useContext, useEffect, useMemo, useState } from "react";
 
 import { Context } from "../../Context";
+import Price from "../Price";
 import { Transaction } from "../../utils/type";
 import { formatDistanceToNow } from "date-fns";
 import { getCurrentPercentile } from "../../utils/gw2TpApi";
+import { getLabel } from "../../utils/utils";
 
 const Row = ({ row }: { row: Transaction }) => {
   const { prices, getPrice } = useContext(Context);
@@ -39,8 +40,12 @@ const Row = ({ row }: { row: Transaction }) => {
       >
         {row.quantity}
       </TableCell>
-      <TableCell align="right">{priceToString(row.price)}</TableCell>
-      <TableCell align="right">{priceToString(price)}</TableCell>
+      <TableCell align="right">
+        <Price price={row.price} />
+      </TableCell>
+      <TableCell align="right">
+        <Price price={price} />
+      </TableCell>
       <TableCell align="right">{percentile}</TableCell>
       <TableCell align="right">
         {formatDistanceToNow(new Date(row.created))}

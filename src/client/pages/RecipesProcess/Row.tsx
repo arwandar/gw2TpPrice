@@ -6,9 +6,8 @@ import {
 } from "@mui/icons-material";
 import { TableCell, TableRow } from "@mui/material";
 
+import Price from "../../components/Price";
 import { Recipe } from "../../utils/type";
-import { priceToString } from "../../utils/utils";
-import { useMemo } from "react";
 
 const Row = ({ row, price }: { row: Recipe; price?: number }) => {
   return (
@@ -27,7 +26,9 @@ const Row = ({ row, price }: { row: Recipe; price?: number }) => {
           <RemoveCircleOutline />
         )}
       </TableCell>
-      <TableCell align="right">{priceToString(price)}</TableCell>
+      <TableCell align="right">
+        <Price price={price} />
+      </TableCell>
     </TableRow>
   );
 };

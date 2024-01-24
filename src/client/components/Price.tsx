@@ -6,7 +6,9 @@ const Price = ({ price }: { price: number | undefined }) => {
   const { isNeg, pc, pa, po } = splitPrice(price);
 
   return (
-    <div style={{ display: "flex", alignItems: "center" }}>
+    <div
+      style={{ display: "flex", alignItems: "center", justifyContent: "end" }}
+    >
       {isNeg ? <span>-</span> : null}
       {po !== 0 && (
         <div style={{ display: "flex", marginLeft: "1rem" }}>
@@ -18,7 +20,7 @@ const Price = ({ price }: { price: number | undefined }) => {
           <span>{pa}</span>{" "}
           <img style={{ height: "1.5rem" }} src="/Silver.png" />
         </div>
-      )}{" "}
+      )}
       <div style={{ display: "flex", marginLeft: "0.5rem" }}>
         <span>{pc}</span> <img style={{ height: "1.5rem" }} src="/Copper.png" />
       </div>
