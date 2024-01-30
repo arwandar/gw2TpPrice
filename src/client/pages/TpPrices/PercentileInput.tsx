@@ -23,6 +23,7 @@ const PercentileInput = () => {
       onChange={onChange}
       min={1}
       max={100}
+      valueLabelDisplay="auto"
     />
   );
 };

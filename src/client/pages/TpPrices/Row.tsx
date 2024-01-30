@@ -13,6 +13,8 @@ const Row = ({ row }: { row: Item }) => {
   }, []);
 
   const price = prices[row.id];
+  const stacks = Math.floor(row.count / 250);
+  const remainder = row.count % 250;
 
   return (
     <TableRow
@@ -29,7 +31,7 @@ const Row = ({ row }: { row: Item }) => {
         align="right"
         onClick={() => navigator.clipboard.writeText(row.count.toString())}
       >
-        {row.count}
+        {row.count} {stacks ? `(${stacks} stacks + ${remainder})` : ""}
       </TableCell>
       <TableCell align="right">
         <Price price={row.price} />
