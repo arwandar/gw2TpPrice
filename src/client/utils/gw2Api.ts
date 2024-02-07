@@ -43,7 +43,7 @@ export const getCurrentPrices = async (ids: number[]) => {
       (
         obj: Record<string, number>,
         item: { id: string; buys: { unit_price: number } }
-      ) => ({ ...obj, [item.id]: item.buys.unit_price }),
+      ) => ({ ...obj, [item.id]: item.buys.unit_price || -1 }),
       {}
     );
   } catch (error) {

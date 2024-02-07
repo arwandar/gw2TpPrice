@@ -27,7 +27,7 @@ const Row = ({ row, price }: { row: Recipe; price?: number }) => {
         )}
       </TableCell>
       <TableCell align="right">
-        <Price price={price} />
+        <Price price={price === -1 ? undefined : price} />
       </TableCell>
     </TableRow>
   );
