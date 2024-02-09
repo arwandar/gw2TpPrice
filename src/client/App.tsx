@@ -5,6 +5,7 @@ import { AppBar, Box, Button, IconButton, Menu, Toolbar } from "@mui/material";
 import { AccountCircle } from "@mui/icons-material";
 import ApiKeysModal from "./components/ApiKeysModal";
 import CurrentOrderModal from "./components/CurrentOrderModal/CurrentOrderModal";
+import ListingModal from "./components/ListingModal/ListingModal";
 import RecipesProcess from "./pages/RecipesProcess/RecipesProcess";
 import TpPrices from "./pages/TpPrices/TpPrices";
 import { useState } from "react";
@@ -66,6 +67,14 @@ function App() {
             >
               <ApiKeysModal handleOpen={handleClose} />
               <CurrentOrderModal handleOpen={handleClose} />
+              <ListingModal
+                handleOpen={handleClose}
+                title="T5"
+                isSelling
+                idList={[
+                  24294, 24341, 24350, 24276, 24356, 24288, 24299, 24282,
+                ]}
+              />
             </Menu>
           </div>
         </Toolbar>
