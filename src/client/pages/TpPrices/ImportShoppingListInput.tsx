@@ -29,19 +29,28 @@ const ImportShoppingList = () => {
     reader.onload = () => {
       if (reader.result && typeof reader.result === "string") {
         const rows = reader.result.split("\n");
+        const header = rows[0].split(",");
+
         const arrayOfObjects = rows
           .slice(1)
           .map((row: string) => {
             const values = row.split(",");
+            const obj: Record<string, string> = {};
+            for (let i = 0; i < header.length; i++) {
+              obj[header[i]] = values[i];
+            }
+            return obj;
+          })
+          .map((row: Record<string, string>) => {
             const obj: Item = {
-              count: parseInt(values[1]),
-              name: values[2],
-              id: getId(values[2]) || 0,
-              price: parseInt(values[3]),
+              count: parseInt(row["Shopping List Amount"]),
+              name: row["Name"],
+              id: getId(row["Name"]) || 0,
+              price: parseInt(row["Price Each"]),
             };
             return obj;
           })
-          .filter((item) => item.id);
+          .filter((item) => item.id !== 0 && item.count > 0);
 
         setEfficiencyShoppingList(arrayOfObjects);
       }
