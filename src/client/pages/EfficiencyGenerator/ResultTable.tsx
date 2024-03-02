@@ -1,3 +1,4 @@
+import { Dispatch, SetStateAction } from "react";
 import {
   Paper,
   Table,
@@ -16,20 +17,49 @@ const ResultTable = ({
   selectedIds,
   handleId,
   legendaries,
+  sort,
+  onSort,
 }: {
   selectedIds: number[];
   handleId: (id: number) => void;
   legendaries: Legendary[];
+  sort: { key: "leg" | "precu" | "perf" | "proto"; order: "asc" | "desc" };
+  onSort: Dispatch<
+    SetStateAction<{
+      key: "leg" | "precu" | "perf" | "proto";
+      order: "asc" | "desc";
+    }>
+  >;
 }) => {
+  const handleSort = (key: "leg" | "precu" | "perf" | "proto") => {
+    if (key === sort.key) {
+      onSort({ key, order: sort.order === "asc" ? "desc" : "asc" });
+    } else {
+      onSort({ key, order: "asc" });
+    }
+  };
+
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell width={"25%"}>Légendaire</TableCell>
-            <TableCell width={"25%"}>Précurseur</TableCell>
-            <TableCell width={"25%"}>Perfectionné</TableCell>
-            <TableCell width={"25%"}>Prototype</TableCell>
+            <TableCell width={"25%"} onClick={() => handleSort("leg")}>
+              Légendaire{" "}
+              {sort.key === "leg" ? (sort.order === "asc" ? "▲" : "▼") : ""}
+            </TableCell>
+            <TableCell width={"25%"} onClick={() => handleSort("precu")}>
+              Précurseur{" "}
+              {sort.key === "precu" ? (sort.order === "asc" ? "▲" : "▼") : ""}
+            </TableCell>
+            <TableCell width={"25%"} onClick={() => handleSort("perf")}>
+              Perfectionné{" "}
+              {sort.key === "perf" ? (sort.order === "asc" ? "▲" : "▼") : ""}
+            </TableCell>
+            <TableCell width={"25%"} onClick={() => handleSort("proto")}>
+              Prototype{" "}
+              {sort.key === "proto" ? (sort.order === "asc" ? "▲" : "▼") : ""}
+            </TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

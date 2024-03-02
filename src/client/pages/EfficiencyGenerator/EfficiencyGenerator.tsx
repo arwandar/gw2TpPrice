@@ -8,7 +8,16 @@ import defaultLegendaries from "../../utils/legendaries.json";
 
 const EfficiencyGenerator = () => {
   const [selectedIds, setSelectedIds] = useState<number[]>([]);
-  const [legendaries, setLegendaries] = useState(defaultLegendaries);
+  const [legendaries, setLegendaries] =
+    useState<Legendary[]>(defaultLegendaries);
+
+  const [sort, setSort] = useState<{
+    key: "leg" | "precu" | "perf" | "proto";
+    order: "asc" | "desc";
+  }>({
+    key: "leg",
+    order: "asc",
+  });
 
   const setupLegendaries = async () => {
     const [unlockedSkins, achievements] = await Promise.all([
@@ -94,6 +103,16 @@ const EfficiencyGenerator = () => {
     open(prefix + sufix, "_blank");
   };
 
+  const visibleLegendaries = useMemo(
+    () =>
+      legendaries.sort((a, b) => {
+        return sort.order === "asc"
+          ? a[sort.key].localeCompare(b[sort.key])
+          : b[sort.key].localeCompare(a[sort.key]);
+      }),
+    [legendaries, sort]
+  );
+
   return (
     <>
       <Button variant="contained" onClick={openEfficiency}>
@@ -102,7 +121,9 @@ const EfficiencyGenerator = () => {
       <ResultTable
         selectedIds={selectedIds}
         handleId={handleId}
-        legendaries={legendaries}
+        legendaries={visibleLegendaries}
+        sort={sort}
+        onSort={setSort}
       />
     </>
   );
