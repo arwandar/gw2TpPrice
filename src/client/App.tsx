@@ -15,7 +15,7 @@ const pages = ["TpPrices", "RecipesProcess", "EfficiencyGenerator"];
 
 function App() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-  const [currentContent, setCurrentContent] = useState("EfficiencyGenerator");
+  const [currentContent, setCurrentContent] = useState("TpPrices");
 
   const handleMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);

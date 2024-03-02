@@ -22,7 +22,19 @@ const CustomTableCell = styled(TableCell)(({ theme, className }) => {
   return {
     backgroundColor,
     opacity,
+    padding: 0,
+    verticalAlign: "middle",
   };
+});
+
+const CustomImage = styled("img")({
+  height: "2rem",
+  paddingRight: "0.5rem",
+});
+
+const CustomDiv = styled("div")({
+  display: "flex",
+  alignItems: "center",
 });
 
 const Row = ({
@@ -83,25 +95,37 @@ const Row = ({
         className={getClassName("leg")}
         onClick={handleClick("idLeg")}
       >
-        {row.leg}
+        <CustomDiv>
+          <CustomImage src={row.iconLeg} alt={row.leg} />
+          <span>{row.leg}</span>
+        </CustomDiv>
       </CustomTableCell>
       <CustomTableCell
         className={getClassName("precu")}
         onClick={handleClick("idPrecu")}
       >
-        {row.precu}
+        <CustomDiv>
+          <CustomImage src={row.iconPrecu} alt={row.precu} />
+          <span>{row.precu}</span>
+        </CustomDiv>
       </CustomTableCell>
       <CustomTableCell
         className={getClassName("perf")}
         onClick={handleClick("idPerf")}
       >
-        {row.perf}
+        <CustomDiv>
+          <CustomImage src={row.iconPerf} alt={row.perf} />
+          <span>{row.perf}</span>
+        </CustomDiv>
       </CustomTableCell>
       <CustomTableCell
         className={getClassName("proto")}
         onClick={handleClick("idProto")}
       >
-        {row.proto}
+        <CustomDiv>
+          <CustomImage src={row.iconProto} alt={row.proto} />
+          <span>{row.proto}</span>
+        </CustomDiv>
       </CustomTableCell>
     </TableRow>
   );

@@ -56,7 +56,10 @@ export type Legendary = {
   perfStatus?: Status;
   precuStatus?: Status;
   legStatus?: Status;
-  status?: Status;
+  iconLeg?: string;
+  iconPrecu?: string;
+  iconPerf?: string;
+  iconProto?: string;
 };
 
 export type Achievement = {

@@ -26,7 +26,7 @@ const ResultTable = ({
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell width={"25%"}>Legendaire</TableCell>
+            <TableCell width={"25%"}>Légendaire</TableCell>
             <TableCell width={"25%"}>Précurseur</TableCell>
             <TableCell width={"25%"}>Perfectionné</TableCell>
             <TableCell width={"25%"}>Prototype</TableCell>

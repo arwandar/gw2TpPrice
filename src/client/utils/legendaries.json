@@ -15,7 +15,11 @@
     "idProto": 76795,
     "idProtoSkin": 6525,
     "idProtoAchiev": 2478,
-    "proto": "Prototype de Dent de Givrecroc"
+    "proto": "Prototype de Dent de Givrecroc",
+    "iconLeg": "https://render.guildwars2.com/file/0F9C08DE12ADD1082A103DC6EF7401281B23985E/456009.png",
+    "iconPrecu": "https://render.guildwars2.com/file/3D361A4B187B5747FED095C6D5431EB3E65B01FB/1200349.png",
+    "iconPerf": "https://render.guildwars2.com/file/9D0C36ED78F79EF562A610A6680180A2280CFF62/534159.png",
+    "iconProto": "https://render.guildwars2.com/file/0F680B9CD990697C7AAD0C4BADA1FF220C07171B/1200392.png"
   },
   {
     "type": "Dague",
@@ -33,7 +37,11 @@
     "idProto": 72827,
     "idProtoSkin": 6182,
     "idProtoAchiev": 2564,
-    "proto": "Prototype d'Étincelle"
+    "proto": "Prototype d'Étincelle",
+    "iconLeg": "https://render.guildwars2.com/file/D9B12A1EBEDC04047295CF0A66E43E650297D429/456012.png",
+    "iconPrecu": "https://render.guildwars2.com/file/C90B71ED53030EB7422A9F59F17C492BC9E2DBE7/1202122.png",
+    "iconPerf": "https://render.guildwars2.com/file/ACF64BCDEEA67430B47759CCBC9957D2A31BF705/340677.png",
+    "iconProto": "https://render.guildwars2.com/file/7DAE7831C15C03EA2CE5D7E149C1AC26AE369609/1202161.png"
   },
   {
     "type": "Masse",
@@ -51,7 +59,11 @@
     "idProto": 70610,
     "idProtoSkin": 6314,
     "idProtoAchiev": 2177,
-    "proto": "Prototype de l'Énergiseur"
+    "proto": "Prototype de l'Énergiseur",
+    "iconLeg": "https://render.guildwars2.com/file/C0302BC8DDD84D20F0B73C1D702438F5534F3308/456017.png",
+    "iconPrecu": "https://render.guildwars2.com/file/4BD07B7E400564DBBF5060611400F2CA1FD874F1/1203189.png",
+    "iconPerf": "https://render.guildwars2.com/file/9AC9B2B03F6E180E1316963ECFCB2B0DF8780C90/780596.png",
+    "iconProto": "https://render.guildwars2.com/file/9C4157B2D9316F5DA4B203DA129153DD9FFAB45D/1203209.png"
   },
   {
     "type": "Pistolet",
@@ -69,7 +81,11 @@
     "idProto": 75846,
     "idProtoSkin": 6490,
     "idProtoAchiev": 2389,
-    "proto": "Prototype de Fusil du chaos"
+    "proto": "Prototype de Fusil du chaos",
+    "iconLeg": "https://render.guildwars2.com/file/03342FFE0E35B35D5207B65ECB0C1D06442377AB/456018.png",
+    "iconPrecu": "https://render.guildwars2.com/file/5B770B9432601D04CFD235E4712B52927EDF734B/1204293.png",
+    "iconPerf": "https://render.guildwars2.com/file/11A76BF80C05B219DE5C460F180AD52174D84D19/534303.png",
+    "iconProto": "https://render.guildwars2.com/file/28D1BD7D94CC736E41017945CD94F12D730EB927/1204321.png"
   },
   {
     "type": "Sceptre",
@@ -87,7 +103,11 @@
     "idProto": 74655,
     "idProtoSkin": 6278,
     "idProtoAchiev": 2441,
-    "proto": "Prototype de Tempête"
+    "proto": "Prototype de Tempête",
+    "iconLeg": "https://render.guildwars2.com/file/AC940BF377C5D3EF13B2060D53EF19F1BC34BE48/456020.png",
+    "iconPrecu": "https://render.guildwars2.com/file/AF3EB0E29F4B25AC3F5BE2B7BA64ABC1A62EB30E/1206078.png",
+    "iconPerf": "https://render.guildwars2.com/file/92A2706B75250EFA96FE1D2BF1CE68BA9AEBB92D/780566.png",
+    "iconProto": "https://render.guildwars2.com/file/4F12E098EDD12E91104A58385FD458EFF2136C1D/1206124.png"
   },
   {
     "type": "Épée",
@@ -105,7 +125,11 @@
     "idProto": 74093,
     "idProtoSkin": 6400,
     "idProtoAchiev": 2355,
-    "proto": "Prototype d'Atomisation"
+    "proto": "Prototype d'Atomisation",
+    "iconLeg": "https://render.guildwars2.com/file/FE47E046D10DF27508910869B5EB040F6BBBE793/456026.png",
+    "iconPrecu": "https://render.guildwars2.com/file/4C4FDD15CE97DFD1F13F0BA9B7740FB110F00675/1206760.png",
+    "iconPerf": "https://render.guildwars2.com/file/5F57563AEEBBE57F061C73D40DEC9256CA033B22/780565.png",
+    "iconProto": "https://render.guildwars2.com/file/54E7B7EB140623986E3EF3117F7C9AE9635D1705/1206673.png"
   },
   {
     "type": "Focus",
@@ -123,7 +147,11 @@
     "idProto": 72167,
     "idProtoSkin": 6245,
     "idProtoAchiev": 2313,
-    "proto": "Prototype du Barde"
+    "proto": "Prototype du Barde",
+    "iconLeg": "https://render.guildwars2.com/file/D3DBEB4FE4C81401AF6EA905FE16E4F3050F540B/456013.png",
+    "iconPrecu": "https://render.guildwars2.com/file/251B42DA1EC4902BB2F50F7B671DEA921DC522A2/1202277.png",
+    "iconPerf": "https://render.guildwars2.com/file/CB640D9D7675B8F5683E50D83BEB1FAE11F83C45/780595.png",
+    "iconProto": "https://render.guildwars2.com/file/F8E1FBBDEBFE96DDE52ED4D26A2FB9E737971620/1201241.png"
   },
   {
     "type": "Bouclier",
@@ -141,7 +169,11 @@
     "idProto": 74275,
     "idProtoSkin": 6223,
     "idProtoAchiev": 2479,
-    "proto": "Prototype de L'Élu"
+    "proto": "Prototype de L'Élu",
+    "iconLeg": "https://render.guildwars2.com/file/BE58181BEA0559E60873ED940D0408D0596B4464/456021.png",
+    "iconPrecu": "https://render.guildwars2.com/file/488003DB422EC8A580EA4E16D22DF56B4E90F7CA/1206236.png",
+    "iconPerf": "https://render.guildwars2.com/file/59D95F0B6F36DD670CD47BCF753009C6E648FF79/434631.png",
+    "iconProto": "https://render.guildwars2.com/file/DE7DB254B0E27577A9EEFE7F2372DEA9ADBC1077/1206321.png"
   },
   {
     "type": "Torche",
@@ -159,7 +191,11 @@
     "idProto": 70566,
     "idProtoSkin": 6432,
     "idProtoAchiev": 2180,
-    "proto": "Prototype de Flamme de Rodgort"
+    "proto": "Prototype de Flamme de Rodgort",
+    "iconLeg": "https://render.guildwars2.com/file/B1D6CB3AB4017633280ACDB36470F46829FDDD13/456027.png",
+    "iconPrecu": "https://render.guildwars2.com/file/9640FF61723ECC0367B5CC041AC8C50F05C0EC64/1206986.png",
+    "iconPerf": "https://render.guildwars2.com/file/42AE92BD906B64D75ADB11DD3D5B01B0E3C157B6/780942.png",
+    "iconProto": "https://render.guildwars2.com/file/34050519A3651533DA95EDEB31D1BCE5A84ED44A/1206942.png"
   },
   {
     "type": "Cor de guerre",
@@ -177,7 +213,11 @@
     "idProto": 71345,
     "idProtoSkin": 6310,
     "idProtoAchiev": 2270,
-    "proto": "Prototype de Hurlement"
+    "proto": "Prototype de Hurlement",
+    "iconLeg": "https://render.guildwars2.com/file/19E01CC637F4F370B43E132ACEBFD7C6E1570DE7/456029.png",
+    "iconPrecu": "https://render.guildwars2.com/file/FF282CD37AD618457F6878356739587916E5BF17/1207245.png",
+    "iconPerf": "https://render.guildwars2.com/file/234100CC0568E4B52E3573790FFC683BA70E05E8/798253.png",
+    "iconProto": "https://render.guildwars2.com/file/C22C410EB8626576CE903F7B400EC5F715DF0BB6/1207286.png"
   },
   {
     "type": "Espadon",
@@ -195,7 +235,11 @@
     "idProto": 70853,
     "idProtoSkin": 6311,
     "idProtoAchiev": 2253,
-    "proto": "Prototype d'Aube"
+    "proto": "Prototype d'Aube",
+    "iconLeg": "https://render.guildwars2.com/file/EFF16C4F19792627355DC294E6D7093F544921E7/456030.png",
+    "iconPrecu": "https://render.guildwars2.com/file/3FFD779A1401D250E6FBAABB1E544DF5FFB3C9DD/1202490.png",
+    "iconPerf": "https://render.guildwars2.com/file/999240BCB3A1720D710BA7630F11CB926A43E26B/434648.png",
+    "iconProto": "https://render.guildwars2.com/file/74F1FBAE0D0D500B9D4CB8DA08E56E674AD4A0CC/1202501.png"
   },
   {
     "type": "Espadon",
@@ -213,7 +257,11 @@
     "idProto": 75592,
     "idProtoSkin": 6473,
     "idProtoAchiev": 2420,
-    "proto": "Prototype de Demi-jour"
+    "proto": "Prototype de Demi-jour",
+    "iconLeg": "https://render.guildwars2.com/file/CE3AF0B7B9BB6244726779F5B6A930541BA6C15F/456031.png",
+    "iconPrecu": "https://render.guildwars2.com/file/6BE1D2BE3BAE4A9B08CF6EB1AFFFA4F20D7F9091/1202492.png",
+    "iconPerf": "https://render.guildwars2.com/file/9F0C4EA3227194FEF066F9E1CB1954F9F201F60C/780598.png",
+    "iconProto": "https://render.guildwars2.com/file/41935AA2B7019645F4CB507EE93500FDEF1F39E7/1202438.png"
   },
   {
     "type": "Marteau",
@@ -231,7 +279,11 @@
     "idProto": 74163,
     "idProtoSkin": 6483,
     "idProtoAchiev": 2438,
-    "proto": "Prototype du Colosse"
+    "proto": "Prototype du Colosse",
+    "iconLeg": "https://render.guildwars2.com/file/A30DA1A1EF05BD080C95AE2EF0067BADCDD0D89D/456014.png",
+    "iconPrecu": "https://render.guildwars2.com/file/15ED060C6B47716174FC6FB9A60118B5553EEB90/1202804.png",
+    "iconPerf": "https://render.guildwars2.com/file/9ED941BD6F69AFE551FAF43407300119A2E2007D/340698.png",
+    "iconProto": "https://render.guildwars2.com/file/751BCEEBC937E2AB214E9863FA2C296FC75B2830/1202815.png"
   },
   {
     "type": "Arc long",
@@ -249,7 +301,11 @@
     "idProto": 73382,
     "idProtoSkin": 6324,
     "idProtoAchiev": 2193,
-    "proto": "Prototype de Kudzu"
+    "proto": "Prototype de Kudzu",
+    "iconLeg": "https://render.guildwars2.com/file/B604C764D3E19E391F5E24CCFBC414500606BD29/456010.png",
+    "iconPrecu": "https://render.guildwars2.com/file/16E4FC0E74FB0174317E380021570AF92D3F1992/1200915.png",
+    "iconPerf": "https://render.guildwars2.com/file/09C42BFA3EE10824DB4FBFD5529D073D7E7CAE2B/434893.png",
+    "iconProto": "https://render.guildwars2.com/file/A832BBDD64567A33AA0DFB6D65430E41E2A014FF/1201002.png"
   },
   {
     "type": "Fusil",
@@ -267,7 +323,11 @@
     "idProto": 71078,
     "idProtoSkin": 6494,
     "idProtoAchiev": 2534,
-    "proto": "Prototype du Chasseur"
+    "proto": "Prototype du Chasseur",
+    "iconLeg": "https://render.guildwars2.com/file/3ECD99482DD865AA7D42B2EF6AFEFA705294555C/456019.png",
+    "iconPrecu": "https://render.guildwars2.com/file/381F0719363580D4172E2A0BDEA978E1F0059D2A/1205943.png",
+    "iconPerf": "https://render.guildwars2.com/file/F562E4FFEA79026BF35DF70826DF71C1F82C6192/780400.png",
+    "iconProto": "https://render.guildwars2.com/file/95DE0DF447F9BB095B190E9D1F0FB4BE42CFC943/1205859.png"
   },
   {
     "type": "Arc court",
@@ -285,7 +345,11 @@
     "idProto": 77097,
     "idProtoSkin": 6238,
     "idProtoAchiev": 2481,
-    "proto": "Prototype de l'Amant"
+    "proto": "Prototype de l'Amant",
+    "iconLeg": "https://render.guildwars2.com/file/98F0ED6A7F7A310FCE6D161C0B36B0071E4D1917/456011.png",
+    "iconPrecu": "https://render.guildwars2.com/file/044C67CBFC9F5151BAFDE625349238DCD19FE248/1200924.png",
+    "iconPerf": "https://render.guildwars2.com/file/719842763C5E9037A227DD0D3F0763310AD8BB92/780597.png",
+    "iconProto": "https://render.guildwars2.com/file/BFBB79F5050BC302EF09955D5E99405BA14A5F79/1200736.png"
   },
   {
     "type": "Bâton",
@@ -303,7 +367,11 @@
     "idProto": 73431,
     "idProtoSkin": 6157,
     "idProtoAchiev": 2530,
-    "proto": "Prototype de la Légende"
+    "proto": "Prototype de la Légende",
+    "iconLeg": "https://render.guildwars2.com/file/FD221A90427ADBD29B7E2DF8BDAF98BB16391162/456025.png",
+    "iconPrecu": "https://render.guildwars2.com/file/DA7AF6E3D970799A7847B3F10801FC1C1E98109E/1206503.png",
+    "iconPerf": "https://render.guildwars2.com/file/D09B7A4DDAC0EAB07E28EA59B256F901B60071AD/780943.png",
+    "iconProto": "https://render.guildwars2.com/file/264302F9A509499ACE66E210DC0F74A2EE12AC43/1206416.png"
   },
   {
     "type": "Fusil-harpon",
@@ -321,7 +389,11 @@
     "idProto": 73087,
     "idProtoSkin": 6480,
     "idProtoAchiev": 2637,
-    "proto": "Prototype de Rage"
+    "proto": "Prototype de Rage",
+    "iconLeg": "https://render.guildwars2.com/file/67EB25E29BA73D96B34523C02B256516DD60DA06/456024.png",
+    "iconPrecu": "https://render.guildwars2.com/file/A077090AC85279D351200F77267E060C326BF75B/1206366.png",
+    "iconPerf": "https://render.guildwars2.com/file/BE1EBD35734D30120ABF042F0D049702DE0520B5/780587.png",
+    "iconProto": "https://render.guildwars2.com/file/D14609D06B0DC4DC72AC7B6367CAD963EE71406B/1206338.png"
   },
   {
     "type": "Lance",
@@ -339,7 +411,11 @@
     "idProto": 72748,
     "idProtoSkin": 6282,
     "idProtoAchiev": 2642,
-    "proto": "Prototype de Carcharias"
+    "proto": "Prototype de Carcharias",
+    "iconLeg": "https://render.guildwars2.com/file/4705EC549A3296F493312C4018754816175E5D28/456016.png",
+    "iconPrecu": "https://render.guildwars2.com/file/51FF0303B8A85468B60BD2D431550CDE0A59B206/1202902.png",
+    "iconPerf": "https://render.guildwars2.com/file/54DECDD548E7E933DDD65AF3C380E6B2E2389778/780592.png",
+    "iconProto": "https://render.guildwars2.com/file/7FA02AFB476C24D0A505E5E8D1905C2878B4D443/1204388.png"
   },
   {
     "type": "Trident",
@@ -357,7 +433,11 @@
     "idProto": 72629,
     "idProtoSkin": 6327,
     "idProtoAchiev": 2483,
-    "proto": "Prototype de Poison"
+    "proto": "Prototype de Poison",
+    "iconLeg": "https://render.guildwars2.com/file/1FAD3D4BE1FA503C49FCF532582867FB060664E4/456028.png",
+    "iconPrecu": "https://render.guildwars2.com/file/6D2C107DA4507DE3F247D15B54794BD31C73532A/1207112.png",
+    "iconPerf": "https://render.guildwars2.com/file/5875E8D7F15133F7476801B5D76EC6A5F51256B3/66745.png",
+    "iconProto": "https://render.guildwars2.com/file/5C3216C03C7DDBF925A566B4C5F4CF03093A1E17/1207097.png"
   },
   {
     "type": "Hache",
@@ -375,7 +455,11 @@
     "idProto": 70989,
     "idProtoSkin": 6184,
     "idProtoAchiev": 2571,
-    "proto": "La Machine"
+    "proto": "La Machine",
+    "iconLeg": "https://render.guildwars2.com/file/13B9B1A4A85E775E267D33B6B7FA2D436DEA0BA1/1200325.png",
+    "iconPrecu": "https://render.guildwars2.com/file/C6C697BAF9D1092F5626CE39016DB0CCA19169C2/1200331.png",
+    "iconPerf": "https://render.guildwars2.com/file/3FED5AB958DEEA30A1E1EC76A598BA14657A22E6/1200340.png",
+    "iconProto": "https://render.guildwars2.com/file/7D61521845AA52CA519C230BCA0B79614FBFEA23/1200341.png"
   },
   {
     "type": "Arc court",
@@ -393,7 +477,11 @@
     "idProto": 78330,
     "idProtoSkin": 6702,
     "idProtoAchiev": 2990,
-    "proto": "La Chasse"
+    "proto": "La Chasse",
+    "iconLeg": "https://render.guildwars2.com/file/6AA4DCD7BFD228EF1658DE017FF114700260D316/1423757.png",
+    "iconPrecu": "https://render.guildwars2.com/file/F516F0D265E291979E61DEC7C2E4433EB0580DF4/1423763.png",
+    "iconPerf": "https://render.guildwars2.com/file/0E0510007453680AC9E30BDC6301F293B3BDA105/1423767.png",
+    "iconProto": "https://render.guildwars2.com/file/CAA2FD5EAFCBE0B403938072116B20D5376FCD67/1423766.png"
   },
   {
     "type": "Bâton",
@@ -411,6 +499,10 @@
     "idProto": 75467,
     "idProtoSkin": 6330,
     "idProtoAchiev": 2528,
-    "proto": "Branche de Bois-corbeau"
+    "proto": "Branche de Bois-corbeau",
+    "iconLeg": "https://render.guildwars2.com/file/5346383A9218504978A57642D9F664DB6EE9984D/1206505.png",
+    "iconPrecu": "https://render.guildwars2.com/file/ABBCE10A62C94F9DA832377DE7D063615E44176C/1206519.png",
+    "iconPerf": "https://render.guildwars2.com/file/E780C780219604664833F70D050AAD7C32AA542E/1206521.png",
+    "iconProto": "https://render.guildwars2.com/file/0538015EA723A0A8E06311CFA2AC45F4FCD1B8AC/1206520.png"
   }
 ]
