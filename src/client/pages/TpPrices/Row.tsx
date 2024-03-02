@@ -16,12 +16,16 @@ const Row = ({ row }: { row: Item }) => {
   const stacks = Math.floor(row.count / 250);
   const remainder = row.count % 250;
 
+  const handleClick = () => {
+    open(`https://fr.gw2tp.com/item/${row.id}`, "_blank");
+  };
+
   return (
     <TableRow
       key={row.id}
       sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
     >
-      <TableCell component="th" scope="row">
+      <TableCell component="th" scope="row" onClick={handleClick}>
         {row.id}
       </TableCell>
       <TableCell onClick={() => navigator.clipboard.writeText(row.name)}>
