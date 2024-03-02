@@ -44,3 +44,8 @@ export const getOptions = () =>
     id,
     type: getType(label, id),
   }));
+
+export const getSortIcon = (
+  key: string,
+  sort: { key: string; order: "asc" | "desc" }
+) => (sort.key === key ? (sort.order === "asc" ? "▲" : "▼") : "");

@@ -1,6 +1,6 @@
 import { Achievement, Legendary, Status } from "../../utils/type";
 import { getAchievements, getUnlockedSkins } from "../../utils/gw2Api";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Button } from "@mui/material";
 import ResultTable from "./ResultTable";
@@ -10,14 +10,6 @@ const EfficiencyGenerator = () => {
   const [selectedIds, setSelectedIds] = useState<number[]>([]);
   const [legendaries, setLegendaries] =
     useState<Legendary[]>(defaultLegendaries);
-
-  const [sort, setSort] = useState<{
-    key: "leg" | "precu" | "perf" | "proto";
-    order: "asc" | "desc";
-  }>({
-    key: "leg",
-    order: "asc",
-  });
 
   const setupLegendaries = async () => {
     const [unlockedSkins, achievements] = await Promise.all([
@@ -103,16 +95,6 @@ const EfficiencyGenerator = () => {
     open(prefix + sufix, "_blank");
   };
 
-  const visibleLegendaries = useMemo(
-    () =>
-      legendaries.sort((a, b) => {
-        return sort.order === "asc"
-          ? a[sort.key].localeCompare(b[sort.key])
-          : b[sort.key].localeCompare(a[sort.key]);
-      }),
-    [legendaries, sort]
-  );
-
   return (
     <>
       <Button variant="contained" onClick={openEfficiency}>
@@ -121,9 +103,7 @@ const EfficiencyGenerator = () => {
       <ResultTable
         selectedIds={selectedIds}
         handleId={handleId}
-        legendaries={visibleLegendaries}
-        sort={sort}
-        onSort={setSort}
+        legendaries={legendaries}
       />
     </>
   );

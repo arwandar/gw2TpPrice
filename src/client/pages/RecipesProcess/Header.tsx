@@ -1,14 +1,21 @@
 import { Dispatch, SetStateAction } from "react";
 import { TableCell, TableHead, TableRow } from "@mui/material";
 
+import { getSortIcon } from "../../utils/utils";
+
+export enum SortKey {
+  name = "name",
+  mainUnlocked = "mainUnlocked",
+  secondaryUnlocked = "secondaryUnlocked",
+}
 const Header = ({
   onSort,
   sort,
 }: {
-  onSort: Dispatch<SetStateAction<{ key: string; order: "asc" | "desc" }>>;
+  onSort: Dispatch<SetStateAction<{ key: SortKey; order: "asc" | "desc" }>>;
   sort: { key: string; order: "asc" | "desc" };
 }) => {
-  const handleSort = (key: string) => {
+  const handleSort = (key: SortKey) => {
     if (key === sort.key) {
       onSort({ key, order: sort.order === "asc" ? "desc" : "asc" });
     } else {
@@ -20,19 +27,22 @@ const Header = ({
     <TableHead>
       <TableRow>
         <TableCell
-          onClick={() => handleSort("name")}
+          onClick={() => handleSort(SortKey.name)}
           style={{ cursor: "pointer" }}
         >
-          Name {sort.key === "name" && sort.order === "asc" ? "▲" : "▼"}
-        </TableCell>
-        <TableCell align="right" onClick={() => handleSort("mainUnlocked")}>
-          Main
+          Name {getSortIcon(SortKey.name, sort)}
         </TableCell>
         <TableCell
           align="right"
-          onClick={() => handleSort("secondaryUnlocked")}
+          onClick={() => handleSort(SortKey.mainUnlocked)}
         >
-          Secondary
+          Main {getSortIcon(SortKey.mainUnlocked, sort)}
+        </TableCell>
+        <TableCell
+          align="right"
+          onClick={() => handleSort(SortKey.secondaryUnlocked)}
+        >
+          Secondary {getSortIcon(SortKey.secondaryUnlocked, sort)}
         </TableCell>
         <TableCell align="right">TP Price</TableCell>
       </TableRow>

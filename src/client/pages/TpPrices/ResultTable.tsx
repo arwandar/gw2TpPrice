@@ -8,13 +8,25 @@ import {
   TableHead,
   TableRow,
 } from "@mui/material";
-import { useContext, useMemo } from "react";
+import { useContext, useMemo, useState } from "react";
 
 import { Context } from "../../Context";
 import Row from "./Row";
+import { getSortIcon } from "../../utils/utils";
+
+enum SortKey {
+  id = "id",
+  name = "name",
+  count = "count",
+  price = "price",
+}
 
 const ResultTable = () => {
   const { effiencyShoppingList, currentOrders } = useContext(Context);
+  const [sort, setSort] = useState<{ key: SortKey; order: "asc" | "desc" }>({
+    key: SortKey.name,
+    order: "asc",
+  });
 
   const rows = useMemo(() => {
     const currentOrdersSet = currentOrders.reduce(
@@ -36,15 +48,46 @@ const ResultTable = () => {
       .filter((item) => item.count >= 0);
   }, [effiencyShoppingList, currentOrders]);
 
+  const handleSort = (key: SortKey) => {
+    if (key === sort.key) {
+      setSort({ key, order: sort.order === "asc" ? "desc" : "asc" });
+    } else {
+      setSort({ key, order: "asc" });
+    }
+  };
+
+  const visibleRows = useMemo(() => {
+    return rows
+      .sort((a, b) => {
+        if (sort.key === SortKey.name)
+          return sort.order === "asc"
+            ? a[sort.key].localeCompare(b[sort.key])
+            : b[sort.key].localeCompare(a[sort.key]);
+
+        return sort.order === "asc"
+          ? a[sort.key] - b[sort.key]
+          : b[sort.key] - a[sort.key];
+      })
+      .slice(0, 10);
+  }, [rows, sort]);
+
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Id</TableCell>
-            <TableCell>Label</TableCell>
-            <TableCell align="right">Qt</TableCell>
-            <TableCell align="right">Effrice</TableCell>
+            <TableCell onClick={() => handleSort(SortKey.id)}>
+              Id {getSortIcon(SortKey.id, sort)}
+            </TableCell>
+            <TableCell onClick={() => handleSort(SortKey.name)}>
+              Label {getSortIcon(SortKey.name, sort)}
+            </TableCell>
+            <TableCell onClick={() => handleSort(SortKey.count)} align="right">
+              Qt {getSortIcon(SortKey.count, sort)}
+            </TableCell>
+            <TableCell onClick={() => handleSort(SortKey.price)} align="right">
+              Effrice {getSortIcon(SortKey.price, sort)}
+            </TableCell>
             <TableCell align="right">Price</TableCell>
             <TableCell align="right">Discount</TableCell>
           </TableRow>
