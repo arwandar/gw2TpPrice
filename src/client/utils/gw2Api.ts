@@ -51,3 +51,36 @@ export const getCurrentPrices = async (ids: number[]) => {
     return {};
   }
 };
+
+export const getUnlockedSkins = async () => {
+  const apiKey = localStorage.getItem("apiKey");
+  if (!apiKey) return [];
+
+  try {
+    const res = await fetch(
+      `https://api.guildwars2.com/v2/account/skins?access_token=${apiKey}`
+    );
+    const response = await res.json();
+    return response;
+  } catch (error) {
+    console.error(error);
+    return [];
+  }
+};
+
+export const getAchievements = async (ids?: number[]) => {
+  const apiKey = localStorage.getItem("apiKey");
+  if (!apiKey) return [];
+
+  try {
+    let url = `https://api.guildwars2.com/v2/account/achievements?access_token=${apiKey}`;
+    if (ids) url += `&ids=${ids.join(",")}`;
+
+    const res = await fetch(url);
+    const response = await res.json();
+    return response;
+  } catch (error) {
+    console.error(error);
+    return [];
+  }
+};

@@ -21,13 +21,16 @@ try {
     else {
       for (let i = 0; i < response.length; i++) {
         let item = response[i];
-        if (item.type === "Consumable" && item.details?.recipe_id)
+        if (item.type === "Consumable" && item.details?.recipe_id) {
+          console.log(item.name, item.details);
           recipes.push({
             id: item.id,
             name: item.name,
             recipeId: item.details?.recipe_id,
             canBeSend: tpIds.includes(item.id),
+            details: item.details,
           });
+        }
       }
     }
 

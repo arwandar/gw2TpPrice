@@ -5,16 +5,17 @@ import { AppBar, Box, Button, IconButton, Menu, Toolbar } from "@mui/material";
 import { AccountCircle } from "@mui/icons-material";
 import ApiKeysModal from "./components/ApiKeysModal";
 import CurrentOrderModal from "./components/CurrentOrderModal/CurrentOrderModal";
+import EfficiencyGenerator from "./pages/EfficiencyGenerator/EfficiencyGenerator";
 import ListingModal from "./components/ListingModal/ListingModal";
 import RecipesProcess from "./pages/RecipesProcess/RecipesProcess";
 import TpPrices from "./pages/TpPrices/TpPrices";
 import { useState } from "react";
 
-const pages = ["TpPrices", "RecipesProcess"];
+const pages = ["TpPrices", "RecipesProcess", "EfficiencyGenerator"];
 
 function App() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-  const [currentContent, setCurrentContent] = useState("TpPrices");
+  const [currentContent, setCurrentContent] = useState("EfficiencyGenerator");
 
   const handleMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
@@ -82,6 +83,7 @@ function App() {
       <div className="app">
         {currentContent === "TpPrices" && <TpPrices />}
         {currentContent === "RecipesProcess" && <RecipesProcess />}
+        {currentContent === "EfficiencyGenerator" && <EfficiencyGenerator />}
       </div>
     </>
   );

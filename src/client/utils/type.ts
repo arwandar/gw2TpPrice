@@ -27,3 +27,41 @@ export enum Stats {
   viperrin = "vipérin",
   pionni = "pionni",
 }
+
+export enum Status {
+  notStarted = 0,
+  started = 1,
+  done = 2,
+  crafted = 3,
+}
+
+export type Legendary = {
+  type: string;
+  idLeg: number;
+  idLegSkin: number;
+  leg: string;
+  idPrecu: number;
+  idPrecuSkin: number;
+  idPrecuAchiev: number;
+  precu: string;
+  idPerf: number;
+  idPerfSkin: number;
+  idPerfAchiev: number;
+  perf: string;
+  idProto: number;
+  idProtoSkin: number;
+  idProtoAchiev: number;
+  proto: string;
+  protoStatus?: Status;
+  perfStatus?: Status;
+  precuStatus?: Status;
+  legStatus?: Status;
+  status?: Status;
+};
+
+export type Achievement = {
+  id: number;
+  current?: number;
+  max?: number;
+  done: boolean;
+};
