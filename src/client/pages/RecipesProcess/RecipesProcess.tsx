@@ -2,24 +2,21 @@ import {
   Paper,
   Table,
   TableBody,
-  TableCell,
   TableContainer,
   TableFooter,
-  TableHead,
   TablePagination,
   TableRow,
   TextField,
 } from "@mui/material";
-import { Recipe, Stats } from "../../utils/type";
 import { useContext, useEffect, useMemo, useState } from "react";
 
 import { Context } from "../../Context";
+import Header from "./Header";
+import { Recipe } from "../../utils/type";
 import Row from "./Row";
 import TablePaginationActions from "@mui/material/TablePagination/TablePaginationActions";
 import { getCurrentPrices } from "../../utils/gw2Api";
 import recipes from "../../utils/recipes.json";
-
-const statList = Object.values(Stats);
 
 const defaultRowsPerPage = 14;
 
@@ -33,11 +30,16 @@ const RecipesProcess = () => {
   const [prices, setPrices] = useState<Record<string, number>>({});
   const [queuePrices, setQueuePrices] = useState<number[]>([]);
 
+  const [sort, setSort] = useState<{ key: string; order: "asc" | "desc" }>({
+    key: "name",
+    order: "asc",
+  });
+
   useEffect(() => {
     (async () => {
       if (queuePrices.length === 0) return;
 
-      let newQueuePrices = [...queuePrices].filter((id) => !prices[id]);
+      const newQueuePrices = [...queuePrices].filter((id) => !prices[id]);
       const currents = newQueuePrices.splice(0, 100);
 
       const res = await getCurrentPrices(currents);
@@ -45,7 +47,7 @@ const RecipesProcess = () => {
       setPrices((oldPrices) => ({ ...oldPrices, ...res }));
       setQueuePrices((old) => old.filter((id) => !prices[id]));
     })();
-  }, [queuePrices]);
+  }, [queuePrices, prices]);
 
   useEffect(() => {
     updateUnlockedRecipes();
@@ -83,8 +85,18 @@ const RecipesProcess = () => {
       });
   }, [unlockedRecipes, search]);
 
+  const sortedRows = useMemo(() => {
+    const sorted = [...rows].sort((a, b) => {
+      if (a[sort.key] < b[sort.key]) return sort.order === "asc" ? -1 : 1;
+      if (a[sort.key] > b[sort.key]) return sort.order === "asc" ? 1 : -1;
+      return 0;
+    });
+    console.log("sorted", sorted);
+    return sorted;
+  }, [rows, sort]);
+
   const visibleRows = useMemo(() => {
-    const visible: Recipe[] = rows.slice(
+    const visible: Recipe[] = sortedRows.slice(
       page * rowsPerPage,
       page * rowsPerPage + rowsPerPage
     );
@@ -95,7 +107,7 @@ const RecipesProcess = () => {
     setQueuePrices((oldQueuePrices) => [...oldQueuePrices, ...ids]);
 
     return visible;
-  }, [rows, page, rowsPerPage]);
+  }, [sortedRows, page, rowsPerPage]);
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(event.target.value);
@@ -128,14 +140,7 @@ const RecipesProcess = () => {
 
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
-          <TableHead>
-            <TableRow>
-              <TableCell>Name</TableCell>
-              <TableCell align="right">Main</TableCell>
-              <TableCell align="right">Secondary</TableCell>
-              <TableCell align="right">TP Price</TableCell>
-            </TableRow>
-          </TableHead>
+          <Header onSort={setSort} sort={sort} />
           <TableBody>
             {visibleRows.map((row) => (
               <Row key={row.id} row={row} price={prices[row.id]} />
