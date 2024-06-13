@@ -1,7 +1,4 @@
-import { Recipe, Stats } from "./type";
-
 import items from "./items.json";
-import recipes from "./recipes.json";
 
 export const getId = (label: string) => {
   if (items[label]) return items[label];
