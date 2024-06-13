@@ -265,7 +265,7 @@
   },
   {
     "type": "Marteau",
-    "idLeg": 30689,
+    "idLeg": 30690,
     "idLegSkin": 4678,
     "leg": "Le Mastodonte",
     "idPrecu": 29170,
@@ -280,7 +280,7 @@
     "idProtoSkin": 6483,
     "idProtoAchiev": 2438,
     "proto": "Prototype du Colosse",
-    "iconLeg": "https://render.guildwars2.com/file/A30DA1A1EF05BD080C95AE2EF0067BADCDD0D89D/456014.png",
+    "iconLeg": "https://render.guildwars2.com/file/F9FAEDF77052A514E876145908B3B3346314A13E/456015.png",
     "iconPrecu": "https://render.guildwars2.com/file/15ED060C6B47716174FC6FB9A60118B5553EEB90/1202804.png",
     "iconPerf": "https://render.guildwars2.com/file/9ED941BD6F69AFE551FAF43407300119A2E2007D/340698.png",
     "iconProto": "https://render.guildwars2.com/file/751BCEEBC937E2AB214E9863FA2C296FC75B2830/1202815.png"
