@@ -1,0 +1,1676 @@
+[
+  {
+    "id": 2,
+    "chatCode": "[&BPIAAAA=]",
+    "nameEn": "Altar Brook Lair",
+    "nameFr": "Repaire de l’Autel du Ruisseau",
+    "mapFr": "La Vallée de la reine",
+    "waypointFr": "Point de passage du Carrefour",
+    "searchFr": "repaire de l’autel du ruisseau"
+  },
+  {
+    "id": 72,
+    "chatCode": "[&BOQGAAA=]",
+    "nameEn": "Anthem's Hold",
+    "nameFr": "Repli stratégique",
+    "mapFr": "Rivage maudit",
+    "waypointFr": "Point de passage du Rocher de l'épave",
+    "searchFr": "repli strategique"
+  },
+  {
+    "id": 3,
+    "chatCode": "[&BN4AAAA=]",
+    "nameEn": "Anya's Patch",
+    "nameFr": "Coin d’Anya",
+    "mapFr": "Plateau de Diessa",
+    "waypointFr": "Point de passage de Nolan",
+    "searchFr": "coin d’anya"
+  },
+  {
+    "id": 4,
+    "chatCode": "[&BH4BAAA=]",
+    "nameEn": "Arctodus Haunt",
+    "nameFr": "Repaire de l’Arctodus",
+    "mapFr": "Contreforts du voyageur",
+    "waypointFr": "Point de passage de la Colonie de Vendrake",
+    "searchFr": "repaire de l’arctodus"
+  },
+  {
+    "id": 69,
+    "chatCode": "[&BLsEAAA=]",
+    "nameEn": "Backroot Fountain",
+    "nameFr": "Fontaine des racines cachées",
+    "mapFr": "Le Bosquet",
+    "waypointFr": "Point de passage du Spéculateur",
+    "searchFr": "fontaine des racines cachees"
+  },
+  {
+    "id": 41,
+    "chatCode": "[&BLwAAAA=]",
+    "nameEn": "Badjelly Kelpbed",
+    "nameFr": "Banc de Varech de Malméduse",
+    "mapFr": "Congères d'Antreneige",
+    "waypointFr": "Point de passage de l'Exil",
+    "searchFr": "banc de varech de malmeduse"
+  },
+  {
+    "id": 7,
+    "chatCode": "[&BKgAAAA=]",
+    "nameEn": "Bandit's Cabbage Patch",
+    "nameFr": "Carré de chou du bandit",
+    "mapFr": "Hinterlands harathis",
+    "waypointFr": "Point de passage du Point de ralliement de Wynchona",
+    "searchFr": "carre de chou du bandit"
+  },
+  {
+    "id": 9,
+    "chatCode": "[&BPoAAAA=]",
+    "nameEn": "Beetlestone Mirador",
+    "nameFr": "Mirador Beetlestone",
+    "mapFr": "La Vallée de la reine",
+    "waypointFr": "Point de passage de Beetletun",
+    "searchFr": "mirador beetlestone"
+  },
+  {
+    "id": 130,
+    "chatCode": "[&BLsEAAA=]",
+    "nameEn": "Black Lion Root Cellar",
+    "nameFr": "Cellier du Lion Noir",
+    "mapFr": "Le Bosquet",
+    "waypointFr": "Point de passage du Spéculateur",
+    "searchFr": "cellier du lion noir"
+  },
+  {
+    "id": 129,
+    "chatCode": "[&BNwAAAA=]",
+    "nameEn": "Blackblade Butte",
+    "nameFr": "Motte de Lamenoire",
+    "mapFr": "Plateau de Diessa",
+    "waypointFr": "Point de passage de la Fontaine de Rhand",
+    "searchFr": "motte de lamenoire"
+  },
+  {
+    "id": 168,
+    "chatCode": "[&BNoAAAA=]",
+    "nameEn": "Blasted Sepulchre",
+    "nameFr": "Sépulcre ravagé",
+    "mapFr": "Plateau de Diessa",
+    "waypointFr": "Point de passage des landes ravagées",
+    "searchFr": "sepulcre ravage"
+  },
+  {
+    "id": 10,
+    "chatCode": "[&BK0BAAA=]",
+    "nameEn": "Blood Ooze Gallery",
+    "nameFr": "Galerie du limon sanglant",
+    "mapFr": "Côte de la marée sanglante",
+    "waypointFr": "Point de passage lugubre",
+    "searchFr": "galerie du limon sanglant"
+  },
+  {
+    "id": 11,
+    "chatCode": "[&BLgEAAA=]",
+    "nameEn": "Bluup's Comeuppance",
+    "nameFr": "Châtiment de Bluup",
+    "mapFr": "Rata Sum",
+    "waypointFr": "Point de passage de la recherche",
+    "searchFr": "chatiment de bluup"
+  },
+  {
+    "id": 12,
+    "chatCode": "[&BEsBAAA=]",
+    "nameEn": "Brandstrike Dig",
+    "nameFr": "Fouilles de Stigmafrappe",
+    "mapFr": "Champs de ruine",
+    "waypointFr": "Point de passage de la Mine d'Hellion",
+    "searchFr": "fouilles de stigmafrappe"
+  },
+  {
+    "id": 180,
+    "chatCode": "[&BDUBAAA=]",
+    "nameEn": "Briarthorn Barrier",
+    "nameFr": "Barrière de Bercebruyère",
+    "mapFr": "Forêt de Caledon",
+    "waypointFr": "Point de passage de la Spirale",
+    "searchFr": "barriere de bercebruyere"
+  },
+  {
+    "id": 131,
+    "chatCode": "[&BKwDAAA=]",
+    "nameEn": "Broken Falls Courtyard",
+    "nameFr": "Cour des Chutes brisées",
+    "mapFr": "La Citadelle noire",
+    "waypointFr": "Point de passage des Ruines de Rin",
+    "searchFr": "cour des chutes brisees"
+  },
+  {
+    "id": 15,
+    "chatCode": "[&BIQCAAA=]",
+    "nameEn": "Broodmother Falls",
+    "nameFr": "Chutes de la Génitrice",
+    "mapFr": "Détroit des gorges glacées",
+    "waypointFr": "Point de passage de la Courbe du Yak",
+    "searchFr": "chutes de la genitrice"
+  },
+  {
+    "id": 14,
+    "chatCode": "[&BJADAAA=]",
+    "nameEn": "Brother's Notch",
+    "nameFr": "Col des Frères",
+    "mapFr": "Hoelbrak",
+    "waypointFr": "Point de passage de la Boussole du Héros",
+    "searchFr": "col des freres"
+  },
+  {
+    "id": 119,
+    "chatCode": "[&BFIDAAA=]",
+    "nameEn": "Burstbubble Blind",
+    "nameFr": "Refuge percebul",
+    "mapFr": "Les Steppes de la strie flamboyante",
+    "waypointFr": "Point de passage de la Route de Suie",
+    "searchFr": "refuge percebul"
+  },
+  {
+    "id": 172,
+    "chatCode": "[&BCEDAAA=]",
+    "nameEn": "Cache of the Pursued",
+    "nameFr": "Cache du fugitif",
+    "mapFr": "Rivage maudit",
+    "waypointFr": "Point de passage de Caer Mande-Ombre",
+    "searchFr": "cache du fugitif"
+  },
+  {
+    "id": 16,
+    "chatCode": "[&BIgBAAA=]",
+    "nameEn": "Cademkrall Overlook",
+    "nameFr": "Plateau de Krallcamden",
+    "mapFr": "Plaines d'Ashford",
+    "waypointFr": "Point de passage de la Tour de guet de l'Escarpement",
+    "searchFr": "plateau de krallcamden"
+  },
+  {
+    "id": 98,
+    "chatCode": "[&BAQCAAA=]",
+    "nameEn": "Canyonweb Cave",
+    "nameFr": "Grotte de Gorgetoile",
+    "mapFr": "Les Steppes de la strie flamboyante",
+    "waypointFr": "Point de passage du Glaive",
+    "searchFr": "grotte de gorgetoile"
+  },
+  {
+    "id": 81,
+    "chatCode": "[&BLICAAA=]",
+    "nameEn": "Captain's Berth",
+    "nameFr": "Mouillage du Capitaine",
+    "mapFr": "Saut de Malchor",
+    "waypointFr": "Point de passage des lumières",
+    "searchFr": "mouillage du capitaine"
+  },
+  {
+    "id": 17,
+    "chatCode": "[&BK0BAAA=]",
+    "nameEn": "Castavall Corner",
+    "nameFr": "Coin de Castavall",
+    "mapFr": "Côte de la marée sanglante",
+    "waypointFr": "Point de passage lugubre",
+    "searchFr": "coin de castavall"
+  },
+  {
+    "id": 78,
+    "chatCode": "[&BKwCAAA=]",
+    "nameEn": "Cathedral's Cavity",
+    "nameFr": "Cavité de la cathédrale",
+    "mapFr": "Saut de Malchor",
+    "waypointFr": "Point de passage de Wren",
+    "searchFr": "cavite de la cathedrale"
+  },
+  {
+    "id": 70,
+    "chatCode": "[&BL8AAAA=]",
+    "nameEn": "Cave Bear Cache",
+    "nameFr": "Cache de l’Ours des cavernes",
+    "mapFr": "Congères d'Antreneige",
+    "waypointFr": "Point de passage de la Terrasse du Faucon des neiges",
+    "searchFr": "cache de l’ours des cavernes"
+  },
+  {
+    "id": 71,
+    "chatCode": "[&BJgBAAA=]",
+    "nameEn": "Cave Spider Nidus",
+    "nameFr": "Nid d’araignée cavernicole",
+    "mapFr": "Passage de Lornar",
+    "waypointFr": "Point de passage de l'Enclave du Pinacle",
+    "searchFr": "nid d’araignee cavernicole"
+  },
+  {
+    "id": 158,
+    "chatCode": "[&BPYAAAA=]",
+    "nameEn": "Claypool Bailey",
+    "nameFr": "Mur d’enceinte de Claypool",
+    "mapFr": "La Vallée de la reine",
+    "waypointFr": "Point de passage de Claypool",
+    "searchFr": "mur d’enceinte de claypool"
+  },
+  {
+    "id": 148,
+    "chatCode": "[&BLsEAAA=]",
+    "nameEn": "Constellation Parapet",
+    "nameFr": "Parapet des constellations",
+    "mapFr": "Le Bosquet",
+    "waypointFr": "Point de passage du Spéculateur",
+    "searchFr": "parapet des constellations"
+  },
+  {
+    "id": 185,
+    "chatCode": "[&BIYCAAA=]",
+    "nameEn": "Corruption's Teeth",
+    "nameFr": "Dents de la corruption",
+    "mapFr": "Détroit des gorges glacées",
+    "waypointFr": "Point de passage de Drakkar",
+    "searchFr": "dents de la corruption"
+  },
+  {
+    "id": 18,
+    "chatCode": "[&BKgBAAA=]",
+    "nameEn": "Covington's Stowage",
+    "nameFr": "Mouillage de Covington",
+    "mapFr": "Côte de la marée sanglante",
+    "waypointFr": "Point de passage de la Mouette rieuse",
+    "searchFr": "mouillage de covington"
+  },
+  {
+    "id": 62,
+    "chatCode": "[&BM0DAAA=]",
+    "nameEn": "Cutthroat's Rest",
+    "nameFr": "Halte de Coupegorge",
+    "mapFr": "Champs de Gendarran",
+    "waypointFr": "Point de passage de Brigantine",
+    "searchFr": "halte de coupegorge"
+  },
+  {
+    "id": 19,
+    "chatCode": "[&BNQAAAA=]",
+    "nameEn": "Cymbel's Glen",
+    "nameFr": "Vallon de Cymbel",
+    "mapFr": "Champs de ruine",
+    "waypointFr": "Point de passage du Guet de Mortelame",
+    "searchFr": "vallon de cymbel"
+  },
+  {
+    "id": 94,
+    "chatCode": "[&BLwEAAA=]",
+    "nameEn": "Dawngleam Pergola",
+    "nameFr": "Pergola d’Aubeluit",
+    "mapFr": "Le Bosquet",
+    "waypointFr": "Point de passage de Ronan",
+    "searchFr": "pergola d’aubeluit"
+  },
+  {
+    "id": 157,
+    "chatCode": "[&BNECAAA=]",
+    "nameEn": "Deepmire Diver",
+    "nameFr": "Plongeur focebourbié",
+    "mapFr": "Mont Maelström",
+    "waypointFr": "Point de passage de l'Ile du Méandre",
+    "searchFr": "plongeur focebourbie"
+  },
+  {
+    "id": 29,
+    "chatCode": "[&BBEAAAA=]",
+    "nameEn": "Defiled Delve",
+    "nameFr": "Excavation profanée",
+    "mapFr": "Collines de Kessex",
+    "waypointFr": "Point de passage de Sombreplaie",
+    "searchFr": "excavation profanee"
+  },
+  {
+    "id": 6,
+    "chatCode": "[&BKYCAAA=]",
+    "nameEn": "Delight's Balcony",
+    "nameFr": "Balcon des délices",
+    "mapFr": "Saut de Malchor",
+    "waypointFr": "Point de passage de Pagga",
+    "searchFr": "balcon des delices"
+  },
+  {
+    "id": 143,
+    "chatCode": "[&BO8AAAA=]",
+    "nameEn": "Destiny's Guildhall",
+    "nameFr": "Hall de Guilde du Destin",
+    "mapFr": "La Vallée de la reine",
+    "waypointFr": "Point de passage de Shaemoor",
+    "searchFr": "hall de guilde du destin"
+  },
+  {
+    "id": 128,
+    "chatCode": "[&BOMBAAA=]",
+    "nameEn": "Dirtclaw Cleft",
+    "nameFr": "Faille de Pouacregriffe",
+    "mapFr": "Marais de fer",
+    "waypointFr": "Point de passage du Lac Pourprenage",
+    "searchFr": "faille de pouacregriffe"
+  },
+  {
+    "id": 20,
+    "chatCode": "[&BIcBAAA=]",
+    "nameEn": "Doefalls Court",
+    "nameFr": "Cour des Chutes de la Biche",
+    "mapFr": "Plaines d'Ashford",
+    "waypointFr": "Point de passage de la Cité d'Ascalon",
+    "searchFr": "cour des chutes de la biche"
+  },
+  {
+    "id": 88,
+    "chatCode": "[&BEwBAAA=]",
+    "nameEn": "Drakecleft Shelf",
+    "nameFr": "Saut de Drakefaille",
+    "mapFr": "Champs de ruine",
+    "waypointFr": "Point de passage du Guet de Mordrage",
+    "searchFr": "saut de drakefaille"
+  },
+  {
+    "id": 87,
+    "chatCode": "[&BGQBAAA=]",
+    "nameEn": "Drakehatch Shore",
+    "nameFr": "Côte de Couvedrake",
+    "mapFr": "Plateau de Diessa",
+    "waypointFr": "Point de passage de Brèchezeaux",
+    "searchFr": "cote de couvedrake"
+  },
+  {
+    "id": 25,
+    "chatCode": "[&BNQCAAA=]",
+    "nameEn": "Droknah's Gate",
+    "nameFr": "Porte de Droknah",
+    "mapFr": "Mont Maelström",
+    "waypointFr": "Point de passage du Site du Vieux traîneau",
+    "searchFr": "porte de droknah"
+  },
+  {
+    "id": 105,
+    "chatCode": "[&BPMCAAA=]",
+    "nameEn": "Drowned Plaza",
+    "nameFr": "Place engloutie",
+    "mapFr": "Détroit de la dévastation",
+    "waypointFr": "Point de passage du Forum Royal",
+    "searchFr": "place engloutie"
+  },
+  {
+    "id": 102,
+    "chatCode": "[&BGAAAAA=]",
+    "nameEn": "East End Falls",
+    "nameFr": "Chute d’East End",
+    "mapFr": "Terres sauvages de Brisban",
+    "waypointFr": "Point de passage de l'Extrêmité Est",
+    "searchFr": "chute d’east end"
+  },
+  {
+    "id": 103,
+    "chatCode": "[&BCMDAAA=]",
+    "nameEn": "Eastlurk Alley",
+    "nameFr": "Ruelle du vadrouilleur de l’est",
+    "mapFr": "Le Promontoire divin",
+    "waypointFr": "Point de passage de Dwayna",
+    "searchFr": "ruelle du vadrouilleur de l’est"
+  },
+  {
+    "id": 28,
+    "chatCode": "[&BKsAAAA=]",
+    "nameEn": "Elise's Surprise",
+    "nameFr": "Surprise d’Elise",
+    "mapFr": "Hinterlands harathis",
+    "waypointFr": "Point de passage de Demetra",
+    "searchFr": "surprise d’elise"
+  },
+  {
+    "id": 33,
+    "chatCode": "[&BOYAAAA=]",
+    "nameEn": "Ettinbreath Lair",
+    "nameFr": "Repaire de Soufflettin",
+    "mapFr": "Passage de Lornar",
+    "waypointFr": "Point de passage de la Gueule du démon",
+    "searchFr": "repaire de soufflettin"
+  },
+  {
+    "id": 47,
+    "chatCode": "[&BPICAAA=]",
+    "nameEn": "Fathom Five Forcefield",
+    "nameFr": "Champ de force de la cinquième brasse",
+    "mapFr": "Détroit de la dévastation",
+    "waypointFr": "Point de passage de la Cloche vespérale",
+    "searchFr": "champ de force de la cinquieme brasse"
+  },
+  {
+    "id": 36,
+    "chatCode": "[&BMMAAAA=]",
+    "nameEn": "Fawcett's Porch",
+    "nameFr": "Porche de Fawcett",
+    "mapFr": "Hinterlands harathis",
+    "waypointFr": "Point de passage d'Arcallion",
+    "searchFr": "porche de fawcett"
+  },
+  {
+    "id": 38,
+    "chatCode": "[&BM0CAAA=]",
+    "nameEn": "Fire Imp Pocket",
+    "nameFr": "Poche de diablotin de feu",
+    "mapFr": "Mont Maelström",
+    "waypointFr": "Point de passage de Maelström",
+    "searchFr": "poche de diablotin de feu"
+  },
+  {
+    "id": 37,
+    "chatCode": "[&BMwBAAA=]",
+    "nameEn": "Firefrog Springs",
+    "nameFr": "Source de Brûlereinette",
+    "mapFr": "Marais de Lumillule",
+    "waypointFr": "Point de passage de Brûlereinette",
+    "searchFr": "source de brulereinette"
+  },
+  {
+    "id": 39,
+    "chatCode": "[&BO0BAAA=]",
+    "nameEn": "Firewatch Flybridge",
+    "nameFr": "Pont du Guet-du-feu",
+    "mapFr": "Marais de fer",
+    "waypointFr": "Point de passage du Campement de Guet-du-feu",
+    "searchFr": "pont du guet-du-feu"
+  },
+  {
+    "id": 40,
+    "chatCode": "[&BK4EAAA=]",
+    "nameEn": "Fisher's Crag",
+    "nameFr": "Escarpement du pêcheur",
+    "mapFr": "Province de Metrica",
+    "waypointFr": "Point de passage de la Vieille fonderie de golems",
+    "searchFr": "escarpement du pecheur"
+  },
+  {
+    "id": 42,
+    "chatCode": "[&BLYEAAA=]",
+    "nameEn": "Flakk's Lapidary Nook",
+    "nameFr": "Recoin lapidaire de Flakk",
+    "mapFr": "Rata Sum",
+    "waypointFr": "Point de passage de la Comptabilité",
+    "searchFr": "recoin lapidaire de flakk"
+  },
+  {
+    "id": 1,
+    "chatCode": "[&BFsCAAA=]",
+    "nameEn": "Forager's Midden",
+    "nameFr": "Fouilleur de fumier",
+    "mapFr": "Falaises de Hantedraguerre",
+    "waypointFr": "Point de passage de Steelbrachen",
+    "searchFr": "fouilleur de fumier"
+  },
+  {
+    "id": 167,
+    "chatCode": "[&BK8CAAA=]",
+    "nameEn": "Forbidden Shear",
+    "nameFr": "Cisaillement interdit",
+    "mapFr": "Saut de Malchor",
+    "waypointFr": "Point de passage des Murmures",
+    "searchFr": "cisaillement interdit"
+  },
+  {
+    "id": 171,
+    "chatCode": "[&BFgCAAA=]",
+    "nameEn": "Foreman's Recess",
+    "nameFr": "Cavité du Contremaître",
+    "mapFr": "Falaises de Hantedraguerre",
+    "waypointFr": "Point de passage de Dociu",
+    "searchFr": "cavite du contremaitre"
+  },
+  {
+    "id": 169,
+    "chatCode": "[&BAECAAA=]",
+    "nameEn": "Forgotten Grotto",
+    "nameFr": "Grotte Oubliée",
+    "mapFr": "Les Steppes de la strie flamboyante",
+    "waypointFr": "Point de passage de Terra Carorunda",
+    "searchFr": "grotte oubliee"
+  },
+  {
+    "id": 43,
+    "chatCode": "[&BD0EAAA=]",
+    "nameEn": "Founder's Flagon Hearth",
+    "nameFr": "Coeur du flacon du fondateur",
+    "mapFr": "Champs de ruine",
+    "waypointFr": "Point de passage de Kestrel",
+    "searchFr": "coeur du flacon du fondateur"
+  },
+  {
+    "id": 45,
+    "chatCode": "[&BKwDAAA=]",
+    "nameEn": "Freestand Scaffold",
+    "nameFr": "Échafaudage autoporteur",
+    "mapFr": "La Citadelle noire",
+    "waypointFr": "Point de passage des Ruines de Rin",
+    "searchFr": "echafaudage autoporteur"
+  },
+  {
+    "id": 51,
+    "chatCode": "[&BE8CAAA=]",
+    "nameEn": "Frozen Antrum",
+    "nameFr": "Retraite Gelée",
+    "mapFr": "Chutes de la canopée",
+    "waypointFr": "Point de passage de Feuilleblanche",
+    "searchFr": "retraite gelee"
+  },
+  {
+    "id": 48,
+    "chatCode": "[&BGMAAAA=]",
+    "nameEn": "Gallow Canyons",
+    "nameFr": "Canyons de Gallow",
+    "mapFr": "Terres sauvages de Brisban",
+    "waypointFr": "Point de passage des Champs de la potence",
+    "searchFr": "canyons de gallow"
+  },
+  {
+    "id": 49,
+    "chatCode": "[&BLoEAAA=]",
+    "nameEn": "Gardenroot Alcove",
+    "nameFr": "Alcôve de Courtilleracine",
+    "mapFr": "Le Bosquet",
+    "waypointFr": "Point de passage de la Terrasse commune supérieure",
+    "searchFr": "alcove de courtilleracine"
+  },
+  {
+    "id": 55,
+    "chatCode": "[&BF0AAAA=]",
+    "nameEn": "Gnashar's Viewpoint",
+    "nameFr": "Point de vue de Gnashar",
+    "mapFr": "Terres sauvages de Brisban",
+    "waypointFr": "Point de passage de Wendon",
+    "searchFr": "point de vue de gnashar"
+  },
+  {
+    "id": 59,
+    "chatCode": "[&BDwBAAA=]",
+    "nameEn": "Green Moa Paddock",
+    "nameFr": "Paddock du moa vert",
+    "mapFr": "Forêt de Caledon",
+    "waypointFr": "Point de passage du Refuge de Caledon",
+    "searchFr": "paddock du moa vert"
+  },
+  {
+    "id": 58,
+    "chatCode": "[&BCQDAAA=]",
+    "nameEn": "Grenth's Pavillion",
+    "nameFr": "Pavillon de Grenth",
+    "mapFr": "Le Promontoire divin",
+    "waypointFr": "Point de passage de Grenth",
+    "searchFr": "pavillon de grenth"
+  },
+  {
+    "id": 56,
+    "chatCode": "[&BIsDAAA=]",
+    "nameEn": "Grimdottir's Duty",
+    "nameFr": "Le devoir de Morndottir",
+    "mapFr": "Hoelbrak",
+    "waypointFr": "Point de passage du Rocher de l'abri",
+    "searchFr": "le devoir de morndottir"
+  },
+  {
+    "id": 162,
+    "chatCode": "[&BK0AAAA=]",
+    "nameEn": "Guardian Overwatch",
+    "nameFr": "Camp principal du gardien",
+    "mapFr": "Hinterlands harathis",
+    "waypointFr": "Point de passage du Camp de la barricade",
+    "searchFr": "camp principal du gardien"
+  },
+  {
+    "id": 34,
+    "chatCode": "[&BEUCAAA=]",
+    "nameEn": "Hawkeye Perch",
+    "nameFr": "Perchoir d’œil-de-faucon",
+    "mapFr": "Chutes de la canopée",
+    "waypointFr": "Point de passage du Serpent",
+    "searchFr": "perchoir d’œil-de-faucon"
+  },
+  {
+    "id": 150,
+    "chatCode": "[&BB0CAAA=]",
+    "nameEn": "Heart Speaks Notch",
+    "nameFr": "Col du Coeur criant",
+    "mapFr": "Montée de Flambecœur",
+    "waypointFr": "Point de passage de l'Apostat",
+    "searchFr": "col du coeur criant"
+  },
+  {
+    "id": 67,
+    "chatCode": "[&BPMAAAA=]",
+    "nameEn": "Heartwood Honey Cache",
+    "nameFr": "Cache à miel de Boisecoeur",
+    "mapFr": "La Vallée de la reine",
+    "waypointFr": "Point de passage de Phinney",
+    "searchFr": "cache a miel de boisecoeur"
+  },
+  {
+    "id": 65,
+    "chatCode": "[&BKcAAAA=]",
+    "nameEn": "Heidi's Showpiece",
+    "nameFr": "Œuvre d’Heidi",
+    "mapFr": "Hinterlands harathis",
+    "waypointFr": "Point de passage du Plateau du Séraphin",
+    "searchFr": "œuvre d’heidi"
+  },
+  {
+    "id": 31,
+    "chatCode": "[&BNgAAAA=]",
+    "nameEn": "Hermit's Roost",
+    "nameFr": "Perchoir de l’Ermite",
+    "mapFr": "Champs de ruine",
+    "waypointFr": "Point de passage du Campement de Rosko",
+    "searchFr": "perchoir de l’ermite"
+  },
+  {
+    "id": 170,
+    "chatCode": "[&BMEAAAA=]",
+    "nameEn": "Hidden Owl Distillery",
+    "nameFr": "Distillerie de la Chouette cachée",
+    "mapFr": "Congères d'Antreneige",
+    "waypointFr": "Point de passage de la Chouette",
+    "searchFr": "distillerie de la chouette cachee"
+  },
+  {
+    "id": 66,
+    "chatCode": "[&BMUDAAA=]",
+    "nameEn": "Holystone Sanctum",
+    "nameFr": "Sanctuaire piersacrée",
+    "mapFr": "Plateau de Diessa",
+    "waypointFr": "Point de passage du Sanctuaire",
+    "searchFr": "sanctuaire piersacree"
+  },
+  {
+    "id": 27,
+    "chatCode": "[&BH8CAAA=]",
+    "nameEn": "Icewurm Trench",
+    "nameFr": "Fosse de la guivre des glaces",
+    "mapFr": "Détroit des gorges glacées",
+    "waypointFr": "Point de passage de Dimotiki",
+    "searchFr": "fosse de la guivre des glaces"
+  },
+  {
+    "id": 50,
+    "chatCode": "[&BLUEAAA=]",
+    "nameEn": "Ideation Leap",
+    "nameFr": "Saut de la conceptualisation",
+    "mapFr": "Rata Sum",
+    "waypointFr": "Point de passage de l'incubateur",
+    "searchFr": "saut de la conceptualisation"
+  },
+  {
+    "id": 80,
+    "chatCode": "[&BEEBAAA=]",
+    "nameEn": "Imphaunt Hallow",
+    "nameFr": "Sanctuaire hanté par un diablotin",
+    "mapFr": "Forêt de Caledon",
+    "waypointFr": "Point de passage du Marais de Wychmire",
+    "searchFr": "sanctuaire hante par un diablotin"
+  },
+  {
+    "id": 26,
+    "chatCode": "[&BIkBAAA=]",
+    "nameEn": "Irondock Viewpoint",
+    "nameFr": "Point de vue de Dockfer",
+    "mapFr": "Plaines d'Ashford",
+    "waypointFr": "Point de passage du Belvédère de Scinde-nuit",
+    "searchFr": "point de vue de dockfer"
+  },
+  {
+    "id": 73,
+    "chatCode": "[&BLgAAAA=]",
+    "nameEn": "Isenfell Wash",
+    "nameFr": "Crique d’Isenfall",
+    "mapFr": "Congères d'Antreneige",
+    "waypointFr": "Point de passage d'Isenfall",
+    "searchFr": "crique d’isenfall"
+  },
+  {
+    "id": 74,
+    "chatCode": "[&BBEAAAA=]",
+    "nameEn": "Isgarren Viewpoint",
+    "nameFr": "Point de vue d’Isgarren",
+    "mapFr": "Collines de Kessex",
+    "waypointFr": "Point de passage de Sombreplaie",
+    "searchFr": "point de vue d’isgarren"
+  },
+  {
+    "id": 75,
+    "chatCode": "[&BEcAAAA=]",
+    "nameEn": "Jaguar Pride Den",
+    "nameFr": "Fière tanière du jaguar",
+    "mapFr": "Province de Metrica",
+    "waypointFr": "Point de passage muridienne",
+    "searchFr": "fiere taniere du jaguar"
+  },
+  {
+    "id": 117,
+    "chatCode": "[&BDcEAAA=]",
+    "nameEn": "Junker's Apex",
+    "nameFr": "Sommet de l’Epave",
+    "mapFr": "La Citadelle noire",
+    "waypointFr": "Point de passage des épaves",
+    "searchFr": "sommet de l’epave"
+  },
+  {
+    "id": 76,
+    "chatCode": "[&BI0DAAA=]",
+    "nameEn": "Kaldar's Hot Seat",
+    "nameFr": "La sellette de Kaldar",
+    "mapFr": "Hoelbrak",
+    "waypointFr": "Point de passage du Poste d'observation est",
+    "searchFr": "la sellette de kaldar"
+  },
+  {
+    "id": 77,
+    "chatCode": "[&BBIAAAA=]",
+    "nameEn": "Kari's Hot Spot",
+    "nameFr": "Foyer de Kari",
+    "mapFr": "Collines de Kessex",
+    "waypointFr": "Point de passage de Cereboth",
+    "searchFr": "foyer de kari"
+  },
+  {
+    "id": 35,
+    "chatCode": "[&BJADAAA=]",
+    "nameEn": "Kegbrawl Watch",
+    "nameFr": "Guet de la bagarre de barils",
+    "mapFr": "Hoelbrak",
+    "waypointFr": "Point de passage de la Boussole du Héros",
+    "searchFr": "guet de la bagarre de barils"
+  },
+  {
+    "id": 79,
+    "chatCode": "[&BMEDAAA=]",
+    "nameEn": "Kevach's Strongroom",
+    "nameFr": "Coffre-fort de Kevach",
+    "mapFr": "Contreforts du voyageur",
+    "waypointFr": "Point de passage de la Caverne de Pertevyrm",
+    "searchFr": "coffre-fort de kevach"
+  },
+  {
+    "id": 132,
+    "chatCode": "[&BPkAAAA=]",
+    "nameEn": "Lakebottom Underpass",
+    "nameFr": "Tunnel sous le lac",
+    "mapFr": "La Vallée de la reine",
+    "waypointFr": "Point de passage de la Scierie d'Ojon",
+    "searchFr": "tunnel sous le lac"
+  },
+  {
+    "id": 82,
+    "chatCode": "[&BIsBAAA=]",
+    "nameEn": "Lawen Grotto",
+    "nameFr": "Grotte de Lawen",
+    "mapFr": "Champs de Gendarran",
+    "waypointFr": "Point de passage du Premier Refuge",
+    "searchFr": "grotte de lawen"
+  },
+  {
+    "id": 85,
+    "chatCode": "[&BPACAAA=]",
+    "nameEn": "Lightfoot Dock",
+    "nameFr": "Quai de Lestepied",
+    "mapFr": "Détroit de la dévastation",
+    "waypointFr": "Point de passage de Tonnecaboche",
+    "searchFr": "quai de lestepied"
+  },
+  {
+    "id": 86,
+    "chatCode": "[&BCACAAA=]",
+    "nameEn": "Lily's Bivvy",
+    "nameFr": "Bivouac du Lys",
+    "mapFr": "Montée de Flambecœur",
+    "waypointFr": "Point de passage de la Pointe de glace",
+    "searchFr": "bivouac du lys"
+  },
+  {
+    "id": 89,
+    "chatCode": "[&BH0BAAA=]",
+    "nameEn": "Lionguard Larder",
+    "nameFr": "Cellier de la Garde du Lion",
+    "mapFr": "Contreforts du voyageur",
+    "waypointFr": "Point de passage du Refuge de Doubléperon",
+    "searchFr": "cellier de la garde du lion"
+  },
+  {
+    "id": 84,
+    "chatCode": "[&BAwAAAA=]",
+    "nameEn": "Lychcroft Wardenship",
+    "nameFr": "Préfecture de Lychcroft",
+    "mapFr": "Collines de Kessex",
+    "waypointFr": "Point de passage du Site d'Ombrecœur",
+    "searchFr": "prefecture de lychcroft"
+  },
+  {
+    "id": 90,
+    "chatCode": "[&BBMEAAA=]",
+    "nameEn": "Magihedron Corner",
+    "nameFr": "Coin du Magièdre",
+    "mapFr": "Rata Sum",
+    "waypointFr": "Point de passage de la Cour métrique",
+    "searchFr": "coin du magiedre"
+  },
+  {
+    "id": 63,
+    "chatCode": "[&BEcAAAA=]",
+    "nameEn": "Master Control LIN39",
+    "nameFr": "Console de commande principale LIN39",
+    "mapFr": "Province de Metrica",
+    "waypointFr": "Point de passage muridienne",
+    "searchFr": "console de commande principale lin39"
+  },
+  {
+    "id": 92,
+    "chatCode": "[&BCcDAAA=]",
+    "nameEn": "Melandru's Fount",
+    "nameFr": "Source de Melandru",
+    "mapFr": "Le Promontoire divin",
+    "waypointFr": "Point de passage de Melandru",
+    "searchFr": "source de melandru"
+  },
+  {
+    "id": 127,
+    "chatCode": "[&BEgCAAA=]",
+    "nameEn": "Meltwater Cave",
+    "nameFr": "Grotte d’Eaudefonte",
+    "mapFr": "Chutes de la canopée",
+    "waypointFr": "Point de passage de Fil d'Écaille",
+    "searchFr": "grotte d’eaudefonte"
+  },
+  {
+    "id": 93,
+    "chatCode": "[&BCoDAAA=]",
+    "nameEn": "Minar's Target Shoot",
+    "nameFr": "Pas de Tir de Mina",
+    "mapFr": "Le Promontoire divin",
+    "waypointFr": "Point de passage du quartier populaire",
+    "searchFr": "pas de tir de mina"
+  },
+  {
+    "id": 96,
+    "chatCode": "[&BJkBAAA=]",
+    "nameEn": "Mistriven Shelf",
+    "nameFr": "Saut de Mistriven",
+    "mapFr": "Passage de Lornar",
+    "waypointFr": "Point de passage de Mistriven",
+    "searchFr": "saut de mistriven"
+  },
+  {
+    "id": 91,
+    "chatCode": "[&BHgBAAA=]",
+    "nameEn": "Moleberia Prison",
+    "nameFr": "Prison de Taupvlaquie",
+    "mapFr": "Contreforts du voyageur",
+    "waypointFr": "Point de passage d'Halvaunt",
+    "searchFr": "prison de taupvlaquie"
+  },
+  {
+    "id": 95,
+    "chatCode": "[&BNgGAAA=]",
+    "nameEn": "Monument to the Ancient One",
+    "nameFr": "Monument à l’Ancien",
+    "mapFr": "Crique de Sud-Soleil",
+    "waypointFr": "Point de passage du Refuge d'Owain",
+    "searchFr": "monument a l’ancien"
+  },
+  {
+    "id": 30,
+    "chatCode": "[&BE8BAAA=]",
+    "nameEn": "Narrowkraal Crossing",
+    "nameFr": "Gué kraalétroi",
+    "mapFr": "Champs de ruine",
+    "waypointFr": "Point de passage de la Route de l'Ogre",
+    "searchFr": "gue kraaletroi"
+  },
+  {
+    "id": 97,
+    "chatCode": "[&BBIEAAA=]",
+    "nameEn": "Necrolith Landing",
+    "nameFr": "Plage nécrolithe",
+    "mapFr": "Le Bosquet",
+    "waypointFr": "Point de passage de Caledon",
+    "searchFr": "plage necrolithe"
+  },
+  {
+    "id": 32,
+    "chatCode": "[&BBcCAAA=]",
+    "nameEn": "Orecart Hoist",
+    "nameFr": "Palan charmine",
+    "mapFr": "Montée de Flambecœur",
+    "waypointFr": "Point de passage de fonte brute",
+    "searchFr": "palan charmine"
+  },
+  {
+    "id": 100,
+    "chatCode": "[&BMkBAAA=]",
+    "nameEn": "Orvanic Sourcewaters",
+    "nameFr": "Alimentation en eau d’Orvanic",
+    "mapFr": "Marais de Lumillule",
+    "waypointFr": "Point de passage du Goulet de l'océan",
+    "searchFr": "alimentation en eau d’orvanic"
+  },
+  {
+    "id": 101,
+    "chatCode": "[&BAEEAAA=]",
+    "nameEn": "Osenfold Counterweights",
+    "nameFr": "Contrepoids d’Osenfold",
+    "mapFr": "Contreforts du voyageur",
+    "waypointFr": "Point de passage d'Osenfold",
+    "searchFr": "contrepoids d’osenfold"
+  },
+  {
+    "id": 99,
+    "chatCode": "[&BAQAAAA=]",
+    "nameEn": "Overlord Lodge",
+    "nameFr": "Pavillon du seigneur",
+    "mapFr": "Collines de Kessex",
+    "waypointFr": "Point de passage du seigneur",
+    "searchFr": "pavillon du seigneur"
+  },
+  {
+    "id": 104,
+    "chatCode": "[&BIoBAAA=]",
+    "nameEn": "Phasmatis Prospect",
+    "nameFr": "Panorama de Phasmatis",
+    "mapFr": "Plaines d'Ashford",
+    "waypointFr": "Point de passage du Chantier naval de Dockfer",
+    "searchFr": "panorama de phasmatis"
+  },
+  {
+    "id": 106,
+    "chatCode": "[&BK8BAAA=]",
+    "nameEn": "Pochtecatl's Desire",
+    "nameFr": "Désir de Pochtecatl",
+    "mapFr": "Côte de la marée sanglante",
+    "waypointFr": "Point de passage de Jelako",
+    "searchFr": "desir de pochtecatl"
+  },
+  {
+    "id": 46,
+    "chatCode": "[&BAcFAAA=]",
+    "nameEn": "Port Authority Lost and Found",
+    "nameFr": "Objets trouvés de l’Autorité du Port",
+    "mapFr": "Rata Sum",
+    "waypointFr": "Point de passage du port",
+    "searchFr": "objets trouves de l’autorite du port"
+  },
+  {
+    "id": 107,
+    "chatCode": "[&BKQBAAA=]",
+    "nameEn": "Portmatt's Promontory",
+    "nameFr": "Promontoire de Portmatt",
+    "mapFr": "Côte de la marée sanglante",
+    "waypointFr": "Point de passage des Lamentations",
+    "searchFr": "promontoire de portmatt"
+  },
+  {
+    "id": 108,
+    "chatCode": "[&BCYCAAA=]",
+    "nameEn": "Provatum Carcer",
+    "nameFr": "Geôle de Provatum",
+    "mapFr": "Montée de Flambecœur",
+    "waypointFr": "Point de passage du Gardien",
+    "searchFr": "geole de provatum"
+  },
+  {
+    "id": 176,
+    "chatCode": "[&BGQCAAA=]",
+    "nameEn": "Ramview Peak",
+    "nameFr": "Pic du Béliervédère",
+    "mapFr": "Falaises de Hantedraguerre",
+    "waypointFr": "Point de passage de Travelen",
+    "searchFr": "pic du beliervedere"
+  },
+  {
+    "id": 112,
+    "chatCode": "[&BOsBAAA=]",
+    "nameEn": "Raptor's Aerie",
+    "nameFr": "Nid de raptor",
+    "mapFr": "Marais de fer",
+    "waypointFr": "Point de passage de la Ville de l'Etoile de Caninecol",
+    "searchFr": "nid de raptor"
+  },
+  {
+    "id": 113,
+    "chatCode": "[&BO4AAAA=]",
+    "nameEn": "Raptor's Perch",
+    "nameFr": "Perchoir de Raptor",
+    "mapFr": "Champs de Gendarran",
+    "waypointFr": "Point de passage du Refuge hivernal",
+    "searchFr": "perchoir de raptor"
+  },
+  {
+    "id": 114,
+    "chatCode": "[&BMkCAAA=]",
+    "nameEn": "Rata Pten Portico",
+    "nameFr": "Portique de Rata Pten",
+    "mapFr": "Mont Maelström",
+    "waypointFr": "Point de passage de Criterion",
+    "searchFr": "portique de rata pten"
+  },
+  {
+    "id": 110,
+    "chatCode": "[&BIgDAAA=]",
+    "nameEn": "Raven Nook",
+    "nameFr": "Recoin du Corbeau",
+    "mapFr": "Hoelbrak",
+    "waypointFr": "Point de passage du Corbeau",
+    "searchFr": "recoin du corbeau"
+  },
+  {
+    "id": 115,
+    "chatCode": "[&BNUGAAA=]",
+    "nameEn": "Reef Drake Nestling Grounds",
+    "nameFr": "Frayère des drakes des récifs",
+    "mapFr": "Crique de Sud-Soleil",
+    "waypointFr": "Point de passage de l'Îlot de perles",
+    "searchFr": "frayere des drakes des recifs"
+  },
+  {
+    "id": 116,
+    "chatCode": "[&BNICAAA=]",
+    "nameEn": "Restless Footings",
+    "nameFr": "Emprise agitée",
+    "mapFr": "Mont Maelström",
+    "waypointFr": "Point de passage de l'Ile d'Irwin",
+    "searchFr": "emprise agitee"
+  },
+  {
+    "id": 61,
+    "chatCode": "[&BHUBAAA=]",
+    "nameEn": "Reverberant's Watch",
+    "nameFr": "Guet réverbérant",
+    "mapFr": "Contreforts du voyageur",
+    "waypointFr": "Point de passage d'Ecorchenuit",
+    "searchFr": "guet reverberant"
+  },
+  {
+    "id": 149,
+    "chatCode": "[&BKcBAAA=]",
+    "nameEn": "Risewild Green",
+    "nameFr": "Champ de Montesauvage",
+    "mapFr": "Côte de la marée sanglante",
+    "waypointFr": "Point de passage de Remanda",
+    "searchFr": "champ de montesauvage"
+  },
+  {
+    "id": 118,
+    "chatCode": "[&BCsDAAA=]",
+    "nameEn": "Rurik's View",
+    "nameFr": "Point de vue de Rurik",
+    "mapFr": "Le Promontoire divin",
+    "waypointFr": "Point de passage de Rurikton",
+    "searchFr": "point de vue de rurik"
+  },
+  {
+    "id": 121,
+    "chatCode": "[&BMcBAAA=]",
+    "nameEn": "Saltflood Altar",
+    "nameFr": "Autel d’Inondesel",
+    "mapFr": "Marais de Lumillule",
+    "waypointFr": "Point de passage d'Inondesel",
+    "searchFr": "autel d’inondesel"
+  },
+  {
+    "id": 122,
+    "chatCode": "[&BNUGAAA=]",
+    "nameEn": "Sandwurm Prowl",
+    "nameFr": "Guivre des sables maraudeuse",
+    "mapFr": "Crique de Sud-Soleil",
+    "waypointFr": "Point de passage de l'Îlot de perles",
+    "searchFr": "guivre des sables maraudeuse"
+  },
+  {
+    "id": 44,
+    "chatCode": "[&BFsCAAA=]",
+    "nameEn": "Scholar's Blind",
+    "nameFr": "Aveuglement de l’Erudit",
+    "mapFr": "Falaises de Hantedraguerre",
+    "waypointFr": "Point de passage de Steelbrachen",
+    "searchFr": "aveuglement de l’erudit"
+  },
+  {
+    "id": 52,
+    "chatCode": "[&BOgBAAA=]",
+    "nameEn": "Scourgejaw Watchtower",
+    "nameFr": "Tour de guet de Mâchefléau",
+    "mapFr": "Marais de fer",
+    "waypointFr": "Point de passage du camp de Doucepelisse",
+    "searchFr": "tour de guet de machefleau"
+  },
+  {
+    "id": 139,
+    "chatCode": "[&BKcDAAA=]",
+    "nameEn": "Scriptorium Nook",
+    "nameFr": "Recoin du Scriptorium",
+    "mapFr": "La Citadelle noire",
+    "waypointFr": "Point de passage du Factorium",
+    "searchFr": "recoin du scriptorium"
+  },
+  {
+    "id": 5,
+    "chatCode": "[&BB4DAAA=]",
+    "nameEn": "Sea Scorpion's Eye",
+    "nameFr": "Œil du Scorpion des mers",
+    "mapFr": "Rivage maudit",
+    "waypointFr": "Point de passage de la Crête indiscrète",
+    "searchFr": "œil du scorpion des mers"
+  },
+  {
+    "id": 123,
+    "chatCode": "[&BOkBAAA=]",
+    "nameEn": "Sentinel Sink",
+    "nameFr": "Bassin de la Sentinelle",
+    "mapFr": "Marais de fer",
+    "waypointFr": "Point de passage du Campement du Guet du stigmate",
+    "searchFr": "bassin de la sentinelle"
+  },
+  {
+    "id": 57,
+    "chatCode": "[&BNIEAAA=]",
+    "nameEn": "Sepulchre Skylight",
+    "nameFr": "Sépulcre azumière",
+    "mapFr": "Détroit de la dévastation",
+    "waypointFr": "Point de passage du Ralliement",
+    "searchFr": "sepulcre azumiere"
+  },
+  {
+    "id": 60,
+    "chatCode": "[&BFEDAAA=]",
+    "nameEn": "Sharkhollow's Edge",
+    "nameFr": "Bord de Valaigu",
+    "mapFr": "Les Steppes de la strie flamboyante",
+    "waypointFr": "Point de passage du Fort de Crête-Fendue",
+    "searchFr": "bord de valaigu"
+  },
+  {
+    "id": 186,
+    "chatCode": "[&BMUBAAA=]",
+    "nameEn": "Shattered Loft",
+    "nameFr": "Grenier effondré",
+    "mapFr": "Marais de Lumillule",
+    "waypointFr": "Point de passage de Fort Cadence",
+    "searchFr": "grenier effondre"
+  },
+  {
+    "id": 133,
+    "chatCode": "[&BM4BAAA=]",
+    "nameEn": "Siamoth Refuge",
+    "nameFr": "Refuge de siamout",
+    "mapFr": "Marais de Lumillule",
+    "waypointFr": "Point de passage d'Ondesaline",
+    "searchFr": "refuge de siamout"
+  },
+  {
+    "id": 134,
+    "chatCode": "[&BOcBAAA=]",
+    "nameEn": "Skalecatch Butcher Shop",
+    "nameFr": "Boucherie piègécayeux",
+    "mapFr": "Marais de fer",
+    "waypointFr": "Point de passage du Village d'Attrapécaille",
+    "searchFr": "boucherie piegecayeux"
+  },
+  {
+    "id": 135,
+    "chatCode": "[&BBgCAAA=]",
+    "nameEn": "Skalefound Cove",
+    "nameFr": "Crique de Trouvécaille",
+    "mapFr": "Montée de Flambecœur",
+    "waypointFr": "Point de passage du Poste de commandement de Tuyère",
+    "searchFr": "crique de trouvecaille"
+  },
+  {
+    "id": 138,
+    "chatCode": "[&BEYCAAA=]",
+    "nameEn": "Skalesplash Falls",
+    "nameFr": "Chutes de Gerbécaille",
+    "mapFr": "Chutes de la canopée",
+    "waypointFr": "Point de passage d'Okarinoo",
+    "searchFr": "chutes de gerbecaille"
+  },
+  {
+    "id": 136,
+    "chatCode": "[&BJcDAAA=]",
+    "nameEn": "Skalestash Hideaway",
+    "nameFr": "Antre cachécailleux",
+    "mapFr": "Plaines d'Ashford",
+    "waypointFr": "Point de passage de Feritas",
+    "searchFr": "antre cachecailleux"
+  },
+  {
+    "id": 137,
+    "chatCode": "[&BHwCAAA=]",
+    "nameEn": "Skelknest Borehole",
+    "nameFr": "Forage du nid de skelk",
+    "mapFr": "Détroit des gorges glacées",
+    "waypointFr": "Point de passage du Bourbier de la Mélancolie",
+    "searchFr": "forage du nid de skelk"
+  },
+  {
+    "id": 124,
+    "chatCode": "[&BLkEAAA=]",
+    "nameEn": "Skibo Hall Dormitory",
+    "nameFr": "Dortoir du hall de Skibo",
+    "mapFr": "Rata Sum",
+    "waypointFr": "Point de passage auxiliaire",
+    "searchFr": "dortoir du hall de skibo"
+  },
+  {
+    "id": 68,
+    "chatCode": "[&BKkAAAA=]",
+    "nameEn": "Skyshine Scratch",
+    "nameFr": "Griffure de l’éclat céleste",
+    "mapFr": "Hinterlands harathis",
+    "waypointFr": "Point de passage de Grey Gritta",
+    "searchFr": "griffure de l’eclat celeste"
+  },
+  {
+    "id": 126,
+    "chatCode": "[&BLkAAAA=]",
+    "nameEn": "Snowden Safehouse",
+    "nameFr": "Refuge d’Antreneige",
+    "mapFr": "Congères d'Antreneige",
+    "waypointFr": "Point de passage du Refuge de la Congère",
+    "searchFr": "refuge d’antreneige"
+  },
+  {
+    "id": 125,
+    "chatCode": "[&BL8AAAA=]",
+    "nameEn": "Snowhowl Den",
+    "nameFr": "Antre de Hurleneige",
+    "mapFr": "Congères d'Antreneige",
+    "waypointFr": "Point de passage de la Terrasse du Faucon des neiges",
+    "searchFr": "antre de hurleneige"
+  },
+  {
+    "id": 141,
+    "chatCode": "[&BD8BAAA=]",
+    "nameEn": "Soggorsort Rotunda",
+    "nameFr": "Rotonde de Soggorsort",
+    "mapFr": "Forêt de Caledon",
+    "waypointFr": "Point de passage du Hameau d'Annwen",
+    "searchFr": "rotonde de soggorsort"
+  },
+  {
+    "id": 142,
+    "chatCode": "[&BEAAAAA=]",
+    "nameEn": "Soran Draa Rest Stop",
+    "nameFr": "Halte de Soren Draa",
+    "mapFr": "Province de Metrica",
+    "waypointFr": "Point de passage de Soren Draa",
+    "searchFr": "halte de soren draa"
+  },
+  {
+    "id": 109,
+    "chatCode": "[&BIECAAA=]",
+    "nameEn": "Source of Lament",
+    "nameFr": "Source des lamentations",
+    "mapFr": "Détroit des gorges glacées",
+    "waypointFr": "Point de passage de la Maison de Hautecieux",
+    "searchFr": "source des lamentations"
+  },
+  {
+    "id": 140,
+    "chatCode": "[&BK0DAAA=]",
+    "nameEn": "Sparwind's Lounge",
+    "nameFr": "Salon d’Esparvent",
+    "mapFr": "La Citadelle noire",
+    "waypointFr": "Point de passage de l'Imperator",
+    "searchFr": "salon d’esparvent"
+  },
+  {
+    "id": 54,
+    "chatCode": "[&BLICAAA=]",
+    "nameEn": "Spectrehaunt Socket",
+    "nameFr": "Emplacement hanté",
+    "mapFr": "Saut de Malchor",
+    "waypointFr": "Point de passage des lumières",
+    "searchFr": "emplacement hante"
+  },
+  {
+    "id": 21,
+    "chatCode": "[&BNAGAAA=]",
+    "nameEn": "Steampipe Perch",
+    "nameFr": "Perchoir Tubavapeur",
+    "mapFr": "Crique de Sud-Soleil",
+    "waypointFr": "Point de passage du Point du Lion",
+    "searchFr": "perchoir tubavapeur"
+  },
+  {
+    "id": 22,
+    "chatCode": "[&BOoAAAA=]",
+    "nameEn": "Steamscrap Overlook",
+    "nameFr": "Belvédère goutedo",
+    "mapFr": "Passage de Lornar",
+    "waypointFr": "Point de passage de la Complainte",
+    "searchFr": "belvedere goutedo"
+  },
+  {
+    "id": 23,
+    "chatCode": "[&BNAGAAA=]",
+    "nameEn": "Steamy Steps",
+    "nameFr": "Marches vaporeuses",
+    "mapFr": "Crique de Sud-Soleil",
+    "waypointFr": "Point de passage du Point du Lion",
+    "searchFr": "marches vaporeuses"
+  },
+  {
+    "id": 144,
+    "chatCode": "[&BPsBAAA=]",
+    "nameEn": "Steelband's Tunnel",
+    "nameFr": "Tunnel de Bandacier",
+    "mapFr": "Les Steppes de la strie flamboyante",
+    "waypointFr": "Point de passage de Tumok",
+    "searchFr": "tunnel de bandacier"
+  },
+  {
+    "id": 147,
+    "chatCode": "[&BO0CAAA=]",
+    "nameEn": "Stentor Shelter",
+    "nameFr": "Refuge du Stentor",
+    "mapFr": "Détroit de la dévastation",
+    "waypointFr": "Point de passage du Pic de signal",
+    "searchFr": "refuge du stentor"
+  },
+  {
+    "id": 146,
+    "chatCode": "[&BIwBAAA=]",
+    "nameEn": "Stonebore Spiderhole",
+    "nameFr": "Trou de tirailleur de Creusepierre",
+    "mapFr": "Champs de Gendarran",
+    "waypointFr": "Point de passage de Talajian",
+    "searchFr": "trou de tirailleur de creusepierre"
+  },
+  {
+    "id": 145,
+    "chatCode": "[&BN0AAAA=]",
+    "nameEn": "Strongpaw's Garden",
+    "nameFr": "Jardin de Fortepatte",
+    "mapFr": "Plateau de Diessa",
+    "waypointFr": "Point de passage de Nageling",
+    "searchFr": "jardin de fortepatte"
+  },
+  {
+    "id": 154,
+    "chatCode": "[&BOQGAAA=]",
+    "nameEn": "Tactical Retreat",
+    "nameFr": "Repli stratégique",
+    "mapFr": "Rivage maudit",
+    "waypointFr": "Point de passage du Rocher de l'épave",
+    "searchFr": "repli strategique"
+  },
+  {
+    "id": 151,
+    "chatCode": "[&BEQCAAA=]",
+    "nameEn": "Talus Steps",
+    "nameFr": "Les Marches du Talus",
+    "mapFr": "Chutes de la canopée",
+    "waypointFr": "Point de passage de Talus",
+    "searchFr": "les marches du talus"
+  },
+  {
+    "id": 152,
+    "chatCode": "[&BB0CAAA=]",
+    "nameEn": "Tarstar Copse",
+    "nameFr": "Bosquet de Tarstar",
+    "mapFr": "Montée de Flambecœur",
+    "waypointFr": "Point de passage de l'Apostat",
+    "searchFr": "bosquet de tarstar"
+  },
+  {
+    "id": 155,
+    "chatCode": "[&BGUAAAA=]",
+    "nameEn": "Tekki's Drawing Board",
+    "nameFr": "Planche à dessin de Tekki",
+    "mapFr": "Terres sauvages de Brisban",
+    "waypointFr": "Point de passage de la Métamagique d'Ulta",
+    "searchFr": "planche a dessin de tekki"
+  },
+  {
+    "id": 156,
+    "chatCode": "[&BEcAAAA=]",
+    "nameEn": "Thaumanova Spillway",
+    "nameFr": "Déversoir de thaumanova",
+    "mapFr": "Province de Metrica",
+    "waypointFr": "Point de passage muridienne",
+    "searchFr": "deversoir de thaumanova"
+  },
+  {
+    "id": 24,
+    "chatCode": "[&BNUGAAA=]",
+    "nameEn": "The Karka Club",
+    "nameFr": "Klub des Karkas",
+    "mapFr": "Crique de Sud-Soleil",
+    "waypointFr": "Point de passage de l'Îlot de perles",
+    "searchFr": "klub des karkas"
+  },
+  {
+    "id": 120,
+    "chatCode": "[&BHkCAAA=]",
+    "nameEn": "The People's Deadlock",
+    "nameFr": "L’impasse du peuple",
+    "mapFr": "Détroit des gorges glacées",
+    "waypointFr": "Point de passage de Groznev",
+    "searchFr": "l’impasse du peuple"
+  },
+  {
+    "id": 53,
+    "chatCode": "[&BFoCAAA=]",
+    "nameEn": "The Workers' Stores",
+    "nameFr": "Le magasin des ouvriers",
+    "mapFr": "Falaises de Hantedraguerre",
+    "waypointFr": "Point de passage de la Route grise",
+    "searchFr": "le magasin des ouvriers"
+  },
+  {
+    "id": 153,
+    "chatCode": "[&BBAAAAA=]",
+    "nameEn": "Togatl Shore",
+    "nameFr": "Côte de Tagotl",
+    "mapFr": "Collines de Kessex",
+    "waypointFr": "Point de passage de Viathan",
+    "searchFr": "cote de tagotl"
+  },
+  {
+    "id": 161,
+    "chatCode": "[&BD8FAAA=]",
+    "nameEn": "Tower of Tribulation",
+    "nameFr": "Tour de la tribulation",
+    "mapFr": "Falaises de Hantedraguerre",
+    "waypointFr": "Point de passage de l'Étreinte des lamentations",
+    "searchFr": "tour de la tribulation"
+  },
+  {
+    "id": 159,
+    "chatCode": "[&BGUAAAA=]",
+    "nameEn": "Toxal Spill",
+    "nameFr": "Fuite de Toxal",
+    "mapFr": "Terres sauvages de Brisban",
+    "waypointFr": "Point de passage de la Métamagique d'Ulta",
+    "searchFr": "fuite de toxal"
+  },
+  {
+    "id": 64,
+    "chatCode": "[&BIYDAAA=]",
+    "nameEn": "Trader's Stash",
+    "nameFr": "Réserve du marchand",
+    "mapFr": "Hoelbrak",
+    "waypointFr": "Point de passage du Forum du commerce",
+    "searchFr": "reserve du marchand"
+  },
+  {
+    "id": 160,
+    "chatCode": "[&BOkAAAA=]",
+    "nameEn": "Trolltrap Pit",
+    "nameFr": "Fosse de Piègetroll",
+    "mapFr": "Passage de Lornar",
+    "waypointFr": "Point de passage du Prieuré de Durmand",
+    "searchFr": "fosse de piegetroll"
+  },
+  {
+    "id": 13,
+    "chatCode": "[&BCgDAAA=]",
+    "nameEn": "Turai Tavern Stillroom",
+    "nameFr": "Laboratoire de la taverne de Turai",
+    "mapFr": "Le Promontoire divin",
+    "waypointFr": "Point de passage de Balthazar",
+    "searchFr": "laboratoire de la taverne de turai"
+  },
+  {
+    "id": 163,
+    "chatCode": "[&BGUAAAA=]",
+    "nameEn": "Ulta Scraproom",
+    "nameFr": "Débarras d’Ulta",
+    "mapFr": "Terres sauvages de Brisban",
+    "waypointFr": "Point de passage de la Métamagique d'Ulta",
+    "searchFr": "debarras d’ulta"
+  },
+  {
+    "id": 164,
+    "chatCode": "[&BDwBAAA=]",
+    "nameEn": "Unseen Scratch",
+    "nameFr": "Griffure invisible",
+    "mapFr": "Forêt de Caledon",
+    "waypointFr": "Point de passage du Refuge de Caledon",
+    "searchFr": "griffure invisible"
+  },
+  {
+    "id": 165,
+    "chatCode": "[&BKgCAAA=]",
+    "nameEn": "Upsilon Hyperboloid",
+    "nameFr": "Upsilon hyperboloïde",
+    "mapFr": "Saut de Malchor",
+    "waypointFr": "Point de passage des Crevasses oubliées",
+    "searchFr": "upsilon hyperboloide"
+  },
+  {
+    "id": 166,
+    "chatCode": "[&BMsBAAA=]",
+    "nameEn": "Usharr's Threshold",
+    "nameFr": "Seuil d’Usharr",
+    "mapFr": "Marais de Lumillule",
+    "waypointFr": "Point de passage de la Tête du crapaud",
+    "searchFr": "seuil d’usharr"
+  },
+  {
+    "id": 83,
+    "chatCode": "[&BP8BAAA=]",
+    "nameEn": "Vacant Hermitage",
+    "nameFr": "Ermitage abandonné",
+    "mapFr": "Les Steppes de la strie flamboyante",
+    "waypointFr": "Point de passage de la Pierre gardienne",
+    "searchFr": "ermitage abandonne"
+  },
+  {
+    "id": 179,
+    "chatCode": "[&BOUAAAA=]",
+    "nameEn": "Venison Hollow",
+    "nameFr": "Crevasse du Gibier",
+    "mapFr": "Passage de Lornar",
+    "waypointFr": "Point de passage de la Maison de Vanjir",
+    "searchFr": "crevasse du gibier"
+  },
+  {
+    "id": 8,
+    "chatCode": "[&BBsDAAA=]",
+    "nameEn": "Verdance Font",
+    "nameFr": "Fontaine de Verdance",
+    "mapFr": "Rivage maudit",
+    "waypointFr": "Point de passage de Verdance",
+    "searchFr": "fontaine de verdance"
+  },
+  {
+    "id": 175,
+    "chatCode": "[&BPcCAAA=]",
+    "nameEn": "Vizier's Anteport",
+    "nameFr": "Port extérieur du Vizir",
+    "mapFr": "Détroit de la dévastation",
+    "waypointFr": "Point de passage du Poste isolé",
+    "searchFr": "port exterieur du vizir"
+  },
+  {
+    "id": 174,
+    "chatCode": "[&BIsBAAA=]",
+    "nameEn": "Wassa's Terrace",
+    "nameFr": "Terrasse de Wassa",
+    "mapFr": "Champs de Gendarran",
+    "waypointFr": "Point de passage du Premier Refuge",
+    "searchFr": "terrasse de wassa"
+  },
+  {
+    "id": 173,
+    "chatCode": "[&BJgDAAA=]",
+    "nameEn": "Watchpoint Decimus",
+    "nameFr": "Poste de vigie de Décimus",
+    "mapFr": "Plaines d'Ashford",
+    "waypointFr": "Point de passage du Point de garde de Décimus",
+    "searchFr": "poste de vigie de decimus"
+  },
+  {
+    "id": 111,
+    "chatCode": "[&BKUDAAA=]",
+    "nameEn": "Wheelport Pub",
+    "nameFr": "Bistrot rouport",
+    "mapFr": "La Citadelle noire",
+    "waypointFr": "Point de passage des Terres du rassemblement",
+    "searchFr": "bistrot rouport"
+  },
+  {
+    "id": 183,
+    "chatCode": "[&BNQCAAA=]",
+    "nameEn": "Whitland Sinkhole",
+    "nameFr": "Gouffre de Whitland",
+    "mapFr": "Mont Maelström",
+    "waypointFr": "Point de passage du Site du Vieux traîneau",
+    "searchFr": "gouffre de whitland"
+  },
+  {
+    "id": 177,
+    "chatCode": "[&BDoBAAA=]",
+    "nameEn": "Widd's Folly",
+    "nameFr": "Folie de Widd",
+    "mapFr": "Forêt de Caledon",
+    "waypointFr": "Point de passage de Mabon",
+    "searchFr": "folie de widd"
+  },
+  {
+    "id": 178,
+    "chatCode": "[&BEwCAAA=]",
+    "nameEn": "Wikk's Gate",
+    "nameFr": "Porte de Wikk",
+    "mapFr": "Chutes de la canopée",
+    "waypointFr": "Point de passage du Tutorat de Valance",
+    "searchFr": "porte de wikk"
+  },
+  {
+    "id": 181,
+    "chatCode": "[&BEAAAAA=]",
+    "nameEn": "Wildflame Monitor",
+    "nameFr": "Surveillant de Folleflamme",
+    "mapFr": "Province de Metrica",
+    "waypointFr": "Point de passage de Soren Draa",
+    "searchFr": "surveillant de folleflamme"
+  },
+  {
+    "id": 182,
+    "chatCode": "[&BBgDAAA=]",
+    "nameEn": "Winterknell Impasse",
+    "nameFr": "Impasse du Gladiver",
+    "mapFr": "Rivage maudit",
+    "waypointFr": "Point de passage R&amp;D",
+    "searchFr": "impasse du gladiver"
+  },
+  {
+    "id": 184,
+    "chatCode": "[&BJQBAAA=]",
+    "nameEn": "Wrelk's Salon",
+    "nameFr": "Salon de Wrelk",
+    "mapFr": "Champs de Gendarran",
+    "waypointFr": "Point de passage d'Almuten",
+    "searchFr": "salon de wrelk"
+  }
+]

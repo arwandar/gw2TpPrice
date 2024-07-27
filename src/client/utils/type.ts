@@ -68,3 +68,13 @@ export type Achievement = {
   max?: number;
   done: boolean;
 };
+
+export type Trek = {
+  id: number;
+  nameEn: string;
+  nameFr: string;
+  mapFr: string;
+  waypointFr: string;
+  chatCode: string;
+  searchFr: string;
+};

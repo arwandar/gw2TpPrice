@@ -1,0 +1,1676 @@
+[
+  {
+    "id": 2,
+    "name": "Repaire de l’Autel du Ruisseau",
+    "waypoint_id": 242,
+    "waypoint_name": "Point de passage du Carrefour",
+    "chat_link": "[&amp;BPIAAAA=]",
+    "map_id": 15,
+    "map_name": "La Vallée de la reine"
+  },
+  {
+    "id": 72,
+    "name": "Repli stratégique",
+    "waypoint_id": 1764,
+    "waypoint_name": "Point de passage du Rocher de l'épave",
+    "chat_link": "[&amp;BOQGAAA=]",
+    "map_id": 62,
+    "map_name": "Rivage maudit"
+  },
+  {
+    "id": 3,
+    "name": "Coin d’Anya",
+    "waypoint_id": 222,
+    "waypoint_name": "Point de passage de Nolan",
+    "chat_link": "[&amp;BN4AAAA=]",
+    "map_id": 32,
+    "map_name": "Plateau de Diessa"
+  },
+  {
+    "id": 4,
+    "name": "Repaire de l’Arctodus",
+    "waypoint_id": 382,
+    "waypoint_name": "Point de passage de la Colonie de Vendrake",
+    "chat_link": "[&amp;BH4BAAA=]",
+    "map_id": 28,
+    "map_name": "Contreforts du voyageur"
+  },
+  {
+    "id": 69,
+    "name": "Fontaine des racines cachées",
+    "waypoint_id": 1211,
+    "waypoint_name": "Point de passage du Spéculateur",
+    "chat_link": "[&amp;BLsEAAA=]",
+    "map_id": 91,
+    "map_name": "Le Bosquet"
+  },
+  {
+    "id": 41,
+    "name": "Banc de Varech de Malméduse",
+    "waypoint_id": 188,
+    "waypoint_name": "Point de passage de l'Exil",
+    "chat_link": "[&amp;BLwAAAA=]",
+    "map_id": 31,
+    "map_name": "Congères d'Antreneige"
+  },
+  {
+    "id": 7,
+    "name": "Carré de chou du bandit",
+    "waypoint_id": 168,
+    "waypoint_name": "Point de passage du Point de ralliement de Wynchona",
+    "chat_link": "[&amp;BKgAAAA=]",
+    "map_id": 17,
+    "map_name": "Hinterlands harathis"
+  },
+  {
+    "id": 9,
+    "name": "Mirador Beetlestone",
+    "waypoint_id": 250,
+    "waypoint_name": "Point de passage de Beetletun",
+    "chat_link": "[&amp;BPoAAAA=]",
+    "map_id": 15,
+    "map_name": "La Vallée de la reine"
+  },
+  {
+    "id": 130,
+    "name": "Cellier du Lion Noir",
+    "waypoint_id": 1211,
+    "waypoint_name": "Point de passage du Spéculateur",
+    "chat_link": "[&amp;BLsEAAA=]",
+    "map_id": 91,
+    "map_name": "Le Bosquet"
+  },
+  {
+    "id": 129,
+    "name": "Motte de Lamenoire",
+    "waypoint_id": 220,
+    "waypoint_name": "Point de passage de la Fontaine de Rhand",
+    "chat_link": "[&amp;BNwAAAA=]",
+    "map_id": 32,
+    "map_name": "Plateau de Diessa"
+  },
+  {
+    "id": 168,
+    "name": "Sépulcre ravagé",
+    "waypoint_id": 218,
+    "waypoint_name": "Point de passage des landes ravagées",
+    "chat_link": "[&amp;BNoAAAA=]",
+    "map_id": 32,
+    "map_name": "Plateau de Diessa"
+  },
+  {
+    "id": 10,
+    "name": "Galerie du limon sanglant",
+    "waypoint_id": 429,
+    "waypoint_name": "Point de passage lugubre",
+    "chat_link": "[&amp;BK0BAAA=]",
+    "map_id": 73,
+    "map_name": "Côte de la marée sanglante"
+  },
+  {
+    "id": 11,
+    "name": "Châtiment de Bluup",
+    "waypoint_id": 1208,
+    "waypoint_name": "Point de passage de la recherche",
+    "chat_link": "[&amp;BLgEAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 12,
+    "name": "Fouilles de Stigmafrappe",
+    "waypoint_id": 331,
+    "waypoint_name": "Point de passage de la Mine d'Hellion",
+    "chat_link": "[&amp;BEsBAAA=]",
+    "map_id": 21,
+    "map_name": "Champs de ruine"
+  },
+  {
+    "id": 180,
+    "name": "Barrière de Bercebruyère",
+    "waypoint_id": 309,
+    "waypoint_name": "Point de passage de la Spirale",
+    "chat_link": "[&amp;BDUBAAA=]",
+    "map_id": 34,
+    "map_name": "Forêt de Caledon"
+  },
+  {
+    "id": 131,
+    "name": "Cour des Chutes brisées",
+    "waypoint_id": 940,
+    "waypoint_name": "Point de passage des Ruines de Rin",
+    "chat_link": "[&amp;BKwDAAA=]",
+    "map_id": 218,
+    "map_name": "La Citadelle noire"
+  },
+  {
+    "id": 15,
+    "name": "Chutes de la Génitrice",
+    "waypoint_id": 644,
+    "waypoint_name": "Point de passage de la Courbe du Yak",
+    "chat_link": "[&amp;BIQCAAA=]",
+    "map_id": 30,
+    "map_name": "Détroit des gorges glacées"
+  },
+  {
+    "id": 14,
+    "name": "Col des Frères",
+    "waypoint_id": 912,
+    "waypoint_name": "Point de passage de la Boussole du Héros",
+    "chat_link": "[&amp;BJADAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 119,
+    "name": "Refuge percebul",
+    "waypoint_id": 850,
+    "waypoint_name": "Point de passage de la Route de Suie",
+    "chat_link": "[&amp;BFIDAAA=]",
+    "map_id": 20,
+    "map_name": "Les Steppes de la strie flamboyante"
+  },
+  {
+    "id": 172,
+    "name": "Cache du fugitif",
+    "waypoint_id": 801,
+    "waypoint_name": "Point de passage de Caer Mande-Ombre",
+    "chat_link": "[&amp;BCEDAAA=]",
+    "map_id": 62,
+    "map_name": "Rivage maudit"
+  },
+  {
+    "id": 16,
+    "name": "Plateau de Krallcamden",
+    "waypoint_id": 392,
+    "waypoint_name": "Point de passage de la Tour de guet de l'Escarpement",
+    "chat_link": "[&amp;BIgBAAA=]",
+    "map_id": 19,
+    "map_name": "Plaines d'Ashford"
+  },
+  {
+    "id": 98,
+    "name": "Grotte de Gorgetoile",
+    "waypoint_id": 516,
+    "waypoint_name": "Point de passage du Glaive",
+    "chat_link": "[&amp;BAQCAAA=]",
+    "map_id": 20,
+    "map_name": "Les Steppes de la strie flamboyante"
+  },
+  {
+    "id": 81,
+    "name": "Mouillage du Capitaine",
+    "waypoint_id": 690,
+    "waypoint_name": "Point de passage des lumières",
+    "chat_link": "[&amp;BLICAAA=]",
+    "map_id": 65,
+    "map_name": "Saut de Malchor"
+  },
+  {
+    "id": 17,
+    "name": "Coin de Castavall",
+    "waypoint_id": 429,
+    "waypoint_name": "Point de passage lugubre",
+    "chat_link": "[&amp;BK0BAAA=]",
+    "map_id": 73,
+    "map_name": "Côte de la marée sanglante"
+  },
+  {
+    "id": 78,
+    "name": "Cavité de la cathédrale",
+    "waypoint_id": 684,
+    "waypoint_name": "Point de passage de Wren",
+    "chat_link": "[&amp;BKwCAAA=]",
+    "map_id": 65,
+    "map_name": "Saut de Malchor"
+  },
+  {
+    "id": 70,
+    "name": "Cache de l’Ours des cavernes",
+    "waypoint_id": 191,
+    "waypoint_name": "Point de passage de la Terrasse du Faucon des neiges",
+    "chat_link": "[&amp;BL8AAAA=]",
+    "map_id": 31,
+    "map_name": "Congères d'Antreneige"
+  },
+  {
+    "id": 71,
+    "name": "Nid d’araignée cavernicole",
+    "waypoint_id": 408,
+    "waypoint_name": "Point de passage de l'Enclave du Pinacle",
+    "chat_link": "[&amp;BJgBAAA=]",
+    "map_id": 27,
+    "map_name": "Passage de Lornar"
+  },
+  {
+    "id": 158,
+    "name": "Mur d’enceinte de Claypool",
+    "waypoint_id": 246,
+    "waypoint_name": "Point de passage de Claypool",
+    "chat_link": "[&amp;BPYAAAA=]",
+    "map_id": 15,
+    "map_name": "La Vallée de la reine"
+  },
+  {
+    "id": 148,
+    "name": "Parapet des constellations",
+    "waypoint_id": 1211,
+    "waypoint_name": "Point de passage du Spéculateur",
+    "chat_link": "[&amp;BLsEAAA=]",
+    "map_id": 91,
+    "map_name": "Le Bosquet"
+  },
+  {
+    "id": 185,
+    "name": "Dents de la corruption",
+    "waypoint_id": 646,
+    "waypoint_name": "Point de passage de Drakkar",
+    "chat_link": "[&amp;BIYCAAA=]",
+    "map_id": 30,
+    "map_name": "Détroit des gorges glacées"
+  },
+  {
+    "id": 18,
+    "name": "Mouillage de Covington",
+    "waypoint_id": 424,
+    "waypoint_name": "Point de passage de la Mouette rieuse",
+    "chat_link": "[&amp;BKgBAAA=]",
+    "map_id": 73,
+    "map_name": "Côte de la marée sanglante"
+  },
+  {
+    "id": 62,
+    "name": "Halte de Coupegorge",
+    "waypoint_id": 973,
+    "waypoint_name": "Point de passage de Brigantine",
+    "chat_link": "[&amp;BM0DAAA=]",
+    "map_id": 24,
+    "map_name": "Champs de Gendarran"
+  },
+  {
+    "id": 19,
+    "name": "Vallon de Cymbel",
+    "waypoint_id": 212,
+    "waypoint_name": "Point de passage du Guet de Mortelame",
+    "chat_link": "[&amp;BNQAAAA=]",
+    "map_id": 21,
+    "map_name": "Champs de ruine"
+  },
+  {
+    "id": 94,
+    "name": "Pergola d’Aubeluit",
+    "waypoint_id": 1212,
+    "waypoint_name": "Point de passage de Ronan",
+    "chat_link": "[&amp;BLwEAAA=]",
+    "map_id": 91,
+    "map_name": "Le Bosquet"
+  },
+  {
+    "id": 157,
+    "name": "Plongeur focebourbié",
+    "waypoint_id": 721,
+    "waypoint_name": "Point de passage de l'Ile du Méandre",
+    "chat_link": "[&amp;BNECAAA=]",
+    "map_id": 39,
+    "map_name": "Mont Maelström"
+  },
+  {
+    "id": 29,
+    "name": "Excavation profanée",
+    "waypoint_id": 17,
+    "waypoint_name": "Point de passage de Sombreplaie",
+    "chat_link": "[&amp;BBEAAAA=]",
+    "map_id": 23,
+    "map_name": "Collines de Kessex"
+  },
+  {
+    "id": 6,
+    "name": "Balcon des délices",
+    "waypoint_id": 678,
+    "waypoint_name": "Point de passage de Pagga",
+    "chat_link": "[&amp;BKYCAAA=]",
+    "map_id": 65,
+    "map_name": "Saut de Malchor"
+  },
+  {
+    "id": 143,
+    "name": "Hall de Guilde du Destin",
+    "waypoint_id": 239,
+    "waypoint_name": "Point de passage de Shaemoor",
+    "chat_link": "[&amp;BO8AAAA=]",
+    "map_id": 15,
+    "map_name": "La Vallée de la reine"
+  },
+  {
+    "id": 128,
+    "name": "Faille de Pouacregriffe",
+    "waypoint_id": 483,
+    "waypoint_name": "Point de passage du Lac Pourprenage",
+    "chat_link": "[&amp;BOMBAAA=]",
+    "map_id": 25,
+    "map_name": "Marais de fer"
+  },
+  {
+    "id": 20,
+    "name": "Cour des Chutes de la Biche",
+    "waypoint_id": 391,
+    "waypoint_name": "Point de passage de la Cité d'Ascalon",
+    "chat_link": "[&amp;BIcBAAA=]",
+    "map_id": 19,
+    "map_name": "Plaines d'Ashford"
+  },
+  {
+    "id": 88,
+    "name": "Saut de Drakefaille",
+    "waypoint_id": 332,
+    "waypoint_name": "Point de passage du Guet de Mordrage",
+    "chat_link": "[&amp;BEwBAAA=]",
+    "map_id": 21,
+    "map_name": "Champs de ruine"
+  },
+  {
+    "id": 87,
+    "name": "Côte de Couvedrake",
+    "waypoint_id": 356,
+    "waypoint_name": "Point de passage de Brèchezeaux",
+    "chat_link": "[&amp;BGQBAAA=]",
+    "map_id": 32,
+    "map_name": "Plateau de Diessa"
+  },
+  {
+    "id": 25,
+    "name": "Porte de Droknah",
+    "waypoint_id": 724,
+    "waypoint_name": "Point de passage du Site du Vieux traîneau",
+    "chat_link": "[&amp;BNQCAAA=]",
+    "map_id": 39,
+    "map_name": "Mont Maelström"
+  },
+  {
+    "id": 105,
+    "name": "Place engloutie",
+    "waypoint_id": 755,
+    "waypoint_name": "Point de passage du Forum Royal",
+    "chat_link": "[&amp;BPMCAAA=]",
+    "map_id": 51,
+    "map_name": "Détroit de la dévastation"
+  },
+  {
+    "id": 102,
+    "name": "Chute d’East End",
+    "waypoint_id": 96,
+    "waypoint_name": "Point de passage de l'Extrêmité Est",
+    "chat_link": "[&amp;BGAAAAA=]",
+    "map_id": 54,
+    "map_name": "Terres sauvages de Brisban"
+  },
+  {
+    "id": 103,
+    "name": "Ruelle du vadrouilleur de l’est",
+    "waypoint_id": 803,
+    "waypoint_name": "Point de passage de Dwayna",
+    "chat_link": "[&amp;BCMDAAA=]",
+    "map_id": 18,
+    "map_name": "Le Promontoire divin"
+  },
+  {
+    "id": 28,
+    "name": "Surprise d’Elise",
+    "waypoint_id": 171,
+    "waypoint_name": "Point de passage de Demetra",
+    "chat_link": "[&amp;BKsAAAA=]",
+    "map_id": 17,
+    "map_name": "Hinterlands harathis"
+  },
+  {
+    "id": 33,
+    "name": "Repaire de Soufflettin",
+    "waypoint_id": 230,
+    "waypoint_name": "Point de passage de la Gueule du démon",
+    "chat_link": "[&amp;BOYAAAA=]",
+    "map_id": 27,
+    "map_name": "Passage de Lornar"
+  },
+  {
+    "id": 47,
+    "name": "Champ de force de la cinquième brasse",
+    "waypoint_id": 754,
+    "waypoint_name": "Point de passage de la Cloche vespérale",
+    "chat_link": "[&amp;BPICAAA=]",
+    "map_id": 51,
+    "map_name": "Détroit de la dévastation"
+  },
+  {
+    "id": 36,
+    "name": "Porche de Fawcett",
+    "waypoint_id": 195,
+    "waypoint_name": "Point de passage d'Arcallion",
+    "chat_link": "[&amp;BMMAAAA=]",
+    "map_id": 17,
+    "map_name": "Hinterlands harathis"
+  },
+  {
+    "id": 38,
+    "name": "Poche de diablotin de feu",
+    "waypoint_id": 717,
+    "waypoint_name": "Point de passage de Maelström",
+    "chat_link": "[&amp;BM0CAAA=]",
+    "map_id": 39,
+    "map_name": "Mont Maelström"
+  },
+  {
+    "id": 37,
+    "name": "Source de Brûlereinette",
+    "waypoint_id": 460,
+    "waypoint_name": "Point de passage de Brûlereinette",
+    "chat_link": "[&amp;BMwBAAA=]",
+    "map_id": 53,
+    "map_name": "Marais de Lumillule"
+  },
+  {
+    "id": 39,
+    "name": "Pont du Guet-du-feu",
+    "waypoint_id": 493,
+    "waypoint_name": "Point de passage du Campement de Guet-du-feu",
+    "chat_link": "[&amp;BO0BAAA=]",
+    "map_id": 25,
+    "map_name": "Marais de fer"
+  },
+  {
+    "id": 40,
+    "name": "Escarpement du pêcheur",
+    "waypoint_id": 1198,
+    "waypoint_name": "Point de passage de la Vieille fonderie de golems",
+    "chat_link": "[&amp;BK4EAAA=]",
+    "map_id": 35,
+    "map_name": "Province de Metrica"
+  },
+  {
+    "id": 42,
+    "name": "Recoin lapidaire de Flakk",
+    "waypoint_id": 1206,
+    "waypoint_name": "Point de passage de la Comptabilité",
+    "chat_link": "[&amp;BLYEAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 1,
+    "name": "Fouilleur de fumier",
+    "waypoint_id": 603,
+    "waypoint_name": "Point de passage de Steelbrachen",
+    "chat_link": "[&amp;BFsCAAA=]",
+    "map_id": 26,
+    "map_name": "Falaises de Hantedraguerre"
+  },
+  {
+    "id": 167,
+    "name": "Cisaillement interdit",
+    "waypoint_id": 687,
+    "waypoint_name": "Point de passage des Murmures",
+    "chat_link": "[&amp;BK8CAAA=]",
+    "map_id": 65,
+    "map_name": "Saut de Malchor"
+  },
+  {
+    "id": 171,
+    "name": "Cavité du Contremaître",
+    "waypoint_id": 600,
+    "waypoint_name": "Point de passage de Dociu",
+    "chat_link": "[&amp;BFgCAAA=]",
+    "map_id": 26,
+    "map_name": "Falaises de Hantedraguerre"
+  },
+  {
+    "id": 169,
+    "name": "Grotte Oubliée",
+    "waypoint_id": 513,
+    "waypoint_name": "Point de passage de Terra Carorunda",
+    "chat_link": "[&amp;BAECAAA=]",
+    "map_id": 20,
+    "map_name": "Les Steppes de la strie flamboyante"
+  },
+  {
+    "id": 43,
+    "name": "Coeur du flacon du fondateur",
+    "waypoint_id": 1085,
+    "waypoint_name": "Point de passage de Kestrel",
+    "chat_link": "[&amp;BD0EAAA=]",
+    "map_id": 21,
+    "map_name": "Champs de ruine"
+  },
+  {
+    "id": 45,
+    "name": "Échafaudage autoporteur",
+    "waypoint_id": 940,
+    "waypoint_name": "Point de passage des Ruines de Rin",
+    "chat_link": "[&amp;BKwDAAA=]",
+    "map_id": 218,
+    "map_name": "La Citadelle noire"
+  },
+  {
+    "id": 51,
+    "name": "Retraite Gelée",
+    "waypoint_id": 591,
+    "waypoint_name": "Point de passage de Feuilleblanche",
+    "chat_link": "[&amp;BE8CAAA=]",
+    "map_id": 29,
+    "map_name": "Chutes de la canopée"
+  },
+  {
+    "id": 48,
+    "name": "Canyons de Gallow",
+    "waypoint_id": 99,
+    "waypoint_name": "Point de passage des Champs de la potence",
+    "chat_link": "[&amp;BGMAAAA=]",
+    "map_id": 54,
+    "map_name": "Terres sauvages de Brisban"
+  },
+  {
+    "id": 49,
+    "name": "Alcôve de Courtilleracine",
+    "waypoint_id": 1210,
+    "waypoint_name": "Point de passage de la Terrasse commune supérieure",
+    "chat_link": "[&amp;BLoEAAA=]",
+    "map_id": 91,
+    "map_name": "Le Bosquet"
+  },
+  {
+    "id": 55,
+    "name": "Point de vue de Gnashar",
+    "waypoint_id": 93,
+    "waypoint_name": "Point de passage de Wendon",
+    "chat_link": "[&amp;BF0AAAA=]",
+    "map_id": 54,
+    "map_name": "Terres sauvages de Brisban"
+  },
+  {
+    "id": 59,
+    "name": "Paddock du moa vert",
+    "waypoint_id": 316,
+    "waypoint_name": "Point de passage du Refuge de Caledon",
+    "chat_link": "[&amp;BDwBAAA=]",
+    "map_id": 34,
+    "map_name": "Forêt de Caledon"
+  },
+  {
+    "id": 58,
+    "name": "Pavillon de Grenth",
+    "waypoint_id": 804,
+    "waypoint_name": "Point de passage de Grenth",
+    "chat_link": "[&amp;BCQDAAA=]",
+    "map_id": 18,
+    "map_name": "Le Promontoire divin"
+  },
+  {
+    "id": 56,
+    "name": "Le devoir de Morndottir",
+    "waypoint_id": 907,
+    "waypoint_name": "Point de passage du Rocher de l'abri",
+    "chat_link": "[&amp;BIsDAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 162,
+    "name": "Camp principal du gardien",
+    "waypoint_id": 173,
+    "waypoint_name": "Point de passage du Camp de la barricade",
+    "chat_link": "[&amp;BK0AAAA=]",
+    "map_id": 17,
+    "map_name": "Hinterlands harathis"
+  },
+  {
+    "id": 34,
+    "name": "Perchoir d’œil-de-faucon",
+    "waypoint_id": 581,
+    "waypoint_name": "Point de passage du Serpent",
+    "chat_link": "[&amp;BEUCAAA=]",
+    "map_id": 29,
+    "map_name": "Chutes de la canopée"
+  },
+  {
+    "id": 150,
+    "name": "Col du Coeur criant",
+    "waypoint_id": 541,
+    "waypoint_name": "Point de passage de l'Apostat",
+    "chat_link": "[&amp;BB0CAAA=]",
+    "map_id": 22,
+    "map_name": "Montée de Flambecœur"
+  },
+  {
+    "id": 67,
+    "name": "Cache à miel de Boisecoeur",
+    "waypoint_id": 243,
+    "waypoint_name": "Point de passage de Phinney",
+    "chat_link": "[&amp;BPMAAAA=]",
+    "map_id": 15,
+    "map_name": "La Vallée de la reine"
+  },
+  {
+    "id": 65,
+    "name": "Œuvre d’Heidi",
+    "waypoint_id": 167,
+    "waypoint_name": "Point de passage du Plateau du Séraphin",
+    "chat_link": "[&amp;BKcAAAA=]",
+    "map_id": 17,
+    "map_name": "Hinterlands harathis"
+  },
+  {
+    "id": 31,
+    "name": "Perchoir de l’Ermite",
+    "waypoint_id": 216,
+    "waypoint_name": "Point de passage du Campement de Rosko",
+    "chat_link": "[&amp;BNgAAAA=]",
+    "map_id": 21,
+    "map_name": "Champs de ruine"
+  },
+  {
+    "id": 170,
+    "name": "Distillerie de la Chouette cachée",
+    "waypoint_id": 193,
+    "waypoint_name": "Point de passage de la Chouette",
+    "chat_link": "[&amp;BMEAAAA=]",
+    "map_id": 31,
+    "map_name": "Congères d'Antreneige"
+  },
+  {
+    "id": 66,
+    "name": "Sanctuaire piersacrée",
+    "waypoint_id": 965,
+    "waypoint_name": "Point de passage du Sanctuaire",
+    "chat_link": "[&amp;BMUDAAA=]",
+    "map_id": 32,
+    "map_name": "Plateau de Diessa"
+  },
+  {
+    "id": 27,
+    "name": "Fosse de la guivre des glaces",
+    "waypoint_id": 639,
+    "waypoint_name": "Point de passage de Dimotiki",
+    "chat_link": "[&amp;BH8CAAA=]",
+    "map_id": 30,
+    "map_name": "Détroit des gorges glacées"
+  },
+  {
+    "id": 50,
+    "name": "Saut de la conceptualisation",
+    "waypoint_id": 1205,
+    "waypoint_name": "Point de passage de l'incubateur",
+    "chat_link": "[&amp;BLUEAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 80,
+    "name": "Sanctuaire hanté par un diablotin",
+    "waypoint_id": 321,
+    "waypoint_name": "Point de passage du Marais de Wychmire",
+    "chat_link": "[&amp;BEEBAAA=]",
+    "map_id": 34,
+    "map_name": "Forêt de Caledon"
+  },
+  {
+    "id": 26,
+    "name": "Point de vue de Dockfer",
+    "waypoint_id": 393,
+    "waypoint_name": "Point de passage du Belvédère de Scinde-nuit",
+    "chat_link": "[&amp;BIkBAAA=]",
+    "map_id": 19,
+    "map_name": "Plaines d'Ashford"
+  },
+  {
+    "id": 73,
+    "name": "Crique d’Isenfall",
+    "waypoint_id": 184,
+    "waypoint_name": "Point de passage d'Isenfall",
+    "chat_link": "[&amp;BLgAAAA=]",
+    "map_id": 31,
+    "map_name": "Congères d'Antreneige"
+  },
+  {
+    "id": 74,
+    "name": "Point de vue d’Isgarren",
+    "waypoint_id": 17,
+    "waypoint_name": "Point de passage de Sombreplaie",
+    "chat_link": "[&amp;BBEAAAA=]",
+    "map_id": 23,
+    "map_name": "Collines de Kessex"
+  },
+  {
+    "id": 75,
+    "name": "Fière tanière du jaguar",
+    "waypoint_id": 71,
+    "waypoint_name": "Point de passage muridienne",
+    "chat_link": "[&amp;BEcAAAA=]",
+    "map_id": 35,
+    "map_name": "Province de Metrica"
+  },
+  {
+    "id": 117,
+    "name": "Sommet de l’Epave",
+    "waypoint_id": 1079,
+    "waypoint_name": "Point de passage des épaves",
+    "chat_link": "[&amp;BDcEAAA=]",
+    "map_id": 218,
+    "map_name": "La Citadelle noire"
+  },
+  {
+    "id": 76,
+    "name": "La sellette de Kaldar",
+    "waypoint_id": 909,
+    "waypoint_name": "Point de passage du Poste d'observation est",
+    "chat_link": "[&amp;BI0DAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 77,
+    "name": "Foyer de Kari",
+    "waypoint_id": 18,
+    "waypoint_name": "Point de passage de Cereboth",
+    "chat_link": "[&amp;BBIAAAA=]",
+    "map_id": 23,
+    "map_name": "Collines de Kessex"
+  },
+  {
+    "id": 35,
+    "name": "Guet de la bagarre de barils",
+    "waypoint_id": 912,
+    "waypoint_name": "Point de passage de la Boussole du Héros",
+    "chat_link": "[&amp;BJADAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 79,
+    "name": "Coffre-fort de Kevach",
+    "waypoint_id": 961,
+    "waypoint_name": "Point de passage de la Caverne de Pertevyrm",
+    "chat_link": "[&amp;BMEDAAA=]",
+    "map_id": 28,
+    "map_name": "Contreforts du voyageur"
+  },
+  {
+    "id": 132,
+    "name": "Tunnel sous le lac",
+    "waypoint_id": 249,
+    "waypoint_name": "Point de passage de la Scierie d'Ojon",
+    "chat_link": "[&amp;BPkAAAA=]",
+    "map_id": 15,
+    "map_name": "La Vallée de la reine"
+  },
+  {
+    "id": 82,
+    "name": "Grotte de Lawen",
+    "waypoint_id": 395,
+    "waypoint_name": "Point de passage du Premier Refuge",
+    "chat_link": "[&amp;BIsBAAA=]",
+    "map_id": 24,
+    "map_name": "Champs de Gendarran"
+  },
+  {
+    "id": 85,
+    "name": "Quai de Lestepied",
+    "waypoint_id": 752,
+    "waypoint_name": "Point de passage de Tonnecaboche",
+    "chat_link": "[&amp;BPACAAA=]",
+    "map_id": 51,
+    "map_name": "Détroit de la dévastation"
+  },
+  {
+    "id": 86,
+    "name": "Bivouac du Lys",
+    "waypoint_id": 544,
+    "waypoint_name": "Point de passage de la Pointe de glace",
+    "chat_link": "[&amp;BCACAAA=]",
+    "map_id": 22,
+    "map_name": "Montée de Flambecœur"
+  },
+  {
+    "id": 89,
+    "name": "Cellier de la Garde du Lion",
+    "waypoint_id": 381,
+    "waypoint_name": "Point de passage du Refuge de Doubléperon",
+    "chat_link": "[&amp;BH0BAAA=]",
+    "map_id": 28,
+    "map_name": "Contreforts du voyageur"
+  },
+  {
+    "id": 84,
+    "name": "Préfecture de Lychcroft",
+    "waypoint_id": 12,
+    "waypoint_name": "Point de passage du Site d'Ombrecœur",
+    "chat_link": "[&amp;BAwAAAA=]",
+    "map_id": 23,
+    "map_name": "Collines de Kessex"
+  },
+  {
+    "id": 90,
+    "name": "Coin du Magièdre",
+    "waypoint_id": 1043,
+    "waypoint_name": "Point de passage de la Cour métrique",
+    "chat_link": "[&amp;BBMEAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 63,
+    "name": "Console de commande principale LIN39",
+    "waypoint_id": 71,
+    "waypoint_name": "Point de passage muridienne",
+    "chat_link": "[&amp;BEcAAAA=]",
+    "map_id": 35,
+    "map_name": "Province de Metrica"
+  },
+  {
+    "id": 92,
+    "name": "Source de Melandru",
+    "waypoint_id": 807,
+    "waypoint_name": "Point de passage de Melandru",
+    "chat_link": "[&amp;BCcDAAA=]",
+    "map_id": 18,
+    "map_name": "Le Promontoire divin"
+  },
+  {
+    "id": 127,
+    "name": "Grotte d’Eaudefonte",
+    "waypoint_id": 584,
+    "waypoint_name": "Point de passage de Fil d'Écaille",
+    "chat_link": "[&amp;BEgCAAA=]",
+    "map_id": 29,
+    "map_name": "Chutes de la canopée"
+  },
+  {
+    "id": 93,
+    "name": "Pas de Tir de Mina",
+    "waypoint_id": 810,
+    "waypoint_name": "Point de passage du quartier populaire",
+    "chat_link": "[&amp;BCoDAAA=]",
+    "map_id": 18,
+    "map_name": "Le Promontoire divin"
+  },
+  {
+    "id": 96,
+    "name": "Saut de Mistriven",
+    "waypoint_id": 409,
+    "waypoint_name": "Point de passage de Mistriven",
+    "chat_link": "[&amp;BJkBAAA=]",
+    "map_id": 27,
+    "map_name": "Passage de Lornar"
+  },
+  {
+    "id": 91,
+    "name": "Prison de Taupvlaquie",
+    "waypoint_id": 376,
+    "waypoint_name": "Point de passage d'Halvaunt",
+    "chat_link": "[&amp;BHgBAAA=]",
+    "map_id": 28,
+    "map_name": "Contreforts du voyageur"
+  },
+  {
+    "id": 95,
+    "name": "Monument à l’Ancien",
+    "waypoint_id": 1752,
+    "waypoint_name": "Point de passage du Refuge d'Owain",
+    "chat_link": "[&amp;BNgGAAA=]",
+    "map_id": 873,
+    "map_name": "Crique de Sud-Soleil"
+  },
+  {
+    "id": 30,
+    "name": "Gué kraalétroi",
+    "waypoint_id": 335,
+    "waypoint_name": "Point de passage de la Route de l'Ogre",
+    "chat_link": "[&amp;BE8BAAA=]",
+    "map_id": 21,
+    "map_name": "Champs de ruine"
+  },
+  {
+    "id": 97,
+    "name": "Plage nécrolithe",
+    "waypoint_id": 1042,
+    "waypoint_name": "Point de passage de Caledon",
+    "chat_link": "[&amp;BBIEAAA=]",
+    "map_id": 91,
+    "map_name": "Le Bosquet"
+  },
+  {
+    "id": 32,
+    "name": "Palan charmine",
+    "waypoint_id": 535,
+    "waypoint_name": "Point de passage de fonte brute",
+    "chat_link": "[&amp;BBcCAAA=]",
+    "map_id": 22,
+    "map_name": "Montée de Flambecœur"
+  },
+  {
+    "id": 100,
+    "name": "Alimentation en eau d’Orvanic",
+    "waypoint_id": 457,
+    "waypoint_name": "Point de passage du Goulet de l'océan",
+    "chat_link": "[&amp;BMkBAAA=]",
+    "map_id": 53,
+    "map_name": "Marais de Lumillule"
+  },
+  {
+    "id": 101,
+    "name": "Contrepoids d’Osenfold",
+    "waypoint_id": 1025,
+    "waypoint_name": "Point de passage d'Osenfold",
+    "chat_link": "[&amp;BAEEAAA=]",
+    "map_id": 28,
+    "map_name": "Contreforts du voyageur"
+  },
+  {
+    "id": 99,
+    "name": "Pavillon du seigneur",
+    "waypoint_id": 4,
+    "waypoint_name": "Point de passage du seigneur",
+    "chat_link": "[&amp;BAQAAAA=]",
+    "map_id": 23,
+    "map_name": "Collines de Kessex"
+  },
+  {
+    "id": 104,
+    "name": "Panorama de Phasmatis",
+    "waypoint_id": 394,
+    "waypoint_name": "Point de passage du Chantier naval de Dockfer",
+    "chat_link": "[&amp;BIoBAAA=]",
+    "map_id": 19,
+    "map_name": "Plaines d'Ashford"
+  },
+  {
+    "id": 106,
+    "name": "Désir de Pochtecatl",
+    "waypoint_id": 431,
+    "waypoint_name": "Point de passage de Jelako",
+    "chat_link": "[&amp;BK8BAAA=]",
+    "map_id": 73,
+    "map_name": "Côte de la marée sanglante"
+  },
+  {
+    "id": 46,
+    "name": "Objets trouvés de l’Autorité du Port",
+    "waypoint_id": 1287,
+    "waypoint_name": "Point de passage du port",
+    "chat_link": "[&amp;BAcFAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 107,
+    "name": "Promontoire de Portmatt",
+    "waypoint_id": 420,
+    "waypoint_name": "Point de passage des Lamentations",
+    "chat_link": "[&amp;BKQBAAA=]",
+    "map_id": 73,
+    "map_name": "Côte de la marée sanglante"
+  },
+  {
+    "id": 108,
+    "name": "Geôle de Provatum",
+    "waypoint_id": 550,
+    "waypoint_name": "Point de passage du Gardien",
+    "chat_link": "[&amp;BCYCAAA=]",
+    "map_id": 22,
+    "map_name": "Montée de Flambecœur"
+  },
+  {
+    "id": 176,
+    "name": "Pic du Béliervédère",
+    "waypoint_id": 612,
+    "waypoint_name": "Point de passage de Travelen",
+    "chat_link": "[&amp;BGQCAAA=]",
+    "map_id": 26,
+    "map_name": "Falaises de Hantedraguerre"
+  },
+  {
+    "id": 112,
+    "name": "Nid de raptor",
+    "waypoint_id": 491,
+    "waypoint_name": "Point de passage de la Ville de l'Etoile de Caninecol",
+    "chat_link": "[&amp;BOsBAAA=]",
+    "map_id": 25,
+    "map_name": "Marais de fer"
+  },
+  {
+    "id": 113,
+    "name": "Perchoir de Raptor",
+    "waypoint_id": 238,
+    "waypoint_name": "Point de passage du Refuge hivernal",
+    "chat_link": "[&amp;BO4AAAA=]",
+    "map_id": 24,
+    "map_name": "Champs de Gendarran"
+  },
+  {
+    "id": 114,
+    "name": "Portique de Rata Pten",
+    "waypoint_id": 713,
+    "waypoint_name": "Point de passage de Criterion",
+    "chat_link": "[&amp;BMkCAAA=]",
+    "map_id": 39,
+    "map_name": "Mont Maelström"
+  },
+  {
+    "id": 110,
+    "name": "Recoin du Corbeau",
+    "waypoint_id": 904,
+    "waypoint_name": "Point de passage du Corbeau",
+    "chat_link": "[&amp;BIgDAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 115,
+    "name": "Frayère des drakes des récifs",
+    "waypoint_id": 1749,
+    "waypoint_name": "Point de passage de l'Îlot de perles",
+    "chat_link": "[&amp;BNUGAAA=]",
+    "map_id": 873,
+    "map_name": "Crique de Sud-Soleil"
+  },
+  {
+    "id": 116,
+    "name": "Emprise agitée",
+    "waypoint_id": 722,
+    "waypoint_name": "Point de passage de l'Ile d'Irwin",
+    "chat_link": "[&amp;BNICAAA=]",
+    "map_id": 39,
+    "map_name": "Mont Maelström"
+  },
+  {
+    "id": 61,
+    "name": "Guet réverbérant",
+    "waypoint_id": 373,
+    "waypoint_name": "Point de passage d'Ecorchenuit",
+    "chat_link": "[&amp;BHUBAAA=]",
+    "map_id": 28,
+    "map_name": "Contreforts du voyageur"
+  },
+  {
+    "id": 149,
+    "name": "Champ de Montesauvage",
+    "waypoint_id": 423,
+    "waypoint_name": "Point de passage de Remanda",
+    "chat_link": "[&amp;BKcBAAA=]",
+    "map_id": 73,
+    "map_name": "Côte de la marée sanglante"
+  },
+  {
+    "id": 118,
+    "name": "Point de vue de Rurik",
+    "waypoint_id": 811,
+    "waypoint_name": "Point de passage de Rurikton",
+    "chat_link": "[&amp;BCsDAAA=]",
+    "map_id": 18,
+    "map_name": "Le Promontoire divin"
+  },
+  {
+    "id": 121,
+    "name": "Autel d’Inondesel",
+    "waypoint_id": 455,
+    "waypoint_name": "Point de passage d'Inondesel",
+    "chat_link": "[&amp;BMcBAAA=]",
+    "map_id": 53,
+    "map_name": "Marais de Lumillule"
+  },
+  {
+    "id": 122,
+    "name": "Guivre des sables maraudeuse",
+    "waypoint_id": 1749,
+    "waypoint_name": "Point de passage de l'Îlot de perles",
+    "chat_link": "[&amp;BNUGAAA=]",
+    "map_id": 873,
+    "map_name": "Crique de Sud-Soleil"
+  },
+  {
+    "id": 44,
+    "name": "Aveuglement de l’Erudit",
+    "waypoint_id": 603,
+    "waypoint_name": "Point de passage de Steelbrachen",
+    "chat_link": "[&amp;BFsCAAA=]",
+    "map_id": 26,
+    "map_name": "Falaises de Hantedraguerre"
+  },
+  {
+    "id": 52,
+    "name": "Tour de guet de Mâchefléau",
+    "waypoint_id": 488,
+    "waypoint_name": "Point de passage du camp de Doucepelisse",
+    "chat_link": "[&amp;BOgBAAA=]",
+    "map_id": 25,
+    "map_name": "Marais de fer"
+  },
+  {
+    "id": 139,
+    "name": "Recoin du Scriptorium",
+    "waypoint_id": 935,
+    "waypoint_name": "Point de passage du Factorium",
+    "chat_link": "[&amp;BKcDAAA=]",
+    "map_id": 218,
+    "map_name": "La Citadelle noire"
+  },
+  {
+    "id": 5,
+    "name": "Œil du Scorpion des mers",
+    "waypoint_id": 798,
+    "waypoint_name": "Point de passage de la Crête indiscrète",
+    "chat_link": "[&amp;BB4DAAA=]",
+    "map_id": 62,
+    "map_name": "Rivage maudit"
+  },
+  {
+    "id": 123,
+    "name": "Bassin de la Sentinelle",
+    "waypoint_id": 489,
+    "waypoint_name": "Point de passage du Campement du Guet du stigmate",
+    "chat_link": "[&amp;BOkBAAA=]",
+    "map_id": 25,
+    "map_name": "Marais de fer"
+  },
+  {
+    "id": 57,
+    "name": "Sépulcre azumière",
+    "waypoint_id": 1234,
+    "waypoint_name": "Point de passage du Ralliement",
+    "chat_link": "[&amp;BNIEAAA=]",
+    "map_id": 51,
+    "map_name": "Détroit de la dévastation"
+  },
+  {
+    "id": 60,
+    "name": "Bord de Valaigu",
+    "waypoint_id": 849,
+    "waypoint_name": "Point de passage du Fort de Crête-Fendue",
+    "chat_link": "[&amp;BFEDAAA=]",
+    "map_id": 20,
+    "map_name": "Les Steppes de la strie flamboyante"
+  },
+  {
+    "id": 186,
+    "name": "Grenier effondré",
+    "waypoint_id": 453,
+    "waypoint_name": "Point de passage de Fort Cadence",
+    "chat_link": "[&amp;BMUBAAA=]",
+    "map_id": 53,
+    "map_name": "Marais de Lumillule"
+  },
+  {
+    "id": 133,
+    "name": "Refuge de siamout",
+    "waypoint_id": 462,
+    "waypoint_name": "Point de passage d'Ondesaline",
+    "chat_link": "[&amp;BM4BAAA=]",
+    "map_id": 53,
+    "map_name": "Marais de Lumillule"
+  },
+  {
+    "id": 134,
+    "name": "Boucherie piègécayeux",
+    "waypoint_id": 487,
+    "waypoint_name": "Point de passage du Village d'Attrapécaille",
+    "chat_link": "[&amp;BOcBAAA=]",
+    "map_id": 25,
+    "map_name": "Marais de fer"
+  },
+  {
+    "id": 135,
+    "name": "Crique de Trouvécaille",
+    "waypoint_id": 536,
+    "waypoint_name": "Point de passage du Poste de commandement de Tuyère",
+    "chat_link": "[&amp;BBgCAAA=]",
+    "map_id": 22,
+    "map_name": "Montée de Flambecœur"
+  },
+  {
+    "id": 138,
+    "name": "Chutes de Gerbécaille",
+    "waypoint_id": 582,
+    "waypoint_name": "Point de passage d'Okarinoo",
+    "chat_link": "[&amp;BEYCAAA=]",
+    "map_id": 29,
+    "map_name": "Chutes de la canopée"
+  },
+  {
+    "id": 136,
+    "name": "Antre cachécailleux",
+    "waypoint_id": 919,
+    "waypoint_name": "Point de passage de Feritas",
+    "chat_link": "[&amp;BJcDAAA=]",
+    "map_id": 19,
+    "map_name": "Plaines d'Ashford"
+  },
+  {
+    "id": 137,
+    "name": "Forage du nid de skelk",
+    "waypoint_id": 636,
+    "waypoint_name": "Point de passage du Bourbier de la Mélancolie",
+    "chat_link": "[&amp;BHwCAAA=]",
+    "map_id": 30,
+    "map_name": "Détroit des gorges glacées"
+  },
+  {
+    "id": 124,
+    "name": "Dortoir du hall de Skibo",
+    "waypoint_id": 1209,
+    "waypoint_name": "Point de passage auxiliaire",
+    "chat_link": "[&amp;BLkEAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 68,
+    "name": "Griffure de l’éclat céleste",
+    "waypoint_id": 169,
+    "waypoint_name": "Point de passage de Grey Gritta",
+    "chat_link": "[&amp;BKkAAAA=]",
+    "map_id": 17,
+    "map_name": "Hinterlands harathis"
+  },
+  {
+    "id": 126,
+    "name": "Refuge d’Antreneige",
+    "waypoint_id": 185,
+    "waypoint_name": "Point de passage du Refuge de la Congère",
+    "chat_link": "[&amp;BLkAAAA=]",
+    "map_id": 31,
+    "map_name": "Congères d'Antreneige"
+  },
+  {
+    "id": 125,
+    "name": "Antre de Hurleneige",
+    "waypoint_id": 191,
+    "waypoint_name": "Point de passage de la Terrasse du Faucon des neiges",
+    "chat_link": "[&amp;BL8AAAA=]",
+    "map_id": 31,
+    "map_name": "Congères d'Antreneige"
+  },
+  {
+    "id": 141,
+    "name": "Rotonde de Soggorsort",
+    "waypoint_id": 319,
+    "waypoint_name": "Point de passage du Hameau d'Annwen",
+    "chat_link": "[&amp;BD8BAAA=]",
+    "map_id": 34,
+    "map_name": "Forêt de Caledon"
+  },
+  {
+    "id": 142,
+    "name": "Halte de Soren Draa",
+    "waypoint_id": 64,
+    "waypoint_name": "Point de passage de Soren Draa",
+    "chat_link": "[&amp;BEAAAAA=]",
+    "map_id": 35,
+    "map_name": "Province de Metrica"
+  },
+  {
+    "id": 109,
+    "name": "Source des lamentations",
+    "waypoint_id": 641,
+    "waypoint_name": "Point de passage de la Maison de Hautecieux",
+    "chat_link": "[&amp;BIECAAA=]",
+    "map_id": 30,
+    "map_name": "Détroit des gorges glacées"
+  },
+  {
+    "id": 140,
+    "name": "Salon d’Esparvent",
+    "waypoint_id": 941,
+    "waypoint_name": "Point de passage de l'Imperator",
+    "chat_link": "[&amp;BK0DAAA=]",
+    "map_id": 218,
+    "map_name": "La Citadelle noire"
+  },
+  {
+    "id": 54,
+    "name": "Emplacement hanté",
+    "waypoint_id": 690,
+    "waypoint_name": "Point de passage des lumières",
+    "chat_link": "[&amp;BLICAAA=]",
+    "map_id": 65,
+    "map_name": "Saut de Malchor"
+  },
+  {
+    "id": 21,
+    "name": "Perchoir Tubavapeur",
+    "waypoint_id": 1744,
+    "waypoint_name": "Point de passage du Point du Lion",
+    "chat_link": "[&amp;BNAGAAA=]",
+    "map_id": 873,
+    "map_name": "Crique de Sud-Soleil"
+  },
+  {
+    "id": 22,
+    "name": "Belvédère goutedo",
+    "waypoint_id": 234,
+    "waypoint_name": "Point de passage de la Complainte",
+    "chat_link": "[&amp;BOoAAAA=]",
+    "map_id": 27,
+    "map_name": "Passage de Lornar"
+  },
+  {
+    "id": 23,
+    "name": "Marches vaporeuses",
+    "waypoint_id": 1744,
+    "waypoint_name": "Point de passage du Point du Lion",
+    "chat_link": "[&amp;BNAGAAA=]",
+    "map_id": 873,
+    "map_name": "Crique de Sud-Soleil"
+  },
+  {
+    "id": 144,
+    "name": "Tunnel de Bandacier",
+    "waypoint_id": 507,
+    "waypoint_name": "Point de passage de Tumok",
+    "chat_link": "[&amp;BPsBAAA=]",
+    "map_id": 20,
+    "map_name": "Les Steppes de la strie flamboyante"
+  },
+  {
+    "id": 147,
+    "name": "Refuge du Stentor",
+    "waypoint_id": 749,
+    "waypoint_name": "Point de passage du Pic de signal",
+    "chat_link": "[&amp;BO0CAAA=]",
+    "map_id": 51,
+    "map_name": "Détroit de la dévastation"
+  },
+  {
+    "id": 146,
+    "name": "Trou de tirailleur de Creusepierre",
+    "waypoint_id": 396,
+    "waypoint_name": "Point de passage de Talajian",
+    "chat_link": "[&amp;BIwBAAA=]",
+    "map_id": 24,
+    "map_name": "Champs de Gendarran"
+  },
+  {
+    "id": 145,
+    "name": "Jardin de Fortepatte",
+    "waypoint_id": 221,
+    "waypoint_name": "Point de passage de Nageling",
+    "chat_link": "[&amp;BN0AAAA=]",
+    "map_id": 32,
+    "map_name": "Plateau de Diessa"
+  },
+  {
+    "id": 154,
+    "name": "Repli stratégique",
+    "waypoint_id": 1764,
+    "waypoint_name": "Point de passage du Rocher de l'épave",
+    "chat_link": "[&amp;BOQGAAA=]",
+    "map_id": 62,
+    "map_name": "Rivage maudit"
+  },
+  {
+    "id": 151,
+    "name": "Les Marches du Talus",
+    "waypoint_id": 580,
+    "waypoint_name": "Point de passage de Talus",
+    "chat_link": "[&amp;BEQCAAA=]",
+    "map_id": 29,
+    "map_name": "Chutes de la canopée"
+  },
+  {
+    "id": 152,
+    "name": "Bosquet de Tarstar",
+    "waypoint_id": 541,
+    "waypoint_name": "Point de passage de l'Apostat",
+    "chat_link": "[&amp;BB0CAAA=]",
+    "map_id": 22,
+    "map_name": "Montée de Flambecœur"
+  },
+  {
+    "id": 155,
+    "name": "Planche à dessin de Tekki",
+    "waypoint_id": 101,
+    "waypoint_name": "Point de passage de la Métamagique d'Ulta",
+    "chat_link": "[&amp;BGUAAAA=]",
+    "map_id": 54,
+    "map_name": "Terres sauvages de Brisban"
+  },
+  {
+    "id": 156,
+    "name": "Déversoir de thaumanova",
+    "waypoint_id": 71,
+    "waypoint_name": "Point de passage muridienne",
+    "chat_link": "[&amp;BEcAAAA=]",
+    "map_id": 35,
+    "map_name": "Province de Metrica"
+  },
+  {
+    "id": 24,
+    "name": "Klub des Karkas",
+    "waypoint_id": 1749,
+    "waypoint_name": "Point de passage de l'Îlot de perles",
+    "chat_link": "[&amp;BNUGAAA=]",
+    "map_id": 873,
+    "map_name": "Crique de Sud-Soleil"
+  },
+  {
+    "id": 120,
+    "name": "L’impasse du peuple",
+    "waypoint_id": 633,
+    "waypoint_name": "Point de passage de Groznev",
+    "chat_link": "[&amp;BHkCAAA=]",
+    "map_id": 30,
+    "map_name": "Détroit des gorges glacées"
+  },
+  {
+    "id": 53,
+    "name": "Le magasin des ouvriers",
+    "waypoint_id": 602,
+    "waypoint_name": "Point de passage de la Route grise",
+    "chat_link": "[&amp;BFoCAAA=]",
+    "map_id": 26,
+    "map_name": "Falaises de Hantedraguerre"
+  },
+  {
+    "id": 153,
+    "name": "Côte de Tagotl",
+    "waypoint_id": 16,
+    "waypoint_name": "Point de passage de Viathan",
+    "chat_link": "[&amp;BBAAAAA=]",
+    "map_id": 23,
+    "map_name": "Collines de Kessex"
+  },
+  {
+    "id": 161,
+    "name": "Tour de la tribulation",
+    "waypoint_id": 1343,
+    "waypoint_name": "Point de passage de l'Étreinte des lamentations",
+    "chat_link": "[&amp;BD8FAAA=]",
+    "map_id": 26,
+    "map_name": "Falaises de Hantedraguerre"
+  },
+  {
+    "id": 159,
+    "name": "Fuite de Toxal",
+    "waypoint_id": 101,
+    "waypoint_name": "Point de passage de la Métamagique d'Ulta",
+    "chat_link": "[&amp;BGUAAAA=]",
+    "map_id": 54,
+    "map_name": "Terres sauvages de Brisban"
+  },
+  {
+    "id": 64,
+    "name": "Réserve du marchand",
+    "waypoint_id": 902,
+    "waypoint_name": "Point de passage du Forum du commerce",
+    "chat_link": "[&amp;BIYDAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 160,
+    "name": "Fosse de Piègetroll",
+    "waypoint_id": 233,
+    "waypoint_name": "Point de passage du Prieuré de Durmand",
+    "chat_link": "[&amp;BOkAAAA=]",
+    "map_id": 27,
+    "map_name": "Passage de Lornar"
+  },
+  {
+    "id": 13,
+    "name": "Laboratoire de la taverne de Turai",
+    "waypoint_id": 808,
+    "waypoint_name": "Point de passage de Balthazar",
+    "chat_link": "[&amp;BCgDAAA=]",
+    "map_id": 18,
+    "map_name": "Le Promontoire divin"
+  },
+  {
+    "id": 163,
+    "name": "Débarras d’Ulta",
+    "waypoint_id": 101,
+    "waypoint_name": "Point de passage de la Métamagique d'Ulta",
+    "chat_link": "[&amp;BGUAAAA=]",
+    "map_id": 54,
+    "map_name": "Terres sauvages de Brisban"
+  },
+  {
+    "id": 164,
+    "name": "Griffure invisible",
+    "waypoint_id": 316,
+    "waypoint_name": "Point de passage du Refuge de Caledon",
+    "chat_link": "[&amp;BDwBAAA=]",
+    "map_id": 34,
+    "map_name": "Forêt de Caledon"
+  },
+  {
+    "id": 165,
+    "name": "Upsilon hyperboloïde",
+    "waypoint_id": 680,
+    "waypoint_name": "Point de passage des Crevasses oubliées",
+    "chat_link": "[&amp;BKgCAAA=]",
+    "map_id": 65,
+    "map_name": "Saut de Malchor"
+  },
+  {
+    "id": 166,
+    "name": "Seuil d’Usharr",
+    "waypoint_id": 459,
+    "waypoint_name": "Point de passage de la Tête du crapaud",
+    "chat_link": "[&amp;BMsBAAA=]",
+    "map_id": 53,
+    "map_name": "Marais de Lumillule"
+  },
+  {
+    "id": 83,
+    "name": "Ermitage abandonné",
+    "waypoint_id": 511,
+    "waypoint_name": "Point de passage de la Pierre gardienne",
+    "chat_link": "[&amp;BP8BAAA=]",
+    "map_id": 20,
+    "map_name": "Les Steppes de la strie flamboyante"
+  },
+  {
+    "id": 179,
+    "name": "Crevasse du Gibier",
+    "waypoint_id": 229,
+    "waypoint_name": "Point de passage de la Maison de Vanjir",
+    "chat_link": "[&amp;BOUAAAA=]",
+    "map_id": 27,
+    "map_name": "Passage de Lornar"
+  },
+  {
+    "id": 8,
+    "name": "Fontaine de Verdance",
+    "waypoint_id": 795,
+    "waypoint_name": "Point de passage de Verdance",
+    "chat_link": "[&amp;BBsDAAA=]",
+    "map_id": 62,
+    "map_name": "Rivage maudit"
+  },
+  {
+    "id": 175,
+    "name": "Port extérieur du Vizir",
+    "waypoint_id": 759,
+    "waypoint_name": "Point de passage du Poste isolé",
+    "chat_link": "[&amp;BPcCAAA=]",
+    "map_id": 51,
+    "map_name": "Détroit de la dévastation"
+  },
+  {
+    "id": 174,
+    "name": "Terrasse de Wassa",
+    "waypoint_id": 395,
+    "waypoint_name": "Point de passage du Premier Refuge",
+    "chat_link": "[&amp;BIsBAAA=]",
+    "map_id": 24,
+    "map_name": "Champs de Gendarran"
+  },
+  {
+    "id": 173,
+    "name": "Poste de vigie de Décimus",
+    "waypoint_id": 920,
+    "waypoint_name": "Point de passage du Point de garde de Décimus",
+    "chat_link": "[&amp;BJgDAAA=]",
+    "map_id": 19,
+    "map_name": "Plaines d'Ashford"
+  },
+  {
+    "id": 111,
+    "name": "Bistrot rouport",
+    "waypoint_id": 933,
+    "waypoint_name": "Point de passage des Terres du rassemblement",
+    "chat_link": "[&amp;BKUDAAA=]",
+    "map_id": 218,
+    "map_name": "La Citadelle noire"
+  },
+  {
+    "id": 183,
+    "name": "Gouffre de Whitland",
+    "waypoint_id": 724,
+    "waypoint_name": "Point de passage du Site du Vieux traîneau",
+    "chat_link": "[&amp;BNQCAAA=]",
+    "map_id": 39,
+    "map_name": "Mont Maelström"
+  },
+  {
+    "id": 177,
+    "name": "Folie de Widd",
+    "waypoint_id": 314,
+    "waypoint_name": "Point de passage de Mabon",
+    "chat_link": "[&amp;BDoBAAA=]",
+    "map_id": 34,
+    "map_name": "Forêt de Caledon"
+  },
+  {
+    "id": 178,
+    "name": "Porte de Wikk",
+    "waypoint_id": 588,
+    "waypoint_name": "Point de passage du Tutorat de Valance",
+    "chat_link": "[&amp;BEwCAAA=]",
+    "map_id": 29,
+    "map_name": "Chutes de la canopée"
+  },
+  {
+    "id": 181,
+    "name": "Surveillant de Folleflamme",
+    "waypoint_id": 64,
+    "waypoint_name": "Point de passage de Soren Draa",
+    "chat_link": "[&amp;BEAAAAA=]",
+    "map_id": 35,
+    "map_name": "Province de Metrica"
+  },
+  {
+    "id": 182,
+    "name": "Impasse du Gladiver",
+    "waypoint_id": 792,
+    "waypoint_name": "Point de passage R&amp;D",
+    "chat_link": "[&amp;BBgDAAA=]",
+    "map_id": 62,
+    "map_name": "Rivage maudit"
+  },
+  {
+    "id": 184,
+    "name": "Salon de Wrelk",
+    "waypoint_id": 404,
+    "waypoint_name": "Point de passage d'Almuten",
+    "chat_link": "[&amp;BJQBAAA=]",
+    "map_id": 24,
+    "map_name": "Champs de Gendarran"
+  }
+]

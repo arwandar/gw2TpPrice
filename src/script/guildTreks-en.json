@@ -1,0 +1,1676 @@
+[
+  {
+    "id": 2,
+    "name": "Altar Brook Lair",
+    "waypoint_id": 242,
+    "waypoint_name": "Crossing Waypoint",
+    "chat_link": "[&BPIAAAA=]",
+    "map_id": 15,
+    "map_name": "Queensdale"
+  },
+  {
+    "id": 72,
+    "name": "Anthem's Hold",
+    "waypoint_id": 1764,
+    "waypoint_name": "Shipwreck Rock Waypoint",
+    "chat_link": "[&BOQGAAA=]",
+    "map_id": 62,
+    "map_name": "Cursed Shore"
+  },
+  {
+    "id": 3,
+    "name": "Anya's Patch",
+    "waypoint_id": 222,
+    "waypoint_name": "Nolan Waypoint",
+    "chat_link": "[&BN4AAAA=]",
+    "map_id": 32,
+    "map_name": "Diessa Plateau"
+  },
+  {
+    "id": 4,
+    "name": "Arctodus Haunt",
+    "waypoint_id": 382,
+    "waypoint_name": "Vendrake's Homestead Waypoint",
+    "chat_link": "[&BH4BAAA=]",
+    "map_id": 28,
+    "map_name": "Wayfarer Foothills"
+  },
+  {
+    "id": 69,
+    "name": "Backroot Fountain",
+    "waypoint_id": 1211,
+    "waypoint_name": "Reckoner's Waypoint",
+    "chat_link": "[&BLsEAAA=]",
+    "map_id": 91,
+    "map_name": "The Grove"
+  },
+  {
+    "id": 41,
+    "name": "Badjelly Kelpbed",
+    "waypoint_id": 188,
+    "waypoint_name": "Exile Waypoint",
+    "chat_link": "[&BLwAAAA=]",
+    "map_id": 31,
+    "map_name": "Snowden Drifts"
+  },
+  {
+    "id": 7,
+    "name": "Bandit's Cabbage Patch",
+    "waypoint_id": 168,
+    "waypoint_name": "Wynchona Rally Point Waypoint",
+    "chat_link": "[&BKgAAAA=]",
+    "map_id": 17,
+    "map_name": "Harathi Hinterlands"
+  },
+  {
+    "id": 9,
+    "name": "Beetlestone Mirador",
+    "waypoint_id": 250,
+    "waypoint_name": "Beetletun Waypoint",
+    "chat_link": "[&BPoAAAA=]",
+    "map_id": 15,
+    "map_name": "Queensdale"
+  },
+  {
+    "id": 130,
+    "name": "Black Lion Root Cellar",
+    "waypoint_id": 1211,
+    "waypoint_name": "Reckoner's Waypoint",
+    "chat_link": "[&BLsEAAA=]",
+    "map_id": 91,
+    "map_name": "The Grove"
+  },
+  {
+    "id": 129,
+    "name": "Blackblade Butte",
+    "waypoint_id": 220,
+    "waypoint_name": "Font of Rhand Waypoint",
+    "chat_link": "[&BNwAAAA=]",
+    "map_id": 32,
+    "map_name": "Diessa Plateau"
+  },
+  {
+    "id": 168,
+    "name": "Blasted Sepulchre",
+    "waypoint_id": 218,
+    "waypoint_name": "Blasted Moors Waypoint",
+    "chat_link": "[&BNoAAAA=]",
+    "map_id": 32,
+    "map_name": "Diessa Plateau"
+  },
+  {
+    "id": 10,
+    "name": "Blood Ooze Gallery",
+    "waypoint_id": 429,
+    "waypoint_name": "Mournful Waypoint",
+    "chat_link": "[&BK0BAAA=]",
+    "map_id": 73,
+    "map_name": "Bloodtide Coast"
+  },
+  {
+    "id": 11,
+    "name": "Bluup's Comeuppance",
+    "waypoint_id": 1208,
+    "waypoint_name": "Research Waypoint",
+    "chat_link": "[&BLgEAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 12,
+    "name": "Brandstrike Dig",
+    "waypoint_id": 331,
+    "waypoint_name": "Helliot Mine Waypoint",
+    "chat_link": "[&BEsBAAA=]",
+    "map_id": 21,
+    "map_name": "Fields of Ruin"
+  },
+  {
+    "id": 180,
+    "name": "Briarthorn Barrier",
+    "waypoint_id": 309,
+    "waypoint_name": "Spiral Waypoint",
+    "chat_link": "[&BDUBAAA=]",
+    "map_id": 34,
+    "map_name": "Caledon Forest"
+  },
+  {
+    "id": 131,
+    "name": "Broken Falls Courtyard",
+    "waypoint_id": 940,
+    "waypoint_name": "Ruins of Rin Waypoint",
+    "chat_link": "[&BKwDAAA=]",
+    "map_id": 218,
+    "map_name": "Black Citadel"
+  },
+  {
+    "id": 15,
+    "name": "Broodmother Falls",
+    "waypoint_id": 644,
+    "waypoint_name": "Yak's Bend Waypoint",
+    "chat_link": "[&BIQCAAA=]",
+    "map_id": 30,
+    "map_name": "Frostgorge Sound"
+  },
+  {
+    "id": 14,
+    "name": "Brother's Notch",
+    "waypoint_id": 912,
+    "waypoint_name": "Hero's Compass Waypoint",
+    "chat_link": "[&BJADAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 119,
+    "name": "Burstbubble Blind",
+    "waypoint_id": 850,
+    "waypoint_name": "Soot Road Waypoint",
+    "chat_link": "[&BFIDAAA=]",
+    "map_id": 20,
+    "map_name": "Blazeridge Steppes"
+  },
+  {
+    "id": 172,
+    "name": "Cache of the Pursued",
+    "waypoint_id": 801,
+    "waypoint_name": "Caer Shadowfain Waypoint",
+    "chat_link": "[&BCEDAAA=]",
+    "map_id": 62,
+    "map_name": "Cursed Shore"
+  },
+  {
+    "id": 16,
+    "name": "Cademkrall Overlook",
+    "waypoint_id": 392,
+    "waypoint_name": "Watchcrag Tower Waypoint",
+    "chat_link": "[&BIgBAAA=]",
+    "map_id": 19,
+    "map_name": "Plains of Ashford"
+  },
+  {
+    "id": 98,
+    "name": "Canyonweb Cave",
+    "waypoint_id": 516,
+    "waypoint_name": "Brandview Waypoint",
+    "chat_link": "[&BAQCAAA=]",
+    "map_id": 20,
+    "map_name": "Blazeridge Steppes"
+  },
+  {
+    "id": 81,
+    "name": "Captain's Berth",
+    "waypoint_id": 690,
+    "waypoint_name": "Lights Waypoint",
+    "chat_link": "[&BLICAAA=]",
+    "map_id": 65,
+    "map_name": "Malchor's Leap"
+  },
+  {
+    "id": 17,
+    "name": "Castavall Corner",
+    "waypoint_id": 429,
+    "waypoint_name": "Mournful Waypoint",
+    "chat_link": "[&BK0BAAA=]",
+    "map_id": 73,
+    "map_name": "Bloodtide Coast"
+  },
+  {
+    "id": 78,
+    "name": "Cathedral's Cavity",
+    "waypoint_id": 684,
+    "waypoint_name": "Wren Waypoint",
+    "chat_link": "[&BKwCAAA=]",
+    "map_id": 65,
+    "map_name": "Malchor's Leap"
+  },
+  {
+    "id": 70,
+    "name": "Cave Bear Cache",
+    "waypoint_id": 191,
+    "waypoint_name": "Snowhawk Landing Waypoint",
+    "chat_link": "[&BL8AAAA=]",
+    "map_id": 31,
+    "map_name": "Snowden Drifts"
+  },
+  {
+    "id": 71,
+    "name": "Cave Spider Nidus",
+    "waypoint_id": 408,
+    "waypoint_name": "Pinnacle Enclave Waypoint",
+    "chat_link": "[&BJgBAAA=]",
+    "map_id": 27,
+    "map_name": "Lornar's Pass"
+  },
+  {
+    "id": 158,
+    "name": "Claypool Bailey",
+    "waypoint_id": 246,
+    "waypoint_name": "Claypool Waypoint",
+    "chat_link": "[&BPYAAAA=]",
+    "map_id": 15,
+    "map_name": "Queensdale"
+  },
+  {
+    "id": 148,
+    "name": "Constellation Parapet",
+    "waypoint_id": 1211,
+    "waypoint_name": "Reckoner's Waypoint",
+    "chat_link": "[&BLsEAAA=]",
+    "map_id": 91,
+    "map_name": "The Grove"
+  },
+  {
+    "id": 185,
+    "name": "Corruption's Teeth",
+    "waypoint_id": 646,
+    "waypoint_name": "Drakkar Waypoint",
+    "chat_link": "[&BIYCAAA=]",
+    "map_id": 30,
+    "map_name": "Frostgorge Sound"
+  },
+  {
+    "id": 18,
+    "name": "Covington's Stowage",
+    "waypoint_id": 424,
+    "waypoint_name": "Laughing Gull Waypoint",
+    "chat_link": "[&BKgBAAA=]",
+    "map_id": 73,
+    "map_name": "Bloodtide Coast"
+  },
+  {
+    "id": 62,
+    "name": "Cutthroat's Rest",
+    "waypoint_id": 973,
+    "waypoint_name": "Brigantine Waypoint",
+    "chat_link": "[&BM0DAAA=]",
+    "map_id": 24,
+    "map_name": "Gendarran Fields"
+  },
+  {
+    "id": 19,
+    "name": "Cymbel's Glen",
+    "waypoint_id": 212,
+    "waypoint_name": "Deathblade's Watch Waypoint",
+    "chat_link": "[&BNQAAAA=]",
+    "map_id": 21,
+    "map_name": "Fields of Ruin"
+  },
+  {
+    "id": 94,
+    "name": "Dawngleam Pergola",
+    "waypoint_id": 1212,
+    "waypoint_name": "Ronan's Waypoint",
+    "chat_link": "[&BLwEAAA=]",
+    "map_id": 91,
+    "map_name": "The Grove"
+  },
+  {
+    "id": 157,
+    "name": "Deepmire Diver",
+    "waypoint_id": 721,
+    "waypoint_name": "Oxbow Isle Waypoint",
+    "chat_link": "[&BNECAAA=]",
+    "map_id": 39,
+    "map_name": "Mount Maelstrom"
+  },
+  {
+    "id": 29,
+    "name": "Defiled Delve",
+    "waypoint_id": 17,
+    "waypoint_name": "Darkwound Waypoint",
+    "chat_link": "[&BBEAAAA=]",
+    "map_id": 23,
+    "map_name": "Kessex Hills"
+  },
+  {
+    "id": 6,
+    "name": "Delight's Balcony",
+    "waypoint_id": 678,
+    "waypoint_name": "Pagga's Waypoint",
+    "chat_link": "[&BKYCAAA=]",
+    "map_id": 65,
+    "map_name": "Malchor's Leap"
+  },
+  {
+    "id": 143,
+    "name": "Destiny's Guildhall",
+    "waypoint_id": 239,
+    "waypoint_name": "Shaemoor Waypoint",
+    "chat_link": "[&BO8AAAA=]",
+    "map_id": 15,
+    "map_name": "Queensdale"
+  },
+  {
+    "id": 128,
+    "name": "Dirtclaw Cleft",
+    "waypoint_id": 483,
+    "waypoint_name": "Bloodfin Lake Waypoint",
+    "chat_link": "[&BOMBAAA=]",
+    "map_id": 25,
+    "map_name": "Iron Marches"
+  },
+  {
+    "id": 20,
+    "name": "Doefalls Court",
+    "waypoint_id": 391,
+    "waypoint_name": "Ascalon City Waypoint",
+    "chat_link": "[&BIcBAAA=]",
+    "map_id": 19,
+    "map_name": "Plains of Ashford"
+  },
+  {
+    "id": 88,
+    "name": "Drakecleft Shelf",
+    "waypoint_id": 332,
+    "waypoint_name": "Fangfury Watch Waypoint",
+    "chat_link": "[&BEwBAAA=]",
+    "map_id": 21,
+    "map_name": "Fields of Ruin"
+  },
+  {
+    "id": 87,
+    "name": "Drakehatch Shore",
+    "waypoint_id": 356,
+    "waypoint_name": "Breachwater Waypoint",
+    "chat_link": "[&BGQBAAA=]",
+    "map_id": 32,
+    "map_name": "Diessa Plateau"
+  },
+  {
+    "id": 25,
+    "name": "Droknah's Gate",
+    "waypoint_id": 724,
+    "waypoint_name": "Old Sledge Site Waypoint",
+    "chat_link": "[&BNQCAAA=]",
+    "map_id": 39,
+    "map_name": "Mount Maelstrom"
+  },
+  {
+    "id": 105,
+    "name": "Drowned Plaza",
+    "waypoint_id": 755,
+    "waypoint_name": "Royal Forum Waypoint",
+    "chat_link": "[&BPMCAAA=]",
+    "map_id": 51,
+    "map_name": "Straits of Devastation"
+  },
+  {
+    "id": 102,
+    "name": "East End Falls",
+    "waypoint_id": 96,
+    "waypoint_name": "East End Waypoint",
+    "chat_link": "[&BGAAAAA=]",
+    "map_id": 54,
+    "map_name": "Brisban Wildlands"
+  },
+  {
+    "id": 103,
+    "name": "Eastlurk Alley",
+    "waypoint_id": 803,
+    "waypoint_name": "Dwayna Waypoint",
+    "chat_link": "[&BCMDAAA=]",
+    "map_id": 18,
+    "map_name": "Divinity's Reach"
+  },
+  {
+    "id": 28,
+    "name": "Elise's Surprise",
+    "waypoint_id": 171,
+    "waypoint_name": "Demetra Waypoint",
+    "chat_link": "[&BKsAAAA=]",
+    "map_id": 17,
+    "map_name": "Harathi Hinterlands"
+  },
+  {
+    "id": 33,
+    "name": "Ettinbreath Lair",
+    "waypoint_id": 230,
+    "waypoint_name": "Demon's Maw Waypoint",
+    "chat_link": "[&BOYAAAA=]",
+    "map_id": 27,
+    "map_name": "Lornar's Pass"
+  },
+  {
+    "id": 47,
+    "name": "Fathom Five Forcefield",
+    "waypoint_id": 754,
+    "waypoint_name": "Vesper Bell Waypoint",
+    "chat_link": "[&BPICAAA=]",
+    "map_id": 51,
+    "map_name": "Straits of Devastation"
+  },
+  {
+    "id": 36,
+    "name": "Fawcett's Porch",
+    "waypoint_id": 195,
+    "waypoint_name": "Arcallion Waypoint",
+    "chat_link": "[&BMMAAAA=]",
+    "map_id": 17,
+    "map_name": "Harathi Hinterlands"
+  },
+  {
+    "id": 38,
+    "name": "Fire Imp Pocket",
+    "waypoint_id": 717,
+    "waypoint_name": "Maelstrom's Waypoint",
+    "chat_link": "[&BM0CAAA=]",
+    "map_id": 39,
+    "map_name": "Mount Maelstrom"
+  },
+  {
+    "id": 37,
+    "name": "Firefrog Springs",
+    "waypoint_id": 460,
+    "waypoint_name": "Flamefrog Waypoint",
+    "chat_link": "[&BMwBAAA=]",
+    "map_id": 53,
+    "map_name": "Sparkfly Fen"
+  },
+  {
+    "id": 39,
+    "name": "Firewatch Flybridge",
+    "waypoint_id": 493,
+    "waypoint_name": "Firewatch Encampment Waypoint",
+    "chat_link": "[&BO0BAAA=]",
+    "map_id": 25,
+    "map_name": "Iron Marches"
+  },
+  {
+    "id": 40,
+    "name": "Fisher's Crag",
+    "waypoint_id": 1198,
+    "waypoint_name": "Old Golem Factory Waypoint",
+    "chat_link": "[&BK4EAAA=]",
+    "map_id": 35,
+    "map_name": "Metrica Province"
+  },
+  {
+    "id": 42,
+    "name": "Flakk's Lapidary Nook",
+    "waypoint_id": 1206,
+    "waypoint_name": "Accountancy Waypoint",
+    "chat_link": "[&BLYEAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 1,
+    "name": "Forager's Midden",
+    "waypoint_id": 603,
+    "waypoint_name": "Steelbrachen Waypoint",
+    "chat_link": "[&BFsCAAA=]",
+    "map_id": 26,
+    "map_name": "Dredgehaunt Cliffs"
+  },
+  {
+    "id": 167,
+    "name": "Forbidden Shear",
+    "waypoint_id": 687,
+    "waypoint_name": "Murmur Waypoint",
+    "chat_link": "[&BK8CAAA=]",
+    "map_id": 65,
+    "map_name": "Malchor's Leap"
+  },
+  {
+    "id": 171,
+    "name": "Foreman's Recess",
+    "waypoint_id": 600,
+    "waypoint_name": "Dociu Waypoint",
+    "chat_link": "[&BFgCAAA=]",
+    "map_id": 26,
+    "map_name": "Dredgehaunt Cliffs"
+  },
+  {
+    "id": 169,
+    "name": "Forgotten Grotto",
+    "waypoint_id": 513,
+    "waypoint_name": "Terra Carorunda Waypoint",
+    "chat_link": "[&BAECAAA=]",
+    "map_id": 20,
+    "map_name": "Blazeridge Steppes"
+  },
+  {
+    "id": 43,
+    "name": "Founder's Flagon Hearth",
+    "waypoint_id": 1085,
+    "waypoint_name": "Kestrel Waypoint",
+    "chat_link": "[&BD0EAAA=]",
+    "map_id": 21,
+    "map_name": "Fields of Ruin"
+  },
+  {
+    "id": 45,
+    "name": "Freestand Scaffold",
+    "waypoint_id": 940,
+    "waypoint_name": "Ruins of Rin Waypoint",
+    "chat_link": "[&BKwDAAA=]",
+    "map_id": 218,
+    "map_name": "Black Citadel"
+  },
+  {
+    "id": 51,
+    "name": "Frozen Antrum",
+    "waypoint_id": 591,
+    "waypoint_name": "White Paper Waypoint",
+    "chat_link": "[&BE8CAAA=]",
+    "map_id": 29,
+    "map_name": "Timberline Falls"
+  },
+  {
+    "id": 48,
+    "name": "Gallow Canyons",
+    "waypoint_id": 99,
+    "waypoint_name": "Gallowfields Waypoint",
+    "chat_link": "[&BGMAAAA=]",
+    "map_id": 54,
+    "map_name": "Brisban Wildlands"
+  },
+  {
+    "id": 49,
+    "name": "Gardenroot Alcove",
+    "waypoint_id": 1210,
+    "waypoint_name": "Upper Commons Waypoint",
+    "chat_link": "[&BLoEAAA=]",
+    "map_id": 91,
+    "map_name": "The Grove"
+  },
+  {
+    "id": 55,
+    "name": "Gnashar's Viewpoint",
+    "waypoint_id": 93,
+    "waypoint_name": "Wendon Waypoint",
+    "chat_link": "[&BF0AAAA=]",
+    "map_id": 54,
+    "map_name": "Brisban Wildlands"
+  },
+  {
+    "id": 59,
+    "name": "Green Moa Paddock",
+    "waypoint_id": 316,
+    "waypoint_name": "Caledon Haven Waypoint",
+    "chat_link": "[&BDwBAAA=]",
+    "map_id": 34,
+    "map_name": "Caledon Forest"
+  },
+  {
+    "id": 58,
+    "name": "Grenth's Pavillion",
+    "waypoint_id": 804,
+    "waypoint_name": "Grenth Waypoint",
+    "chat_link": "[&BCQDAAA=]",
+    "map_id": 18,
+    "map_name": "Divinity's Reach"
+  },
+  {
+    "id": 56,
+    "name": "Grimdottir's Duty",
+    "waypoint_id": 907,
+    "waypoint_name": "Shelter Rock Waypoint",
+    "chat_link": "[&BIsDAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 162,
+    "name": "Guardian Overwatch",
+    "waypoint_id": 173,
+    "waypoint_name": "Barricade Camp Waypoint",
+    "chat_link": "[&BK0AAAA=]",
+    "map_id": 17,
+    "map_name": "Harathi Hinterlands"
+  },
+  {
+    "id": 34,
+    "name": "Hawkeye Perch",
+    "waypoint_id": 581,
+    "waypoint_name": "Serpent Waypoint",
+    "chat_link": "[&BEUCAAA=]",
+    "map_id": 29,
+    "map_name": "Timberline Falls"
+  },
+  {
+    "id": 150,
+    "name": "Heart Speaks Notch",
+    "waypoint_id": 541,
+    "waypoint_name": "Apostate Waypoint",
+    "chat_link": "[&BB0CAAA=]",
+    "map_id": 22,
+    "map_name": "Fireheart Rise"
+  },
+  {
+    "id": 67,
+    "name": "Heartwood Honey Cache",
+    "waypoint_id": 243,
+    "waypoint_name": "Phinney Waypoint",
+    "chat_link": "[&BPMAAAA=]",
+    "map_id": 15,
+    "map_name": "Queensdale"
+  },
+  {
+    "id": 65,
+    "name": "Heidi's Showpiece",
+    "waypoint_id": 167,
+    "waypoint_name": "Seraph's Landing Waypoint",
+    "chat_link": "[&BKcAAAA=]",
+    "map_id": 17,
+    "map_name": "Harathi Hinterlands"
+  },
+  {
+    "id": 31,
+    "name": "Hermit's Roost",
+    "waypoint_id": 216,
+    "waypoint_name": "Rosko's Campsite Waypoint",
+    "chat_link": "[&BNgAAAA=]",
+    "map_id": 21,
+    "map_name": "Fields of Ruin"
+  },
+  {
+    "id": 170,
+    "name": "Hidden Owl Distillery",
+    "waypoint_id": 193,
+    "waypoint_name": "Owl Waypoint",
+    "chat_link": "[&BMEAAAA=]",
+    "map_id": 31,
+    "map_name": "Snowden Drifts"
+  },
+  {
+    "id": 66,
+    "name": "Holystone Sanctum",
+    "waypoint_id": 965,
+    "waypoint_name": "Sanctum Waypoint",
+    "chat_link": "[&BMUDAAA=]",
+    "map_id": 32,
+    "map_name": "Diessa Plateau"
+  },
+  {
+    "id": 27,
+    "name": "Icewurm Trench",
+    "waypoint_id": 639,
+    "waypoint_name": "Dimotiki Waypoint",
+    "chat_link": "[&BH8CAAA=]",
+    "map_id": 30,
+    "map_name": "Frostgorge Sound"
+  },
+  {
+    "id": 50,
+    "name": "Ideation Leap",
+    "waypoint_id": 1205,
+    "waypoint_name": "Incubation Waypoint",
+    "chat_link": "[&BLUEAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 80,
+    "name": "Imphaunt Hallow",
+    "waypoint_id": 321,
+    "waypoint_name": "Wychmire Waypoint",
+    "chat_link": "[&BEEBAAA=]",
+    "map_id": 34,
+    "map_name": "Caledon Forest"
+  },
+  {
+    "id": 26,
+    "name": "Irondock Viewpoint",
+    "waypoint_id": 393,
+    "waypoint_name": "Duskrend Overlook Waypoint",
+    "chat_link": "[&BIkBAAA=]",
+    "map_id": 19,
+    "map_name": "Plains of Ashford"
+  },
+  {
+    "id": 73,
+    "name": "Isenfell Wash",
+    "waypoint_id": 184,
+    "waypoint_name": "Isenfall Waypoint",
+    "chat_link": "[&BLgAAAA=]",
+    "map_id": 31,
+    "map_name": "Snowden Drifts"
+  },
+  {
+    "id": 74,
+    "name": "Isgarren Viewpoint",
+    "waypoint_id": 17,
+    "waypoint_name": "Darkwound Waypoint",
+    "chat_link": "[&BBEAAAA=]",
+    "map_id": 23,
+    "map_name": "Kessex Hills"
+  },
+  {
+    "id": 75,
+    "name": "Jaguar Pride Den",
+    "waypoint_id": 71,
+    "waypoint_name": "Muridian Waypoint",
+    "chat_link": "[&BEcAAAA=]",
+    "map_id": 35,
+    "map_name": "Metrica Province"
+  },
+  {
+    "id": 117,
+    "name": "Junker's Apex",
+    "waypoint_id": 1079,
+    "waypoint_name": "Junker's Waypoint",
+    "chat_link": "[&BDcEAAA=]",
+    "map_id": 218,
+    "map_name": "Black Citadel"
+  },
+  {
+    "id": 76,
+    "name": "Kaldar's Hot Seat",
+    "waypoint_id": 909,
+    "waypoint_name": "Eastern Watchpost Waypoint",
+    "chat_link": "[&BI0DAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 77,
+    "name": "Kari's Hot Spot",
+    "waypoint_id": 18,
+    "waypoint_name": "Cereboth Waypoint",
+    "chat_link": "[&BBIAAAA=]",
+    "map_id": 23,
+    "map_name": "Kessex Hills"
+  },
+  {
+    "id": 35,
+    "name": "Kegbrawl Watch",
+    "waypoint_id": 912,
+    "waypoint_name": "Hero's Compass Waypoint",
+    "chat_link": "[&BJADAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 79,
+    "name": "Kevach's Strongroom",
+    "waypoint_id": 961,
+    "waypoint_name": "Lostvyrm Cave Waypoint",
+    "chat_link": "[&BMEDAAA=]",
+    "map_id": 28,
+    "map_name": "Wayfarer Foothills"
+  },
+  {
+    "id": 132,
+    "name": "Lakebottom Underpass",
+    "waypoint_id": 249,
+    "waypoint_name": "Ojon's Lumbermill Waypoint",
+    "chat_link": "[&BPkAAAA=]",
+    "map_id": 15,
+    "map_name": "Queensdale"
+  },
+  {
+    "id": 82,
+    "name": "Lawen Grotto",
+    "waypoint_id": 395,
+    "waypoint_name": "First Haven Waypoint",
+    "chat_link": "[&BIsBAAA=]",
+    "map_id": 24,
+    "map_name": "Gendarran Fields"
+  },
+  {
+    "id": 85,
+    "name": "Lightfoot Dock",
+    "waypoint_id": 752,
+    "waypoint_name": "Thunderhead Waypoint",
+    "chat_link": "[&BPACAAA=]",
+    "map_id": 51,
+    "map_name": "Straits of Devastation"
+  },
+  {
+    "id": 86,
+    "name": "Lily's Bivvy",
+    "waypoint_id": 544,
+    "waypoint_name": "Icespear's Waypoint",
+    "chat_link": "[&BCACAAA=]",
+    "map_id": 22,
+    "map_name": "Fireheart Rise"
+  },
+  {
+    "id": 89,
+    "name": "Lionguard Larder",
+    "waypoint_id": 381,
+    "waypoint_name": "Twinspur Haven Waypoint",
+    "chat_link": "[&BH0BAAA=]",
+    "map_id": 28,
+    "map_name": "Wayfarer Foothills"
+  },
+  {
+    "id": 84,
+    "name": "Lychcroft Wardenship",
+    "waypoint_id": 12,
+    "waypoint_name": "Shadowheart Site Waypoint",
+    "chat_link": "[&BAwAAAA=]",
+    "map_id": 23,
+    "map_name": "Kessex Hills"
+  },
+  {
+    "id": 90,
+    "name": "Magihedron Corner",
+    "waypoint_id": 1043,
+    "waypoint_name": "Metrical Court Waypoint",
+    "chat_link": "[&BBMEAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 63,
+    "name": "Master Control LIN39",
+    "waypoint_id": 71,
+    "waypoint_name": "Muridian Waypoint",
+    "chat_link": "[&BEcAAAA=]",
+    "map_id": 35,
+    "map_name": "Metrica Province"
+  },
+  {
+    "id": 92,
+    "name": "Melandru's Fount",
+    "waypoint_id": 807,
+    "waypoint_name": "Melandru Waypoint",
+    "chat_link": "[&BCcDAAA=]",
+    "map_id": 18,
+    "map_name": "Divinity's Reach"
+  },
+  {
+    "id": 127,
+    "name": "Meltwater Cave",
+    "waypoint_id": 584,
+    "waypoint_name": "Scale Strand Waypoint",
+    "chat_link": "[&BEgCAAA=]",
+    "map_id": 29,
+    "map_name": "Timberline Falls"
+  },
+  {
+    "id": 93,
+    "name": "Minar's Target Shoot",
+    "waypoint_id": 810,
+    "waypoint_name": "Commons Waypoint",
+    "chat_link": "[&BCoDAAA=]",
+    "map_id": 18,
+    "map_name": "Divinity's Reach"
+  },
+  {
+    "id": 96,
+    "name": "Mistriven Shelf",
+    "waypoint_id": 409,
+    "waypoint_name": "Mistriven Waypoint",
+    "chat_link": "[&BJkBAAA=]",
+    "map_id": 27,
+    "map_name": "Lornar's Pass"
+  },
+  {
+    "id": 91,
+    "name": "Moleberia Prison",
+    "waypoint_id": 376,
+    "waypoint_name": "Halvaunt Waypoint",
+    "chat_link": "[&BHgBAAA=]",
+    "map_id": 28,
+    "map_name": "Wayfarer Foothills"
+  },
+  {
+    "id": 95,
+    "name": "Monument to the Ancient One",
+    "waypoint_id": 1752,
+    "waypoint_name": "Owain's Refuge Waypoint",
+    "chat_link": "[&BNgGAAA=]",
+    "map_id": 873,
+    "map_name": "Southsun Cove"
+  },
+  {
+    "id": 30,
+    "name": "Narrowkraal Crossing",
+    "waypoint_id": 335,
+    "waypoint_name": "Ogre Road Waypoint",
+    "chat_link": "[&BE8BAAA=]",
+    "map_id": 21,
+    "map_name": "Fields of Ruin"
+  },
+  {
+    "id": 97,
+    "name": "Necrolith Landing",
+    "waypoint_id": 1042,
+    "waypoint_name": "Caledon Waypoint",
+    "chat_link": "[&BBIEAAA=]",
+    "map_id": 91,
+    "map_name": "The Grove"
+  },
+  {
+    "id": 32,
+    "name": "Orecart Hoist",
+    "waypoint_id": 535,
+    "waypoint_name": "Pig Iron Waypoint",
+    "chat_link": "[&BBcCAAA=]",
+    "map_id": 22,
+    "map_name": "Fireheart Rise"
+  },
+  {
+    "id": 100,
+    "name": "Orvanic Sourcewaters",
+    "waypoint_id": 457,
+    "waypoint_name": "Ocean's Gullet Waypoint",
+    "chat_link": "[&BMkBAAA=]",
+    "map_id": 53,
+    "map_name": "Sparkfly Fen"
+  },
+  {
+    "id": 101,
+    "name": "Osenfold Counterweights",
+    "waypoint_id": 1025,
+    "waypoint_name": "Osenfold Waypoint",
+    "chat_link": "[&BAEEAAA=]",
+    "map_id": 28,
+    "map_name": "Wayfarer Foothills"
+  },
+  {
+    "id": 99,
+    "name": "Overlord Lodge",
+    "waypoint_id": 4,
+    "waypoint_name": "Overlord's Waypoint",
+    "chat_link": "[&BAQAAAA=]",
+    "map_id": 23,
+    "map_name": "Kessex Hills"
+  },
+  {
+    "id": 104,
+    "name": "Phasmatis Prospect",
+    "waypoint_id": 394,
+    "waypoint_name": "Irondock Shipyard Waypoint",
+    "chat_link": "[&BIoBAAA=]",
+    "map_id": 19,
+    "map_name": "Plains of Ashford"
+  },
+  {
+    "id": 106,
+    "name": "Pochtecatl's Desire",
+    "waypoint_id": 431,
+    "waypoint_name": "Jelako Waypoint",
+    "chat_link": "[&BK8BAAA=]",
+    "map_id": 73,
+    "map_name": "Bloodtide Coast"
+  },
+  {
+    "id": 46,
+    "name": "Port Authority Lost and Found",
+    "waypoint_id": 1287,
+    "waypoint_name": "Port Waypoint",
+    "chat_link": "[&BAcFAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 107,
+    "name": "Portmatt's Promontory",
+    "waypoint_id": 420,
+    "waypoint_name": "Sorrowful Waypoint",
+    "chat_link": "[&BKQBAAA=]",
+    "map_id": 73,
+    "map_name": "Bloodtide Coast"
+  },
+  {
+    "id": 108,
+    "name": "Provatum Carcer",
+    "waypoint_id": 550,
+    "waypoint_name": "Keeper's Waypoint",
+    "chat_link": "[&BCYCAAA=]",
+    "map_id": 22,
+    "map_name": "Fireheart Rise"
+  },
+  {
+    "id": 176,
+    "name": "Ramview Peak",
+    "waypoint_id": 612,
+    "waypoint_name": "Travelen's Waypoint",
+    "chat_link": "[&BGQCAAA=]",
+    "map_id": 26,
+    "map_name": "Dredgehaunt Cliffs"
+  },
+  {
+    "id": 112,
+    "name": "Raptor's Aerie",
+    "waypoint_id": 491,
+    "waypoint_name": "Town of Cowlfang's Star Waypoint",
+    "chat_link": "[&BOsBAAA=]",
+    "map_id": 25,
+    "map_name": "Iron Marches"
+  },
+  {
+    "id": 113,
+    "name": "Raptor's Perch",
+    "waypoint_id": 238,
+    "waypoint_name": "Winter Haven Waypoint",
+    "chat_link": "[&BO4AAAA=]",
+    "map_id": 24,
+    "map_name": "Gendarran Fields"
+  },
+  {
+    "id": 114,
+    "name": "Rata Pten Portico",
+    "waypoint_id": 713,
+    "waypoint_name": "Criterion Waypoint",
+    "chat_link": "[&BMkCAAA=]",
+    "map_id": 39,
+    "map_name": "Mount Maelstrom"
+  },
+  {
+    "id": 110,
+    "name": "Raven Nook",
+    "waypoint_id": 904,
+    "waypoint_name": "Raven Waypoint",
+    "chat_link": "[&BIgDAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 115,
+    "name": "Reef Drake Nestling Grounds",
+    "waypoint_id": 1749,
+    "waypoint_name": "Pearl Islet Waypoint",
+    "chat_link": "[&BNUGAAA=]",
+    "map_id": 873,
+    "map_name": "Southsun Cove"
+  },
+  {
+    "id": 116,
+    "name": "Restless Footings",
+    "waypoint_id": 722,
+    "waypoint_name": "Irwin Isle Waypoint",
+    "chat_link": "[&BNICAAA=]",
+    "map_id": 39,
+    "map_name": "Mount Maelstrom"
+  },
+  {
+    "id": 61,
+    "name": "Reverberant's Watch",
+    "waypoint_id": 373,
+    "waypoint_name": "Darkriven Waypoint",
+    "chat_link": "[&BHUBAAA=]",
+    "map_id": 28,
+    "map_name": "Wayfarer Foothills"
+  },
+  {
+    "id": 149,
+    "name": "Risewild Green",
+    "waypoint_id": 423,
+    "waypoint_name": "Remanda Waypoint",
+    "chat_link": "[&BKcBAAA=]",
+    "map_id": 73,
+    "map_name": "Bloodtide Coast"
+  },
+  {
+    "id": 118,
+    "name": "Rurik's View",
+    "waypoint_id": 811,
+    "waypoint_name": "Rurikton Waypoint",
+    "chat_link": "[&BCsDAAA=]",
+    "map_id": 18,
+    "map_name": "Divinity's Reach"
+  },
+  {
+    "id": 121,
+    "name": "Saltflood Altar",
+    "waypoint_id": 455,
+    "waypoint_name": "Saltflood Waypoint",
+    "chat_link": "[&BMcBAAA=]",
+    "map_id": 53,
+    "map_name": "Sparkfly Fen"
+  },
+  {
+    "id": 122,
+    "name": "Sandwurm Prowl",
+    "waypoint_id": 1749,
+    "waypoint_name": "Pearl Islet Waypoint",
+    "chat_link": "[&BNUGAAA=]",
+    "map_id": 873,
+    "map_name": "Southsun Cove"
+  },
+  {
+    "id": 44,
+    "name": "Scholar's Blind",
+    "waypoint_id": 603,
+    "waypoint_name": "Steelbrachen Waypoint",
+    "chat_link": "[&BFsCAAA=]",
+    "map_id": 26,
+    "map_name": "Dredgehaunt Cliffs"
+  },
+  {
+    "id": 52,
+    "name": "Scourgejaw Watchtower",
+    "waypoint_id": 488,
+    "waypoint_name": "Sleekfur Encampment Waypoint",
+    "chat_link": "[&BOgBAAA=]",
+    "map_id": 25,
+    "map_name": "Iron Marches"
+  },
+  {
+    "id": 139,
+    "name": "Scriptorium Nook",
+    "waypoint_id": 935,
+    "waypoint_name": "Factorium Waypoint",
+    "chat_link": "[&BKcDAAA=]",
+    "map_id": 218,
+    "map_name": "Black Citadel"
+  },
+  {
+    "id": 5,
+    "name": "Sea Scorpion's Eye",
+    "waypoint_id": 798,
+    "waypoint_name": "Meddler's Waypoint",
+    "chat_link": "[&BB4DAAA=]",
+    "map_id": 62,
+    "map_name": "Cursed Shore"
+  },
+  {
+    "id": 123,
+    "name": "Sentinel Sink",
+    "waypoint_id": 489,
+    "waypoint_name": "Brandwatch Encampment Waypoint",
+    "chat_link": "[&BOkBAAA=]",
+    "map_id": 25,
+    "map_name": "Iron Marches"
+  },
+  {
+    "id": 57,
+    "name": "Sepulchre Skylight",
+    "waypoint_id": 1234,
+    "waypoint_name": "Rally Waypoint",
+    "chat_link": "[&BNIEAAA=]",
+    "map_id": 51,
+    "map_name": "Straits of Devastation"
+  },
+  {
+    "id": 60,
+    "name": "Sharkhollow's Edge",
+    "waypoint_id": 849,
+    "waypoint_name": "Splintercrest Fort Waypoint",
+    "chat_link": "[&BFEDAAA=]",
+    "map_id": 20,
+    "map_name": "Blazeridge Steppes"
+  },
+  {
+    "id": 186,
+    "name": "Shattered Loft",
+    "waypoint_id": 453,
+    "waypoint_name": "Fort Cadence Waypoint",
+    "chat_link": "[&BMUBAAA=]",
+    "map_id": 53,
+    "map_name": "Sparkfly Fen"
+  },
+  {
+    "id": 133,
+    "name": "Siamoth Refuge",
+    "waypoint_id": 462,
+    "waypoint_name": "Brackwater Waypoint",
+    "chat_link": "[&BM4BAAA=]",
+    "map_id": 53,
+    "map_name": "Sparkfly Fen"
+  },
+  {
+    "id": 134,
+    "name": "Skalecatch Butcher Shop",
+    "waypoint_id": 487,
+    "waypoint_name": "Village of Scalecatch Waypoint",
+    "chat_link": "[&BOcBAAA=]",
+    "map_id": 25,
+    "map_name": "Iron Marches"
+  },
+  {
+    "id": 135,
+    "name": "Skalefound Cove",
+    "waypoint_id": 536,
+    "waypoint_name": "Tuyere Command Post Waypoint",
+    "chat_link": "[&BBgCAAA=]",
+    "map_id": 22,
+    "map_name": "Fireheart Rise"
+  },
+  {
+    "id": 138,
+    "name": "Skalesplash Falls",
+    "waypoint_id": 582,
+    "waypoint_name": "Okarinoo Waypoint",
+    "chat_link": "[&BEYCAAA=]",
+    "map_id": 29,
+    "map_name": "Timberline Falls"
+  },
+  {
+    "id": 136,
+    "name": "Skalestash Hideaway",
+    "waypoint_id": 919,
+    "waypoint_name": "Feritas Waypoint",
+    "chat_link": "[&BJcDAAA=]",
+    "map_id": 19,
+    "map_name": "Plains of Ashford"
+  },
+  {
+    "id": 137,
+    "name": "Skelknest Borehole",
+    "waypoint_id": 636,
+    "waypoint_name": "Slough of Despond Waypoint",
+    "chat_link": "[&BHwCAAA=]",
+    "map_id": 30,
+    "map_name": "Frostgorge Sound"
+  },
+  {
+    "id": 124,
+    "name": "Skibo Hall Dormitory",
+    "waypoint_id": 1209,
+    "waypoint_name": "Auxiliary Waypoint",
+    "chat_link": "[&BLkEAAA=]",
+    "map_id": 139,
+    "map_name": "Rata Sum"
+  },
+  {
+    "id": 68,
+    "name": "Skyshine Scratch",
+    "waypoint_id": 169,
+    "waypoint_name": "Grey Gritta's Waypoint",
+    "chat_link": "[&BKkAAAA=]",
+    "map_id": 17,
+    "map_name": "Harathi Hinterlands"
+  },
+  {
+    "id": 126,
+    "name": "Snowden Safehouse",
+    "waypoint_id": 185,
+    "waypoint_name": "Snowdrift Haven Waypoint",
+    "chat_link": "[&BLkAAAA=]",
+    "map_id": 31,
+    "map_name": "Snowden Drifts"
+  },
+  {
+    "id": 125,
+    "name": "Snowhowl Den",
+    "waypoint_id": 191,
+    "waypoint_name": "Snowhawk Landing Waypoint",
+    "chat_link": "[&BL8AAAA=]",
+    "map_id": 31,
+    "map_name": "Snowden Drifts"
+  },
+  {
+    "id": 141,
+    "name": "Soggorsort Rotunda",
+    "waypoint_id": 319,
+    "waypoint_name": "Hamlet of Annwen Waypoint",
+    "chat_link": "[&BD8BAAA=]",
+    "map_id": 34,
+    "map_name": "Caledon Forest"
+  },
+  {
+    "id": 142,
+    "name": "Soran Draa Rest Stop",
+    "waypoint_id": 64,
+    "waypoint_name": "Soren Draa Waypoint",
+    "chat_link": "[&BEAAAAA=]",
+    "map_id": 35,
+    "map_name": "Metrica Province"
+  },
+  {
+    "id": 109,
+    "name": "Source of Lament",
+    "waypoint_id": 641,
+    "waypoint_name": "Skyheight Steading Waypoint",
+    "chat_link": "[&BIECAAA=]",
+    "map_id": 30,
+    "map_name": "Frostgorge Sound"
+  },
+  {
+    "id": 140,
+    "name": "Sparwind's Lounge",
+    "waypoint_id": 941,
+    "waypoint_name": "Imperator's Waypoint",
+    "chat_link": "[&BK0DAAA=]",
+    "map_id": 218,
+    "map_name": "Black Citadel"
+  },
+  {
+    "id": 54,
+    "name": "Spectrehaunt Socket",
+    "waypoint_id": 690,
+    "waypoint_name": "Lights Waypoint",
+    "chat_link": "[&BLICAAA=]",
+    "map_id": 65,
+    "map_name": "Malchor's Leap"
+  },
+  {
+    "id": 21,
+    "name": "Steampipe Perch",
+    "waypoint_id": 1744,
+    "waypoint_name": "Lion Point Waypoint",
+    "chat_link": "[&BNAGAAA=]",
+    "map_id": 873,
+    "map_name": "Southsun Cove"
+  },
+  {
+    "id": 22,
+    "name": "Steamscrap Overlook",
+    "waypoint_id": 234,
+    "waypoint_name": "Lamentation Waypoint",
+    "chat_link": "[&BOoAAAA=]",
+    "map_id": 27,
+    "map_name": "Lornar's Pass"
+  },
+  {
+    "id": 23,
+    "name": "Steamy Steps",
+    "waypoint_id": 1744,
+    "waypoint_name": "Lion Point Waypoint",
+    "chat_link": "[&BNAGAAA=]",
+    "map_id": 873,
+    "map_name": "Southsun Cove"
+  },
+  {
+    "id": 144,
+    "name": "Steelband's Tunnel",
+    "waypoint_id": 507,
+    "waypoint_name": "Tumok's Waypoint",
+    "chat_link": "[&BPsBAAA=]",
+    "map_id": 20,
+    "map_name": "Blazeridge Steppes"
+  },
+  {
+    "id": 147,
+    "name": "Stentor Shelter",
+    "waypoint_id": 749,
+    "waypoint_name": "Signal Peak Waypoint",
+    "chat_link": "[&BO0CAAA=]",
+    "map_id": 51,
+    "map_name": "Straits of Devastation"
+  },
+  {
+    "id": 146,
+    "name": "Stonebore Spiderhole",
+    "waypoint_id": 396,
+    "waypoint_name": "Talajian Waypoint",
+    "chat_link": "[&BIwBAAA=]",
+    "map_id": 24,
+    "map_name": "Gendarran Fields"
+  },
+  {
+    "id": 145,
+    "name": "Strongpaw's Garden",
+    "waypoint_id": 221,
+    "waypoint_name": "Nageling Waypoint",
+    "chat_link": "[&BN0AAAA=]",
+    "map_id": 32,
+    "map_name": "Diessa Plateau"
+  },
+  {
+    "id": 154,
+    "name": "Tactical Retreat",
+    "waypoint_id": 1764,
+    "waypoint_name": "Shipwreck Rock Waypoint",
+    "chat_link": "[&BOQGAAA=]",
+    "map_id": 62,
+    "map_name": "Cursed Shore"
+  },
+  {
+    "id": 151,
+    "name": "Talus Steps",
+    "waypoint_id": 580,
+    "waypoint_name": "Talus Waypoint",
+    "chat_link": "[&BEQCAAA=]",
+    "map_id": 29,
+    "map_name": "Timberline Falls"
+  },
+  {
+    "id": 152,
+    "name": "Tarstar Copse",
+    "waypoint_id": 541,
+    "waypoint_name": "Apostate Waypoint",
+    "chat_link": "[&BB0CAAA=]",
+    "map_id": 22,
+    "map_name": "Fireheart Rise"
+  },
+  {
+    "id": 155,
+    "name": "Tekki's Drawing Board",
+    "waypoint_id": 101,
+    "waypoint_name": "Ulta Metamagicals Waypoint",
+    "chat_link": "[&BGUAAAA=]",
+    "map_id": 54,
+    "map_name": "Brisban Wildlands"
+  },
+  {
+    "id": 156,
+    "name": "Thaumanova Spillway",
+    "waypoint_id": 71,
+    "waypoint_name": "Muridian Waypoint",
+    "chat_link": "[&BEcAAAA=]",
+    "map_id": 35,
+    "map_name": "Metrica Province"
+  },
+  {
+    "id": 24,
+    "name": "The Karka Club",
+    "waypoint_id": 1749,
+    "waypoint_name": "Pearl Islet Waypoint",
+    "chat_link": "[&BNUGAAA=]",
+    "map_id": 873,
+    "map_name": "Southsun Cove"
+  },
+  {
+    "id": 120,
+    "name": "The People's Deadlock",
+    "waypoint_id": 633,
+    "waypoint_name": "Groznev Waypoint",
+    "chat_link": "[&BHkCAAA=]",
+    "map_id": 30,
+    "map_name": "Frostgorge Sound"
+  },
+  {
+    "id": 53,
+    "name": "The Workers' Stores",
+    "waypoint_id": 602,
+    "waypoint_name": "Grey Road Waypoint",
+    "chat_link": "[&BFoCAAA=]",
+    "map_id": 26,
+    "map_name": "Dredgehaunt Cliffs"
+  },
+  {
+    "id": 153,
+    "name": "Togatl Shore",
+    "waypoint_id": 16,
+    "waypoint_name": "Viathan Waypoint",
+    "chat_link": "[&BBAAAAA=]",
+    "map_id": 23,
+    "map_name": "Kessex Hills"
+  },
+  {
+    "id": 161,
+    "name": "Tower of Tribulation",
+    "waypoint_id": 1343,
+    "waypoint_name": "Sorrow's Embrace Waypoint",
+    "chat_link": "[&BD8FAAA=]",
+    "map_id": 26,
+    "map_name": "Dredgehaunt Cliffs"
+  },
+  {
+    "id": 159,
+    "name": "Toxal Spill",
+    "waypoint_id": 101,
+    "waypoint_name": "Ulta Metamagicals Waypoint",
+    "chat_link": "[&BGUAAAA=]",
+    "map_id": 54,
+    "map_name": "Brisban Wildlands"
+  },
+  {
+    "id": 64,
+    "name": "Trader's Stash",
+    "waypoint_id": 902,
+    "waypoint_name": "Trade Commons Waypoint",
+    "chat_link": "[&BIYDAAA=]",
+    "map_id": 326,
+    "map_name": "Hoelbrak"
+  },
+  {
+    "id": 160,
+    "name": "Trolltrap Pit",
+    "waypoint_id": 233,
+    "waypoint_name": "Durmand Priory Waypoint",
+    "chat_link": "[&BOkAAAA=]",
+    "map_id": 27,
+    "map_name": "Lornar's Pass"
+  },
+  {
+    "id": 13,
+    "name": "Turai Tavern Stillroom",
+    "waypoint_id": 808,
+    "waypoint_name": "Balthazar Waypoint",
+    "chat_link": "[&BCgDAAA=]",
+    "map_id": 18,
+    "map_name": "Divinity's Reach"
+  },
+  {
+    "id": 163,
+    "name": "Ulta Scraproom",
+    "waypoint_id": 101,
+    "waypoint_name": "Ulta Metamagicals Waypoint",
+    "chat_link": "[&BGUAAAA=]",
+    "map_id": 54,
+    "map_name": "Brisban Wildlands"
+  },
+  {
+    "id": 164,
+    "name": "Unseen Scratch",
+    "waypoint_id": 316,
+    "waypoint_name": "Caledon Haven Waypoint",
+    "chat_link": "[&BDwBAAA=]",
+    "map_id": 34,
+    "map_name": "Caledon Forest"
+  },
+  {
+    "id": 165,
+    "name": "Upsilon Hyperboloid",
+    "waypoint_id": 680,
+    "waypoint_name": "Waste Hollows Waypoint",
+    "chat_link": "[&BKgCAAA=]",
+    "map_id": 65,
+    "map_name": "Malchor's Leap"
+  },
+  {
+    "id": 166,
+    "name": "Usharr's Threshold",
+    "waypoint_id": 459,
+    "waypoint_name": "Toade's Head Waypoint",
+    "chat_link": "[&BMsBAAA=]",
+    "map_id": 53,
+    "map_name": "Sparkfly Fen"
+  },
+  {
+    "id": 83,
+    "name": "Vacant Hermitage",
+    "waypoint_id": 511,
+    "waypoint_name": "Guardian Stone Waypoint",
+    "chat_link": "[&BP8BAAA=]",
+    "map_id": 20,
+    "map_name": "Blazeridge Steppes"
+  },
+  {
+    "id": 179,
+    "name": "Venison Hollow",
+    "waypoint_id": 229,
+    "waypoint_name": "Vanjir's Stead Waypoint",
+    "chat_link": "[&BOUAAAA=]",
+    "map_id": 27,
+    "map_name": "Lornar's Pass"
+  },
+  {
+    "id": 8,
+    "name": "Verdance Font",
+    "waypoint_id": 795,
+    "waypoint_name": "Verdance Waypoint",
+    "chat_link": "[&BBsDAAA=]",
+    "map_id": 62,
+    "map_name": "Cursed Shore"
+  },
+  {
+    "id": 175,
+    "name": "Vizier's Anteport",
+    "waypoint_id": 759,
+    "waypoint_name": "Lone Post Waypoint",
+    "chat_link": "[&BPcCAAA=]",
+    "map_id": 51,
+    "map_name": "Straits of Devastation"
+  },
+  {
+    "id": 174,
+    "name": "Wassa's Terrace",
+    "waypoint_id": 395,
+    "waypoint_name": "First Haven Waypoint",
+    "chat_link": "[&BIsBAAA=]",
+    "map_id": 24,
+    "map_name": "Gendarran Fields"
+  },
+  {
+    "id": 173,
+    "name": "Watchpoint Decimus",
+    "waypoint_id": 920,
+    "waypoint_name": "Guardpoint Decimus Waypoint",
+    "chat_link": "[&BJgDAAA=]",
+    "map_id": 19,
+    "map_name": "Plains of Ashford"
+  },
+  {
+    "id": 111,
+    "name": "Wheelport Pub",
+    "waypoint_id": 933,
+    "waypoint_name": "Mustering Ground Waypoint",
+    "chat_link": "[&BKUDAAA=]",
+    "map_id": 218,
+    "map_name": "Black Citadel"
+  },
+  {
+    "id": 183,
+    "name": "Whitland Sinkhole",
+    "waypoint_id": 724,
+    "waypoint_name": "Old Sledge Site Waypoint",
+    "chat_link": "[&BNQCAAA=]",
+    "map_id": 39,
+    "map_name": "Mount Maelstrom"
+  },
+  {
+    "id": 177,
+    "name": "Widd's Folly",
+    "waypoint_id": 314,
+    "waypoint_name": "Mabon Waypoint",
+    "chat_link": "[&BDoBAAA=]",
+    "map_id": 34,
+    "map_name": "Caledon Forest"
+  },
+  {
+    "id": 178,
+    "name": "Wikk's Gate",
+    "waypoint_id": 588,
+    "waypoint_name": "Valance Tutory Waypoint",
+    "chat_link": "[&BEwCAAA=]",
+    "map_id": 29,
+    "map_name": "Timberline Falls"
+  },
+  {
+    "id": 181,
+    "name": "Wildflame Monitor",
+    "waypoint_id": 64,
+    "waypoint_name": "Soren Draa Waypoint",
+    "chat_link": "[&BEAAAAA=]",
+    "map_id": 35,
+    "map_name": "Metrica Province"
+  },
+  {
+    "id": 182,
+    "name": "Winterknell Impasse",
+    "waypoint_id": 792,
+    "waypoint_name": "R&D Waypoint",
+    "chat_link": "[&BBgDAAA=]",
+    "map_id": 62,
+    "map_name": "Cursed Shore"
+  },
+  {
+    "id": 184,
+    "name": "Wrelk's Salon",
+    "waypoint_id": 404,
+    "waypoint_name": "Almuten Waypoint",
+    "chat_link": "[&BJQBAAA=]",
+    "map_id": 24,
+    "map_name": "Gendarran Fields"
+  }
+]

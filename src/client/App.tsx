@@ -6,12 +6,18 @@ import { AccountCircle } from "@mui/icons-material";
 import ApiKeysModal from "./components/ApiKeysModal";
 import CurrentOrderModal from "./components/CurrentOrderModal/CurrentOrderModal";
 import EfficiencyGenerator from "./pages/EfficiencyGenerator/EfficiencyGenerator";
+import GuildTreks from "./pages/GuildTraks/GuildTreks";
 import ListingModal from "./components/ListingModal/ListingModal";
 import RecipesProcess from "./pages/RecipesProcess/RecipesProcess";
 import TpPrices from "./pages/TpPrices/TpPrices";
 import { useState } from "react";
 
-const pages = ["TpPrices", "RecipesProcess", "EfficiencyGenerator"];
+const pages = [
+  "TpPrices",
+  "RecipesProcess",
+  "EfficiencyGenerator",
+  "GuildTreks",
+];
 
 function App() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -84,6 +90,7 @@ function App() {
         {currentContent === "TpPrices" && <TpPrices />}
         {currentContent === "RecipesProcess" && <RecipesProcess />}
         {currentContent === "EfficiencyGenerator" && <EfficiencyGenerator />}
+        {currentContent === "GuildTreks" && <GuildTreks />}
       </div>
     </>
   );
