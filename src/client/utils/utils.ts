@@ -1,3 +1,4 @@
+import { Option as OptionType } from "./type";
 import items from "./items.json";
 
 export const getId = (label: string) => {
@@ -35,7 +36,7 @@ const getType = (label: string, id: number) => {
   return "XXX";
 };
 
-export const getOptions = () =>
+export const getOptions: () => OptionType[] = () =>
   Object.entries(items).map(([label, id]) => ({
     label,
     id,

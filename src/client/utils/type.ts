@@ -78,3 +78,18 @@ export type Trek = {
   chatCode: string;
   searchFr: string;
 };
+
+export type Option = {
+  id: number;
+  label: string;
+  type?: string;
+};
+
+export const isOption = (obj: unknown): obj is Option => {
+  return (
+    typeof obj === "object" &&
+    obj !== null &&
+    typeof (obj as Option).id === "number" &&
+    typeof (obj as Option).label === "string"
+  );
+};
