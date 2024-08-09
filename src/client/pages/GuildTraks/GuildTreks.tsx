@@ -8,7 +8,7 @@ import {
   TableRow,
   TextField,
 } from "@mui/material";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 
 import DialogResult from "./ResultDialog";
 import Row from "./Row";
@@ -27,6 +27,7 @@ const GuildTreks = () => {
     order: "asc",
   });
   const [search, setSearch] = useState("");
+  const ref = useRef<HTMLInputElement>(null);
 
   const [selectedTrekIds, setSelectedTrekIds] = useState<number[]>([]);
 
@@ -56,10 +57,12 @@ const GuildTreks = () => {
   );
 
   const handleSelect = (id: number) => {
-    console.log(name);
     setSelectedTrekIds((prev) =>
       prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
     );
+
+    setSearch("");
+    ref.current?.focus();
   };
 
   const handleSort = (key: SortKey) => {
@@ -87,6 +90,8 @@ const GuildTreks = () => {
         onChange={handleSearch}
         fullWidth
         variant="standard"
+        inputRef={ref}
+        autoFocus
       />
       <DialogResult selectedTreks={selectedTracks} />
       <TableContainer component={Paper}>
