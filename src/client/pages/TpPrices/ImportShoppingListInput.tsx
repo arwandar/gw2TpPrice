@@ -1,10 +1,11 @@
-import { Button, styled } from "@mui/material";
 import { ChangeEvent, useContext } from "react";
 
 import { CloudUpload } from "@mui/icons-material";
+import { Button, styled } from "@mui/material";
+
 import { Context } from "../../Context";
 import { Item } from "../../utils/type";
-import { getId } from "../../utils/utils";
+import { getBuyableId } from "../../utils/utils";
 
 const VisuallyHiddenInput = styled("input")({
   clip: "rect(0 0 0 0)",
@@ -29,7 +30,7 @@ const ImportShoppingList = () => {
     reader.onload = () => {
       if (reader.result && typeof reader.result === "string") {
         const rows = reader.result.split("\n");
-        const header = rows[0].split(",");
+        const header = rows[0].split(",").map((h) => h.trim());
 
         const arrayOfObjects = rows
           .slice(1)
@@ -39,15 +40,17 @@ const ImportShoppingList = () => {
             for (let i = 0; i < header.length; i++) {
               obj[header[i]] = values[i];
             }
+            console.log("obj", obj);
             return obj;
           })
           .map((row: Record<string, string>) => {
             const obj: Item = {
-              count: parseInt(row["Shopping List Amount"]),
-              name: row["Name"],
-              id: getId(row["Name"]) || 0,
-              price: parseInt(row["Price Each"]),
+              count: parseInt(row["Montant de la liste de courses"]),
+              name: row["Nom"],
+              id: getBuyableId(row["ID de l'article"]),
+              price: parseInt(row["Prix unitaire"]),
             };
+            console.log("obj2", obj);
             return obj;
           })
           .filter((item) => item.id !== 0 && item.count > 0);
