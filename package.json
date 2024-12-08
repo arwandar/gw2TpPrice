@@ -1,7 +1,7 @@
 {
   "name": "vite-react-typescript-starter",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.1.1",
   "type": "module",
   "scripts": {
     "dev": "nodemon -w src/server -x tsx src/server/main.ts",
@@ -10,7 +10,8 @@
     "itemsList": "nodemon -w src/script/itemsList.js src/script/itemsList.js",
     "recipesList": "nodemon -w src/script/recipesList.js src/script/recipesList.js",
     "legendaries": "nodemon -w src/script/legendaries.js src/script/legendaries.js",
-    "guildTreks": "nodemon -w src/script/guildTreks.js src/script/guildTreks.js"
+    "guildTreks": "nodemon -w src/script/guildTreks.js src/script/guildTreks.js",
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "@emotion/react": "^11.13.5",
