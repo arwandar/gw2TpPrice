@@ -84,3 +84,33 @@ export const getAchievements = async (ids?: number[]) => {
     return [];
   }
 };
+
+export const getMaterialStorage = async (): Promise<
+  {
+    id: number;
+    count: number;
+    binding?: "Account";
+    category: number;
+  }[]
+> => {
+  const apiKey = localStorage.getItem("apiKey");
+  if (!apiKey) return [];
+
+  try {
+    const res = await fetch(
+      `https://api.guildwars2.com/v2/account/materials?access_token=${apiKey}`
+    );
+    const response = await res.json();
+    return response;
+  } catch (error) {
+    console.error(error);
+    return [];
+  }
+};
+
+export const getLabelById = async (idToFind: number): Promise<string> => {
+  const res = await fetch(`https://api.guildwars2.com/v2/items/${idToFind}`);
+  const response = await res.json();
+
+  return response.name;
+};

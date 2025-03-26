@@ -11,12 +11,14 @@ import ListingModal from "./components/ListingModal/ListingModal";
 import RecipesProcess from "./pages/RecipesProcess/RecipesProcess";
 import TpPrices from "./pages/TpPrices/TpPrices";
 import { useState } from "react";
+import CleanStorage from "./pages/CleanStorage/CleanStorage";
 
 const pages = [
   "TpPrices",
   "RecipesProcess",
   "EfficiencyGenerator",
   "GuildTreks",
+  "CleanStorage"
 ];
 
 function App() {
@@ -91,6 +93,7 @@ function App() {
         {currentContent === "RecipesProcess" && <RecipesProcess />}
         {currentContent === "EfficiencyGenerator" && <EfficiencyGenerator />}
         {currentContent === "GuildTreks" && <GuildTreks />}
+        {currentContent === "CleanStorage" && <CleanStorage/>}
       </div>
     </>
   );
