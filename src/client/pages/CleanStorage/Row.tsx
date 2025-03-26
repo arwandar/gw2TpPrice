@@ -13,7 +13,7 @@ const Row = ({ row }: { row: Item }) => {
 
   useEffect(() => {
     const getPrice = async () => {
-      const res = await getPriceById(row.id);
+      const res = await getPriceById(row.id, true);
       setPrice(res);
     };
 

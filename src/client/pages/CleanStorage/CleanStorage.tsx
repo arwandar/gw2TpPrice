@@ -13,15 +13,6 @@ import {
 import Row from "./Row";
 import { Item } from "./type";
 
-const categories = [
-  { label: "Matériaux de cuisine", limit: 750, category: 5 },
-  { label: "Matériaux d'artisanat basiques", limit: 1000, category: 6 },
-  { label: "Matériaux d'artisanat intermédiaires", limit: 750, category: 29 },
-  { label: "Pierres précieuses et joyaux", limit: 750, category: 30 },
-  { label: "Matériaux d'artisanat avancé", limit: 1000, category: 37 },
-  { label: "Matériaux de festival", limit: 750, category: 38 },
-];
-
 enum SortKey {
   id = "id",
   category = "category",
@@ -40,6 +31,35 @@ const CleanStorage = () => {
 
   const getStorage = async () => {
     const res = await getMaterialStorage();
+    const maxStorage = parseInt(
+      localStorage.getItem("mainStorageMax") || "0",
+      10
+    );
+
+    const categories = [
+      { label: "Matériaux de cuisine", limit: maxStorage - 250, category: 5 },
+      {
+        label: "Matériaux d'artisanat basiques",
+        limit: maxStorage - 100,
+        category: 6,
+      },
+      {
+        label: "Matériaux d'artisanat intermédiaires",
+        limit: maxStorage - 250,
+        category: 29,
+      },
+      {
+        label: "Pierres précieuses et joyaux",
+        limit: maxStorage - 250,
+        category: 30,
+      },
+      {
+        label: "Matériaux d'artisanat avancé",
+        limit: maxStorage - 250,
+        category: 37,
+      },
+      { label: "Matériaux de festival", limit: maxStorage - 250, category: 38 },
+    ];
 
     const getLimit = (category: number) => {
       const cat = categories.find((c) => c.category === category);
