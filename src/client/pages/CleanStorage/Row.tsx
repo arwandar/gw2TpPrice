@@ -36,7 +36,9 @@ const Row = ({ row }: { row: Item }) => {
         {row.id}
       </TableCell>
       <TableCell>{row.category}</TableCell>
-      <TableCell>{label}</TableCell>
+      <TableCell onClick={() => navigator.clipboard.writeText(label || "")}>
+        {label}
+      </TableCell>
       <TableCell align="right">{row.count}</TableCell>
       <TableCell align="right">
         <Price price={price} />
