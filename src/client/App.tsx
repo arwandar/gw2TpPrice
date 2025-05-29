@@ -18,12 +18,12 @@ const pages = [
   "RecipesProcess",
   "EfficiencyGenerator",
   "GuildTreks",
-  "CleanStorage"
+  "CleanStorage",
 ];
 
 function App() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-  const [currentContent, setCurrentContent] = useState("TpPrices");
+  const [currentContent, setCurrentContent] = useState("EfficiencyGenerator");
 
   const handleMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
@@ -93,7 +93,7 @@ function App() {
         {currentContent === "RecipesProcess" && <RecipesProcess />}
         {currentContent === "EfficiencyGenerator" && <EfficiencyGenerator />}
         {currentContent === "GuildTreks" && <GuildTreks />}
-        {currentContent === "CleanStorage" && <CleanStorage/>}
+        {currentContent === "CleanStorage" && <CleanStorage />}
       </div>
     </>
   );

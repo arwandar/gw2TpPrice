@@ -11,7 +11,6 @@ try {
   let tpIds = await res.json();
 
   do {
-    console.log("Process: ", page);
     const res = await fetch(
       `https://api.guildwars2.com/v2/items?page=${page}&page_size=200&lang=fr`
     );
@@ -41,4 +40,3 @@ try {
 } catch (error) {
   console.error(error);
 }
-a;

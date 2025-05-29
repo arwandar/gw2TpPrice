@@ -28,7 +28,6 @@ const QuickPrice = () => {
   }, [selectedOption, isSelling]);
 
   const handleSelectItem = (selected: unknown) => {
-    console.log(selected);
     if (isOption(selected)) {
       setSelectedOption(selected);
     } else {

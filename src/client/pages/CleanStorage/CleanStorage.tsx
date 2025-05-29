@@ -74,7 +74,6 @@ const CleanStorage = () => {
           label: getLabel(item.id),
         };
       });
-    console.log("toSellLocal", toSellLocal);
 
     setToSell(toSellLocal);
   };

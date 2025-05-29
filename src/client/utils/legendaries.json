@@ -1,508 +1,1754 @@
 [
   {
-    "type": "Hache",
-    "idLeg": 30684,
-    "idLegSkin": 4674,
-    "leg": "Givrecroc",
-    "idPrecu": 29166,
-    "idPrecuSkin": 6509,
-    "idPrecuAchiev": 2393,
-    "precu": "Dent de Givrecroc",
-    "idPerf": 71910,
-    "idPerfSkin": 3930,
-    "idPerfAchiev": 2606,
-    "perf": "Hache perfectionnée",
-    "idProto": 76795,
-    "idProtoSkin": 6525,
-    "idProtoAchiev": 2478,
-    "proto": "Prototype de Dent de Givrecroc",
-    "iconLeg": "https://render.guildwars2.com/file/0F9C08DE12ADD1082A103DC6EF7401281B23985E/456009.png",
-    "iconPrecu": "https://render.guildwars2.com/file/3D361A4B187B5747FED095C6D5431EB3E65B01FB/1200349.png",
-    "iconPerf": "https://render.guildwars2.com/file/9D0C36ED78F79EF562A610A6680180A2280CFF62/534159.png",
-    "iconProto": "https://render.guildwars2.com/file/0F680B9CD990697C7AAD0C4BADA1FF220C07171B/1200392.png"
+    "id": 83162,
+    "maxCount": 1,
+    "name": "Manchettes glorieuses ardentes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/499A0D7A4158E5DB0F1D0E5811699AED01550DF0/1614752.png",
+    "details": { "type": "Gloves", "weight": "Light", "provenance": "PvP" }
   },
   {
-    "type": "Dague",
-    "idLeg": 30687,
-    "idLegSkin": 4682,
-    "leg": "Incinératrice",
-    "idPrecu": 29167,
-    "idPrecuSkin": 6259,
-    "idPrecuAchiev": 2502,
-    "precu": "Étincelle",
-    "idPerf": 77156,
-    "idPerfSkin": 4751,
-    "idPerfAchiev": 2458,
-    "perf": "Dague perfectionnée",
-    "idProto": 72827,
-    "idProtoSkin": 6182,
-    "idProtoAchiev": 2564,
-    "proto": "Prototype d'Étincelle",
-    "iconLeg": "https://render.guildwars2.com/file/D9B12A1EBEDC04047295CF0A66E43E650297D429/456012.png",
-    "iconPrecu": "https://render.guildwars2.com/file/C90B71ED53030EB7422A9F59F17C492BC9E2DBE7/1202122.png",
-    "iconPerf": "https://render.guildwars2.com/file/ACF64BCDEEA67430B47759CCBC9957D2A31BF705/340677.png",
-    "iconProto": "https://render.guildwars2.com/file/7DAE7831C15C03EA2CE5D7E149C1AC26AE369609/1202161.png"
+    "id": 93105,
+    "maxCount": 2,
+    "name": "Confluence",
+    "type": "Trinket",
+    "icon": "https://render.guildwars2.com/file/170765A1B5C5A90C430BD04479DABC10B1AF7E01/2270744.png",
+    "details": { "provenance": "WvW" }
   },
   {
-    "type": "Masse",
-    "idLeg": 30692,
-    "idLegSkin": 4670,
-    "leg": "La Herse",
-    "idPrecu": 29173,
-    "idPrecuSkin": 6265,
-    "idPrecuAchiev": 2374,
-    "precu": "L'Énergiseur",
-    "idPerf": 74020,
-    "idPerfSkin": 4311,
-    "idPerfAchiev": 2291,
-    "perf": "Masse perfectionnée",
-    "idProto": 70610,
-    "idProtoSkin": 6314,
-    "idProtoAchiev": 2177,
-    "proto": "Prototype de l'Énergiseur",
-    "iconLeg": "https://render.guildwars2.com/file/C0302BC8DDD84D20F0B73C1D702438F5534F3308/456017.png",
-    "iconPrecu": "https://render.guildwars2.com/file/4BD07B7E400564DBBF5060611400F2CA1FD874F1/1203189.png",
-    "iconPerf": "https://render.guildwars2.com/file/9AC9B2B03F6E180E1316963ECFCB2B0DF8780C90/780596.png",
-    "iconProto": "https://render.guildwars2.com/file/9C4157B2D9316F5DA4B203DA129153DD9FFAB45D/1203209.png"
+    "id": 80111,
+    "maxCount": 1,
+    "name": "Gants d'émissaire perfectionnés",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/9703DBC0926F6BB4072032E6B55BE593F6B750CD/1634575.png",
+    "details": { "type": "Gloves", "weight": "Light", "provenance": "HL" }
   },
   {
-    "type": "Pistolet",
-    "idLeg": 30693,
-    "idLegSkin": 4668,
-    "leg": "Répartie",
-    "idPrecu": 29174,
-    "idPrecuSkin": 6240,
-    "idPrecuAchiev": 2524,
-    "precu": "Fusil du chaos",
-    "idPerf": 73023,
-    "idPerfSkin": 4695,
-    "idPerfAchiev": 2498,
-    "perf": "Pistolet perfectionné",
-    "idProto": 75846,
-    "idProtoSkin": 6490,
-    "idProtoAchiev": 2389,
-    "proto": "Prototype de Fusil du chaos",
-    "iconLeg": "https://render.guildwars2.com/file/03342FFE0E35B35D5207B65ECB0C1D06442377AB/456018.png",
-    "iconPrecu": "https://render.guildwars2.com/file/5B770B9432601D04CFD235E4712B52927EDF734B/1204293.png",
-    "iconPerf": "https://render.guildwars2.com/file/11A76BF80C05B219DE5C460F180AD52174D84D19/534303.png",
-    "iconProto": "https://render.guildwars2.com/file/28D1BD7D94CC736E41017945CD94F12D730EB927/1204321.png"
+    "id": 72713,
+    "maxCount": 4,
+    "name": "ESPOIR",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/08DBF1507C304507F618C0C4217E96074E1DD4EB/1204299.png",
+    "details": {
+      "type": "Pistol",
+      "precuName": "Prototype",
+      "extension": "Heart of Thorns"
+    }
   },
   {
-    "type": "Sceptre",
-    "idLeg": 30695,
-    "idLegSkin": 4673,
-    "leg": "Météorologicus",
-    "idPrecu": 29176,
-    "idPrecuSkin": 6269,
-    "idPrecuAchiev": 2449,
-    "precu": "Tempête",
-    "idPerf": 71886,
-    "idPerfSkin": 4822,
-    "idPerfAchiev": 2391,
-    "perf": "Sceptre perfectionné",
-    "idProto": 74655,
-    "idProtoSkin": 6278,
-    "idProtoAchiev": 2441,
-    "proto": "Prototype de Tempête",
-    "iconLeg": "https://render.guildwars2.com/file/AC940BF377C5D3EF13B2060D53EF19F1BC34BE48/456020.png",
-    "iconPrecu": "https://render.guildwars2.com/file/AF3EB0E29F4B25AC3F5BE2B7BA64ABC1A62EB30E/1206078.png",
-    "iconPerf": "https://render.guildwars2.com/file/92A2706B75250EFA96FE1D2BF1CE68BA9AEBB92D/780566.png",
-    "iconProto": "https://render.guildwars2.com/file/4F12E098EDD12E91104A58385FD458EFF2136C1D/1206124.png"
+    "id": 83036,
+    "maxCount": 1,
+    "name": "Parure du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/BC1A902C632DEFD0AC26F998039BAD3C7B0F69CC/1424097.png",
+    "details": { "type": "Coat", "weight": "Light", "provenance": "WvW" }
   },
   {
-    "type": "Épée",
-    "idLeg": 30699,
-    "idLegSkin": 4684,
-    "leg": "Éclair",
-    "idPrecu": 29181,
-    "idPrecuSkin": 6286,
-    "idPrecuAchiev": 2480,
-    "precu": "Atomisation",
-    "idPerf": 77118,
-    "idPerfSkin": 4804,
-    "idPerfAchiev": 2356,
-    "perf": "Épée perfectionnée",
-    "idProto": 74093,
-    "idProtoSkin": 6400,
-    "idProtoAchiev": 2355,
-    "proto": "Prototype d'Atomisation",
-    "iconLeg": "https://render.guildwars2.com/file/FE47E046D10DF27508910869B5EB040F6BBBE793/456026.png",
-    "iconPrecu": "https://render.guildwars2.com/file/4C4FDD15CE97DFD1F13F0BA9B7740FB110F00675/1206760.png",
-    "iconPerf": "https://render.guildwars2.com/file/5F57563AEEBBE57F061C73D40DEC9256CA033B22/780565.png",
-    "iconProto": "https://render.guildwars2.com/file/54E7B7EB140623986E3EF3117F7C9AE9635D1705/1206673.png"
+    "id": 89094,
+    "maxCount": 1,
+    "name": "Garde-jambes glorieux du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/DCDA3ADAF8A3C86AED32D03A17EDC8D6B0110C5A/2063535.png",
+    "details": { "type": "Leggings", "weight": "Medium", "provenance": "PvP" }
   },
   {
-    "type": "Focus",
-    "idLeg": 30688,
-    "idLegSkin": 4672,
-    "leg": "Le Ménestrel",
-    "idPrecu": 29168,
-    "idPrecuSkin": 6199,
-    "idPrecuAchiev": 2242,
-    "precu": "Le Barde",
-    "idPerf": 70417,
-    "idPerfSkin": 4799,
-    "idPerfAchiev": 2213,
-    "perf": "Focus perfectionné",
-    "idProto": 72167,
-    "idProtoSkin": 6245,
-    "idProtoAchiev": 2313,
-    "proto": "Prototype du Barde",
-    "iconLeg": "https://render.guildwars2.com/file/D3DBEB4FE4C81401AF6EA905FE16E4F3050F540B/456013.png",
-    "iconPrecu": "https://render.guildwars2.com/file/251B42DA1EC4902BB2F50F7B671DEA921DC522A2/1202277.png",
-    "iconPerf": "https://render.guildwars2.com/file/CB640D9D7675B8F5683E50D83BEB1FAE11F83C45/780595.png",
-    "iconProto": "https://render.guildwars2.com/file/F8E1FBBDEBFE96DDE52ED4D26A2FB9E737971620/1201241.png"
+    "id": 84546,
+    "maxCount": 1,
+    "name": "Jambières glorieuses ardentes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/3E79337DFCB1B17D9726C1550F04212070AF0A51/1614754.png",
+    "details": { "type": "Leggings", "weight": "Light", "provenance": "PvP" }
   },
   {
-    "type": "Bouclier",
-    "idLeg": 30696,
-    "idLegSkin": 4675,
-    "leg": "Les Prophéties du Chercheur de la Flamme",
-    "idPrecu": 29177,
-    "idPrecuSkin": 6481,
-    "idPrecuAchiev": 2536,
-    "precu": "L'Élu",
-    "idPerf": 71847,
-    "idPerfSkin": 4824,
-    "idPerfAchiev": 2390,
-    "perf": "Bouclier perfectionné",
-    "idProto": 74275,
-    "idProtoSkin": 6223,
-    "idProtoAchiev": 2479,
-    "proto": "Prototype de L'Élu",
-    "iconLeg": "https://render.guildwars2.com/file/BE58181BEA0559E60873ED940D0408D0596B4464/456021.png",
-    "iconPrecu": "https://render.guildwars2.com/file/488003DB422EC8A580EA4E16D22DF56B4E90F7CA/1206236.png",
-    "iconPerf": "https://render.guildwars2.com/file/59D95F0B6F36DD670CD47BCF753009C6E648FF79/434631.png",
-    "iconProto": "https://render.guildwars2.com/file/DE7DB254B0E27577A9EEFE7F2372DEA9ADBC1077/1206321.png"
+    "id": 80384,
+    "maxCount": 1,
+    "name": "Casque d'émissaire perfectionné",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/2695A8E44B7F07EF15A20857790EFCA91513F5F0/1634565.png",
+    "details": { "type": "Helm", "weight": "Heavy", "provenance": "HL" }
   },
   {
-    "type": "Torche",
-    "idLeg": 30700,
-    "idLegSkin": 4665,
-    "leg": "Rodgort",
-    "idPrecu": 29182,
-    "idPrecuSkin": 6451,
-    "idPrecuAchiev": 2388,
-    "precu": "Flamme de Rodgort",
-    "idPerf": 72245,
-    "idPerfSkin": 4737,
-    "idPerfAchiev": 2596,
-    "perf": "Torche perfectionnée",
-    "idProto": 70566,
-    "idProtoSkin": 6432,
-    "idProtoAchiev": 2180,
-    "proto": "Prototype de Flamme de Rodgort",
-    "iconLeg": "https://render.guildwars2.com/file/B1D6CB3AB4017633280ACDB36470F46829FDDD13/456027.png",
-    "iconPrecu": "https://render.guildwars2.com/file/9640FF61723ECC0367B5CC041AC8C50F05C0EC64/1206986.png",
-    "iconPerf": "https://render.guildwars2.com/file/42AE92BD906B64D75ADB11DD3D5B01B0E3C157B6/780942.png",
-    "iconProto": "https://render.guildwars2.com/file/34050519A3651533DA95EDEB31D1BCE5A84ED44A/1206942.png"
+    "id": 30698,
+    "maxCount": 2,
+    "name": "Le Bifrost",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/FD221A90427ADBD29B7E2DF8BDAF98BB16391162/456025.png",
+    "details": {
+      "type": "Staff",
+      "precuName": "La Légende",
+      "extension": "Origins"
+    }
   },
   {
-    "type": "Cor de guerre",
-    "idLeg": 30702,
-    "idLegSkin": 4667,
-    "leg": "Brame",
-    "idPrecu": 29184,
-    "idPrecuSkin": 6363,
-    "idPrecuAchiev": 2260,
-    "precu": "Hurlement",
-    "idPerf": 74010,
-    "idPerfSkin": 4724,
-    "idPerfAchiev": 2588,
-    "perf": "Cor de guerre perfectionné",
-    "idProto": 71345,
-    "idProtoSkin": 6310,
-    "idProtoAchiev": 2270,
-    "proto": "Prototype de Hurlement",
-    "iconLeg": "https://render.guildwars2.com/file/19E01CC637F4F370B43E132ACEBFD7C6E1570DE7/456029.png",
-    "iconPrecu": "https://render.guildwars2.com/file/FF282CD37AD618457F6878356739587916E5BF17/1207245.png",
-    "iconPerf": "https://render.guildwars2.com/file/234100CC0568E4B52E3573790FFC683BA70E05E8/798253.png",
-    "iconProto": "https://render.guildwars2.com/file/C22C410EB8626576CE903F7B400EC5F715DF0BB6/1207286.png"
+    "id": 101570,
+    "maxCount": 1,
+    "name": "Gants intermédiaires d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/743805FF0EE34E1DA26EE45E0B075A6A3D47723F/3256202.png",
+    "details": { "type": "Gloves", "weight": "Medium", "provenance": "PvE" }
   },
   {
-    "type": "Espadon",
-    "idLeg": 30703,
-    "idLegSkin": 4679,
-    "leg": "Aurore",
-    "idPrecu": 29169,
-    "idPrecuSkin": 6211,
-    "idPrecuAchiev": 2630,
-    "precu": "Aube",
-    "idPerf": 75163,
-    "idPerfSkin": 4850,
-    "idPerfAchiev": 2278,
-    "perf": "Épée diurne perfectionnée",
-    "idProto": 70853,
-    "idProtoSkin": 6311,
-    "idProtoAchiev": 2253,
-    "proto": "Prototype d'Aube",
-    "iconLeg": "https://render.guildwars2.com/file/EFF16C4F19792627355DC294E6D7093F544921E7/456030.png",
-    "iconPrecu": "https://render.guildwars2.com/file/3FFD779A1401D250E6FBAABB1E544DF5FFB3C9DD/1202490.png",
-    "iconPerf": "https://render.guildwars2.com/file/999240BCB3A1720D710BA7630F11CB926A43E26B/434648.png",
-    "iconProto": "https://render.guildwars2.com/file/74F1FBAE0D0D500B9D4CB8DA08E56E674AD4A0CC/1202501.png"
+    "id": 77474,
+    "maxCount": 1,
+    "name": "L'Ascension",
+    "type": "Back",
+    "icon": "https://render.guildwars2.com/file/C72336A9140CC9F2B34CCFCDCE2B217B380A1ADC/1313065.png",
+    "details": { "provenance": "PvP" }
   },
   {
-    "type": "Espadon",
-    "idLeg": 30704,
-    "idLegSkin": 4680,
-    "leg": "Crépuscule",
-    "idPrecu": 29185,
-    "idPrecuSkin": 6424,
-    "idPrecuAchiev": 2183,
-    "precu": "Demi-jour",
-    "idPerf": 75618,
-    "idPerfSkin": 4853,
-    "idPerfAchiev": 2184,
-    "perf": "Épée nocturne perfectionnée",
-    "idProto": 75592,
-    "idProtoSkin": 6473,
-    "idProtoAchiev": 2420,
-    "proto": "Prototype de Demi-jour",
-    "iconLeg": "https://render.guildwars2.com/file/CE3AF0B7B9BB6244726779F5B6A930541BA6C15F/456031.png",
-    "iconPrecu": "https://render.guildwars2.com/file/6BE1D2BE3BAE4A9B08CF6EB1AFFFA4F20D7F9091/1202492.png",
-    "iconPerf": "https://render.guildwars2.com/file/9F0C4EA3227194FEF066F9E1CB1954F9F201F60C/780598.png",
-    "iconProto": "https://render.guildwars2.com/file/41935AA2B7019645F4CB507EE93500FDEF1F39E7/1202438.png"
+    "id": 30686,
+    "maxCount": 2,
+    "name": "Le Rêveur",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/98F0ED6A7F7A310FCE6D161C0B36B0071E4D1917/456011.png",
+    "details": {
+      "type": "ShortBow",
+      "precuName": "L'Amant",
+      "extension": "Origins"
+    }
   },
   {
-    "type": "Marteau",
-    "idLeg": 30690,
-    "idLegSkin": 4681,
-    "leg": "Le Mastodonte",
-    "idPrecu": 29170,
-    "idPrecuSkin": 6284,
-    "idPrecuAchiev": 2468,
-    "precu": "Le Colosse",
-    "idPerf": 71134,
-    "idPerfSkin": 4838,
-    "idPerfAchiev": 2241,
-    "perf": "Marteau perfectionné",
-    "idProto": 74163,
-    "idProtoSkin": 6483,
-    "idProtoAchiev": 2438,
-    "proto": "Prototype du Colosse",
-    "iconLeg": "https://render.guildwars2.com/file/F9FAEDF77052A514E876145908B3B3346314A13E/456015.png",
-    "iconPrecu": "https://render.guildwars2.com/file/15ED060C6B47716174FC6FB9A60118B5553EEB90/1202804.png",
-    "iconPerf": "https://render.guildwars2.com/file/9ED941BD6F69AFE551FAF43407300119A2E2007D/340698.png",
-    "iconProto": "https://render.guildwars2.com/file/751BCEEBC937E2AB214E9863FA2C296FC75B2830/1202815.png"
+    "id": 87687,
+    "maxCount": 2,
+    "name": "Verdarach",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/C791E818A1AC06DB5A61E239C1DB6CDF4F7D69E6/1999146.png",
+    "details": {
+      "type": "Warhorn",
+      "precuName": "Appel du vide",
+      "extension": "Path of Fire"
+    }
   },
   {
-    "type": "Arc long",
-    "idLeg": 30685,
-    "idLegSkin": 4676,
-    "leg": "Kudzu",
-    "idPrecu": 29172,
-    "idPrecuSkin": 6421,
-    "idPrecuAchiev": 2383,
-    "precu": "Feuille de Kudzu",
-    "idPerf": 70814,
-    "idPerfSkin": 5072,
-    "idPerfAchiev": 2311,
-    "perf": "Arc long perfectionné",
-    "idProto": 73382,
-    "idProtoSkin": 6324,
-    "idProtoAchiev": 2193,
-    "proto": "Prototype de Kudzu",
-    "iconLeg": "https://render.guildwars2.com/file/B604C764D3E19E391F5E24CCFBC414500606BD29/456010.png",
-    "iconPrecu": "https://render.guildwars2.com/file/16E4FC0E74FB0174317E380021570AF92D3F1992/1200915.png",
-    "iconPerf": "https://render.guildwars2.com/file/09C42BFA3EE10824DB4FBFD5529D073D7E7CAE2B/434893.png",
-    "iconProto": "https://render.guildwars2.com/file/A832BBDD64567A33AA0DFB6D65430E41E2A014FF/1201002.png"
+    "id": 83921,
+    "maxCount": 1,
+    "name": "Heaume de plates glorieux ardent",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/35BD081715E6C4330AB8706A3C1110000A80F190/1614747.png",
+    "details": { "type": "Helm", "weight": "Heavy", "provenance": "PvP" }
   },
   {
-    "type": "Fusil",
-    "idLeg": 30694,
-    "idLegSkin": 4677,
-    "leg": "Le Prédateur",
-    "idPrecu": 29175,
-    "idPrecuSkin": 6514,
-    "idPrecuAchiev": 2280,
-    "precu": "Le Chasseur",
-    "idPerf": 73785,
-    "idPerfSkin": 4693,
-    "idPerfAchiev": 2503,
-    "perf": "Fusil perfectionné",
-    "idProto": 71078,
-    "idProtoSkin": 6494,
-    "idProtoAchiev": 2534,
-    "proto": "Prototype du Chasseur",
-    "iconLeg": "https://render.guildwars2.com/file/3ECD99482DD865AA7D42B2EF6AFEFA705294555C/456019.png",
-    "iconPrecu": "https://render.guildwars2.com/file/381F0719363580D4172E2A0BDEA978E1F0059D2A/1205943.png",
-    "iconPerf": "https://render.guildwars2.com/file/F562E4FFEA79026BF35DF70826DF71C1F82C6192/780400.png",
-    "iconProto": "https://render.guildwars2.com/file/95DE0DF447F9BB095B190E9D1F0FB4BE42CFC943/1205859.png"
+    "id": 82670,
+    "maxCount": 1,
+    "name": "Broigne glorieuse ardente",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/B0906E0C2EADA0C59390115899A6979D665C64CA/1614759.png",
+    "details": { "type": "Coat", "weight": "Medium", "provenance": "PvP" }
   },
   {
-    "type": "Arc court",
-    "idLeg": 30686,
-    "idLegSkin": 4669,
-    "leg": "Le Rêveur",
-    "idPrecu": 29178,
-    "idPrecuSkin": 6427,
-    "idPrecuAchiev": 2428,
-    "precu": "L'Amant",
-    "idPerf": 75399,
-    "idPerfSkin": 4756,
-    "idPerfAchiev": 2610,
-    "perf": "Arc court perfectionné",
-    "idProto": 77097,
-    "idProtoSkin": 6238,
-    "idProtoAchiev": 2481,
-    "proto": "Prototype de l'Amant",
-    "iconLeg": "https://render.guildwars2.com/file/98F0ED6A7F7A310FCE6D161C0B36B0071E4D1917/456011.png",
-    "iconPrecu": "https://render.guildwars2.com/file/044C67CBFC9F5151BAFDE625349238DCD19FE248/1200924.png",
-    "iconPerf": "https://render.guildwars2.com/file/719842763C5E9037A227DD0D3F0763310AD8BB92/780597.png",
-    "iconProto": "https://render.guildwars2.com/file/BFBB79F5050BC302EF09955D5E99405BA14A5F79/1200736.png"
+    "id": 80254,
+    "maxCount": 1,
+    "name": "Harnois d'émissaire perfectionné",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/DACF9B1ACBE8687B6B31ABC0CF295301120D7A67/1634563.png",
+    "details": { "type": "Coat", "weight": "Heavy", "provenance": "HL" }
   },
   {
-    "type": "Bâton",
-    "idLeg": 30698,
-    "idLegSkin": 4683,
-    "leg": "Le Bifrost",
-    "idPrecu": 29180,
-    "idPrecuSkin": 6231,
-    "idPrecuAchiev": 2187,
-    "precu": "La Légende",
-    "idPerf": 76027,
-    "idPerfSkin": 4890,
-    "idPerfAchiev": 2500,
-    "perf": "Bâton perfectionné",
-    "idProto": 73431,
-    "idProtoSkin": 6157,
-    "idProtoAchiev": 2530,
-    "proto": "Prototype de la Légende",
-    "iconLeg": "https://render.guildwars2.com/file/FD221A90427ADBD29B7E2DF8BDAF98BB16391162/456025.png",
-    "iconPrecu": "https://render.guildwars2.com/file/DA7AF6E3D970799A7847B3F10801FC1C1E98109E/1206503.png",
-    "iconPerf": "https://render.guildwars2.com/file/D09B7A4DDAC0EAB07E28EA59B256F901B60071AD/780943.png",
-    "iconProto": "https://render.guildwars2.com/file/264302F9A509499ACE66E210DC0F74A2EE12AC43/1206416.png"
+    "id": 84748,
+    "maxCount": 1,
+    "name": "Plaques de jambes glorieuses du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/25AB18FD689CF29E2921AF3CEFC853D81C6777B1/867459.png",
+    "details": { "type": "Leggings", "weight": "Heavy", "provenance": "PvP" }
   },
   {
-    "type": "Fusil-harpon",
-    "idLeg": 30697,
-    "idLegSkin": 4664,
-    "leg": "Frénésie",
-    "idPrecu": 29179,
-    "idPrecuSkin": 6233,
-    "idPrecuAchiev": 2409,
-    "precu": "Rage",
-    "idPerf": 75949,
-    "idPerfSkin": 4735,
-    "idPerfAchiev": 2232,
-    "perf": "Fusil-harpon perfectionné",
-    "idProto": 73087,
-    "idProtoSkin": 6480,
-    "idProtoAchiev": 2637,
-    "proto": "Prototype de Rage",
-    "iconLeg": "https://render.guildwars2.com/file/67EB25E29BA73D96B34523C02B256516DD60DA06/456024.png",
-    "iconPrecu": "https://render.guildwars2.com/file/A077090AC85279D351200F77267E060C326BF75B/1206366.png",
-    "iconPerf": "https://render.guildwars2.com/file/BE1EBD35734D30120ABF042F0D049702DE0520B5/780587.png",
-    "iconProto": "https://render.guildwars2.com/file/D14609D06B0DC4DC72AC7B6367CAD963EE71406B/1206338.png"
+    "id": 82180,
+    "maxCount": 1,
+    "name": "Protège-visage du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/09F65E3C6B50ADD77F4AE16213F7F7C19C664077/1701186.png",
+    "details": { "type": "Helm", "weight": "Medium", "provenance": "WvW" }
   },
   {
-    "type": "Lance",
-    "idLeg": 30691,
-    "idLegSkin": 4671,
-    "leg": "Kamohoali'i Kotaki",
-    "idPrecu": 29171,
-    "idPrecuSkin": 6230,
-    "idPrecuAchiev": 2535,
-    "precu": "Carcharias",
-    "idPerf": 70805,
-    "idPerfSkin": 4770,
-    "idPerfAchiev": 2306,
-    "perf": "Lance perfectionnée",
-    "idProto": 72748,
-    "idProtoSkin": 6282,
-    "idProtoAchiev": 2642,
-    "proto": "Prototype de Carcharias",
-    "iconLeg": "https://render.guildwars2.com/file/4705EC549A3296F493312C4018754816175E5D28/456016.png",
-    "iconPrecu": "https://render.guildwars2.com/file/51FF0303B8A85468B60BD2D431550CDE0A59B206/1202902.png",
-    "iconPerf": "https://render.guildwars2.com/file/54DECDD548E7E933DDD65AF3C380E6B2E2389778/780592.png",
-    "iconProto": "https://render.guildwars2.com/file/7FA02AFB476C24D0A505E5E8D1905C2878B4D443/1204388.png"
+    "id": 81839,
+    "maxCount": 2,
+    "name": "Sharur",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/BD331EF87CDCD678D22D4DF9B509E22C4606AAB6/1729253.png",
+    "details": {
+      "type": "Hammer",
+      "precuName": "Puissance d'Arah",
+      "extension": "Path of Fire"
+    }
   },
   {
-    "type": "Trident",
-    "idLeg": 30701,
-    "idLegSkin": 4666,
-    "leg": "Sandekrait",
-    "idPrecu": 29183,
-    "idPrecuSkin": 6505,
-    "idPrecuAchiev": 2296,
-    "precu": "Poison",
-    "idPerf": 74468,
-    "idPerfSkin": 4277,
-    "idPerfAchiev": 2522,
-    "perf": "Trident perfectionné",
-    "idProto": 72629,
-    "idProtoSkin": 6327,
-    "idProtoAchiev": 2483,
-    "proto": "Prototype de Poison",
-    "iconLeg": "https://render.guildwars2.com/file/1FAD3D4BE1FA503C49FCF532582867FB060664E4/456028.png",
-    "iconPrecu": "https://render.guildwars2.com/file/6D2C107DA4507DE3F247D15B54794BD31C73532A/1207112.png",
-    "iconPerf": "https://render.guildwars2.com/file/5875E8D7F15133F7476801B5D76EC6A5F51256B3/66745.png",
-    "iconProto": "https://render.guildwars2.com/file/5C3216C03C7DDBF925A566B4C5F4CF03093A1E17/1207097.png"
+    "id": 91505,
+    "maxCount": 8,
+    "name": "Cachet légendaire",
+    "type": "UpgradeComponent",
+    "icon": "https://render.guildwars2.com/file/2DDB0E173860AD433DF6D8AF412FDAFB9BCC4FB9/2179569.png",
+    "details": { "provenance": "PvE" }
   },
   {
-    "type": "Hache",
-    "idLeg": 76158,
-    "idLegSkin": 6506,
-    "leg": "Astralaria",
-    "idPrecu": 71426,
-    "idPrecuSkin": 6331,
-    "idPrecuAchiev": 2433,
-    "precu": "Le Mécanisme",
-    "idPerf": 75974,
-    "idPerfSkin": 6285,
-    "idPerfAchiev": 2447,
-    "perf": "L'Appareil",
-    "idProto": 70989,
-    "idProtoSkin": 6184,
-    "idProtoAchiev": 2571,
-    "proto": "La Machine",
-    "iconLeg": "https://render.guildwars2.com/file/13B9B1A4A85E775E267D33B6B7FA2D436DEA0BA1/1200325.png",
-    "iconPrecu": "https://render.guildwars2.com/file/C6C697BAF9D1092F5626CE39016DB0CCA19169C2/1200331.png",
-    "iconPerf": "https://render.guildwars2.com/file/3FED5AB958DEEA30A1E1EC76A598BA14657A22E6/1200340.png",
-    "iconProto": "https://render.guildwars2.com/file/7D61521845AA52CA519C230BCA0B79614FBFEA23/1200341.png"
+    "id": 91048,
+    "maxCount": 1,
+    "name": "Vision",
+    "type": "Trinket",
+    "icon": "https://render.guildwars2.com/file/A5587E6C220ECF0601523947DE33A0B34048800D/2149863.png",
+    "details": { "provenance": "PvE" }
   },
   {
-    "type": "Arc court",
-    "idLeg": 78556,
-    "idLegSkin": 6717,
-    "leg": "Chuka et Champawat",
-    "idPrecu": 78425,
-    "idPrecuSkin": 6712,
-    "idPrecuAchiev": 2951,
-    "precu": "Tigris",
-    "idPerf": 78524,
-    "idPerfSkin": 6737,
-    "idPerfAchiev": 2921,
-    "perf": "L'Embuscade",
-    "idProto": 78330,
-    "idProtoSkin": 6702,
-    "idProtoAchiev": 2990,
-    "proto": "La Chasse",
-    "iconLeg": "https://render.guildwars2.com/file/6AA4DCD7BFD228EF1658DE017FF114700260D316/1423757.png",
-    "iconPrecu": "https://render.guildwars2.com/file/F516F0D265E291979E61DEC7C2E4433EB0580DF4/1423763.png",
-    "iconPerf": "https://render.guildwars2.com/file/0E0510007453680AC9E30BDC6301F293B3BDA105/1423767.png",
-    "iconProto": "https://render.guildwars2.com/file/CAA2FD5EAFCBE0B403938072116B20D5376FCD67/1423766.png"
+    "id": 80252,
+    "maxCount": 1,
+    "name": "Jambières d'émissaire perfectionnées",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/EBD907C061747927AE062D1B41BC13D0EAF14AD5/1634589.png",
+    "details": { "type": "Leggings", "weight": "Medium", "provenance": "HL" }
   },
   {
-    "type": "Bâton",
-    "idLeg": 71383,
-    "idLegSkin": 6466,
-    "leg": "Jamais plus",
-    "idPrecu": 74068,
-    "idPrecuSkin": 6224,
-    "idPrecuAchiev": 2336,
-    "precu": "Le Bâton corbeau",
-    "idPerf": 76582,
-    "idPerfSkin": 6422,
-    "idPerfAchiev": 2288,
-    "perf": "Bâton de Bois-corbeau",
-    "idProto": 75467,
-    "idProtoSkin": 6330,
-    "idProtoAchiev": 2528,
-    "proto": "Branche de Bois-corbeau",
-    "iconLeg": "https://render.guildwars2.com/file/5346383A9218504978A57642D9F664DB6EE9984D/1206505.png",
-    "iconPrecu": "https://render.guildwars2.com/file/ABBCE10A62C94F9DA832377DE7D063615E44176C/1206519.png",
-    "iconPerf": "https://render.guildwars2.com/file/E780C780219604664833F70D050AAD7C32AA542E/1206521.png",
-    "iconProto": "https://render.guildwars2.com/file/0538015EA723A0A8E06311CFA2AC45F4FCD1B8AC/1206520.png"
+    "id": 30702,
+    "maxCount": 2,
+    "name": "Brame",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/19E01CC637F4F370B43E132ACEBFD7C6E1570DE7/456029.png",
+    "details": {
+      "type": "Warhorn",
+      "precuName": "Hurlement",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 82994,
+    "maxCount": 1,
+    "name": "Garde-épaules du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/C3F6C09509D643B6B6B1D3BD9BC6B3FE7A2ED042/1424113.png",
+    "details": { "type": "Shoulders", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 83482,
+    "maxCount": 1,
+    "name": "Chaussures du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/CEB5ADB9A322AF16042849484E7A5A537E4C5703/1701175.png",
+    "details": { "type": "Boots", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 89101,
+    "maxCount": 1,
+    "name": "Jambières glorieuses du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/4B14C193DF3700AF914B404892EFB5A674F12B25/2063523.png",
+    "details": { "type": "Leggings", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 101536,
+    "maxCount": 1,
+    "name": "Gants légers d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/C2EAC99A1F38707E4533C86F1AC45F6802D4F2AC/3256196.png",
+    "details": { "type": "Gloves", "weight": "Light", "provenance": "PvE" }
+  },
+  {
+    "id": 79802,
+    "maxCount": 2,
+    "name": "Shooshadoo",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/7EE6042646197A0B6A0EF21E419645ED175564F5/1601552.png",
+    "details": {
+      "type": "Shield",
+      "precuName": "Amitié",
+      "extension": "Path of Fire"
+    }
+  },
+  {
+    "id": 83497,
+    "maxCount": 1,
+    "name": "Jambières du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/B2A2AD0A47EF806A4673925F05F5BE9BEFADBE78/1424100.png",
+    "details": { "type": "Leggings", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 83595,
+    "maxCount": 1,
+    "name": "Épaulettes glorieuses ardentes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/D07026CAB304449F95B790041B530DA4BF1FA75E/1614755.png",
+    "details": { "type": "Shoulders", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 82268,
+    "maxCount": 1,
+    "name": "Garde-épaules glorieux du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/574904ECF7C01064A4E5396D4F6180B8BACF42EC/867472.png",
+    "details": { "type": "Shoulders", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 89158,
+    "maxCount": 1,
+    "name": "Épaulettes glorieuses du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/00683F3E025C3E24BC9FD207E254E3DB2941EC25/2063524.png",
+    "details": { "type": "Shoulders", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 91536,
+    "maxCount": 7,
+    "name": "Rune légendaire",
+    "type": "UpgradeComponent",
+    "icon": "https://render.guildwars2.com/file/3CEECEBACCC4E7D25DBC79C7A4B5B2933AB01DE3/2179567.png",
+    "details": { "provenance": "PvE" }
+  },
+  {
+    "id": 95612,
+    "maxCount": 4,
+    "name": "Queue d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/A56EAC4E2EFA53EDC7ECFA7B9131AB32262269FD/2595159.png",
+    "details": {
+      "type": "Mace",
+      "precuName": "Queue draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 82903,
+    "maxCount": 1,
+    "name": "Garde-jambes du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/7DDC027AA30993F8005F1A263A926C193143E7B5/1424112.png",
+    "details": { "type": "Leggings", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 83087,
+    "maxCount": 1,
+    "name": "Garde-épaules du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/5357BBDD08A466C365BE7A6BA4AD0D280FFB0A75/1701188.png",
+    "details": { "type": "Shoulders", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 81462,
+    "maxCount": 1,
+    "name": "Porteguerre",
+    "type": "Back",
+    "icon": "https://render.guildwars2.com/file/5EBEA1A467236237FCBACDC09969647956C4A371/1701118.png",
+    "details": { "provenance": "WvW" }
+  },
+  {
+    "id": 82410,
+    "maxCount": 1,
+    "name": "Gantelets glorieux du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/410C3633712F6706EF62772717B639A7A7B27A0A/867456.png",
+    "details": { "type": "Gloves", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 101535,
+    "maxCount": 1,
+    "name": "Chausses légères d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/4D52B43E294580DD05592E1402F75D5F07CD7DE9/3256194.png",
+    "details": { "type": "Boots", "weight": "Light", "provenance": "PvE" }
+  },
+  {
+    "id": 84643,
+    "maxCount": 1,
+    "name": "Chapeau glorieux ardent",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/9C38D712207518FBBF12EB20C8CC5D5D92E4B2C2/1614761.png",
+    "details": { "type": "Helm", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 89134,
+    "maxCount": 1,
+    "name": "Protège-poignets glorieux du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/522AD73905F11B3573A466D10EBE0BDF1632422B/2063533.png",
+    "details": { "type": "Gloves", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 81206,
+    "maxCount": 2,
+    "name": "Flammes de guerre",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/0D4399FD6BC23DEF9DB32CBC49029C93682FFBC9/1676632.png",
+    "details": {
+      "type": "Torch",
+      "precuName": "Liturgie",
+      "extension": "Path of Fire"
+    }
+  },
+  {
+    "id": 97099,
+    "maxCount": 2,
+    "name": "Souffle d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/C3B21B45AA1A47A1470FAFFC1BFD9E426FC29D5C/2596992.png",
+    "details": {
+      "type": "Torch",
+      "precuName": "Souffle draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 83729,
+    "maxCount": 1,
+    "name": "Parure glorieuse du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/2E5F1407AC03E3C7049364EF90A26E7F666442E9/867462.png",
+    "details": { "type": "Coat", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 30684,
+    "maxCount": 4,
+    "name": "Givrecroc",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/0F9C08DE12ADD1082A103DC6EF7401281B23985E/456009.png",
+    "details": {
+      "type": "Axe",
+      "precuName": "Dent de Givrecroc",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 82401,
+    "maxCount": 1,
+    "name": "Chapeau glorieux du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/0A2C2D21C2143B7A5E4DC440449DEC004A3839D4/867470.png",
+    "details": { "type": "Helm", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 80161,
+    "maxCount": 1,
+    "name": "Canons d'avant-bras d'émissaire perfectionnés",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/C57E5E5FA69261A2503CBB50080A6C023A155C49/1634587.png",
+    "details": { "type": "Gloves", "weight": "Medium", "provenance": "HL" }
+  },
+  {
+    "id": 89245,
+    "maxCount": 1,
+    "name": "Chaussures glorieuses du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/D598700309A1D7236DE1F90158904B4A24E6EA0F/2063519.png",
+    "details": { "type": "Boots", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 83308,
+    "maxCount": 1,
+    "name": "Épaulettes du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/6B4CB909DB3306BDF3E7DB4BDB94EAE7491C1AB1/1701181.png",
+    "details": { "type": "Shoulders", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 30697,
+    "maxCount": 2,
+    "name": "Frénésie",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/67EB25E29BA73D96B34523C02B256516DD60DA06/456024.png",
+    "details": {
+      "type": "Speargun",
+      "precuName": "Rage",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 97077,
+    "maxCount": 2,
+    "name": "Aile d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/15B9AECD7B05250D4D90721CE67ACBE0E8E3DEA1/2593873.png",
+    "details": {
+      "type": "ShortBow",
+      "precuName": "Aile draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 90551,
+    "maxCount": 2,
+    "name": "Exordium",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/DCFDE7D52BBB71A34C06987C1798D5FDDC74B94A/2140499.png",
+    "details": {
+      "type": "Greatsword",
+      "precuName": "Exitare",
+      "extension": "Path of Fire"
+    }
+  },
+  {
+    "id": 83113,
+    "maxCount": 1,
+    "name": "Parure glorieuse ardente",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/A2F718496A092F651A3B389155247999A91D2DE5/1614751.png",
+    "details": { "type": "Coat", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 84181,
+    "maxCount": 1,
+    "name": "Espauliers du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/3D1B61F6A52E073604A5C3909439B05A5CEA4F71/1701174.png",
+    "details": { "type": "Shoulders", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 84561,
+    "maxCount": 1,
+    "name": "Espauliers glorieux du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/160D9DD3F4B8020A1F035EA7A4200BFBD3C2CED8/867460.png",
+    "details": { "type": "Shoulders", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 96221,
+    "maxCount": 2,
+    "name": "Sagesse d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/46C3662430F1CEA74CCB062FD248FC260D129B43/2596776.png",
+    "details": {
+      "type": "Scepter",
+      "precuName": "Sagesse draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 80248,
+    "maxCount": 1,
+    "name": "Capuche d'émissaire perfectionnée",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/06146C9BD029041178F50B5D9ACD0A76E7051408/1634576.png",
+    "details": { "type": "Helm", "weight": "Light", "provenance": "HL" }
+  },
+  {
+    "id": 101609,
+    "maxCount": 1,
+    "name": "Gantelets lourds d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/78A5446DC86D5FDE540B45102F973D94A2EDC3C0/3256183.png",
+    "details": { "type": "Gloves", "weight": "Heavy", "provenance": "PvE" }
+  },
+  {
+    "id": 89167,
+    "maxCount": 1,
+    "name": "Manchettes glorieuses du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/92654509673FF39EFDDE0A14D13893025D0DC0EC/2063521.png",
+    "details": { "type": "Gloves", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 82437,
+    "maxCount": 1,
+    "name": "Protège-visage du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/9AD2650E077C9258BEF3339760A72E29E531E922/1424111.png",
+    "details": { "type": "Helm", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 95380,
+    "maxCount": 1,
+    "name": "Tenue du champion prismatique",
+    "type": "Trinket",
+    "icon": "https://render.guildwars2.com/file/046C2DACF8C064D23BD8374C7895DA2F13AD146F/2449345.png",
+    "details": { "provenance": "PvE" }
+  },
+  {
+    "id": 83862,
+    "maxCount": 1,
+    "name": "Garde-jambes du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/15200C952605EFF79E51E92EA26AC7E8922A3599/1701187.png",
+    "details": { "type": "Leggings", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 96028,
+    "maxCount": 2,
+    "name": "Écaille d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/4F29EC22EA359F2EAA01E2924F9CF0733F3CA2A9/2596828.png",
+    "details": {
+      "type": "Shield",
+      "precuName": "Écaille draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 83394,
+    "maxCount": 1,
+    "name": "Harnois du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/694939A86C196A93D84D1602650B7849EF704C64/1424085.png",
+    "details": { "type": "Coat", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 82552,
+    "maxCount": 1,
+    "name": "Protège-poignets du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/196EAE32B127E266DA6C0A1A0DE47C3335A91E41/1701185.png",
+    "details": { "type": "Gloves", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 83323,
+    "maxCount": 1,
+    "name": "Plaques de jambes glorieuses ardentes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/E81FA70225B09E9B55750EE5681BB1B17C17C72D/1614748.png",
+    "details": { "type": "Leggings", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 84341,
+    "maxCount": 1,
+    "name": "Jambières glorieuses du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/9F21024AEDE845F0B4D907CA27946907EACB912E/867465.png",
+    "details": { "type": "Leggings", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 30701,
+    "maxCount": 2,
+    "name": "Sandekrait",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/1FAD3D4BE1FA503C49FCF532582867FB060664E4/456028.png",
+    "details": {
+      "type": "Trident",
+      "precuName": "Poison",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 84176,
+    "maxCount": 1,
+    "name": "Heaume de guerre du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/BCFC78934BCEDC9E92F54160E24FAB78F978664C/1424087.png",
+    "details": { "type": "Helm", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 84110,
+    "maxCount": 1,
+    "name": "Protège-poignets du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/5BC934F44CD90A4EADCD085EC1375F77B117A978/1424110.png",
+    "details": { "type": "Gloves", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 89234,
+    "maxCount": 1,
+    "name": "Garde-épaules glorieux du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/490D7E611A0401A1CEB2CBB1D72AE3A34F27140E/2063536.png",
+    "details": { "type": "Shoulders", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 89854,
+    "maxCount": 2,
+    "name": "Pharus",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/D2C5CF133804E1062B08370044E774F854F107F5/2083170.png",
+    "details": {
+      "type": "LongBow",
+      "precuName": "Spero",
+      "extension": "Path of Fire"
+    }
+  },
+  {
+    "id": 30690,
+    "maxCount": 2,
+    "name": "Le Mastodonte",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/F9FAEDF77052A514E876145908B3B3346314A13E/456015.png",
+    "details": {
+      "type": "Hammer",
+      "precuName": "Le Colosse",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 83676,
+    "maxCount": 1,
+    "name": "Protège-poignets glorieux du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/5E7DA46771BEC86A9BC4B509DD4740E7061C92A0/867469.png",
+    "details": { "type": "Gloves", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 30700,
+    "maxCount": 2,
+    "name": "Rodgort",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/B1D6CB3AB4017633280ACDB36470F46829FDDD13/456027.png",
+    "details": {
+      "type": "Torch",
+      "precuName": "Flamme de Rodgort",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 83094,
+    "maxCount": 1,
+    "name": "Grèves de guerre du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/9BBD33006EA66EBF11000277D526433929FB33E2/1701168.png",
+    "details": { "type": "Boots", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 82272,
+    "maxCount": 1,
+    "name": "Protège-tibias glorieux du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/6A2D2490AA58EC1C3B2FDCE4310C903866662E56/867467.png",
+    "details": { "type": "Boots", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 30692,
+    "maxCount": 4,
+    "name": "La Herse",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/C0302BC8DDD84D20F0B73C1D702438F5534F3308/456017.png",
+    "details": {
+      "type": "Mace",
+      "precuName": "L'Énergiseur",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 84427,
+    "maxCount": 1,
+    "name": "Chaussures glorieuses du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/424016C1C923B5EC0CA44BECEECE910B6CBE11CB/867461.png",
+    "details": { "type": "Boots", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 30694,
+    "maxCount": 2,
+    "name": "Le Prédateur",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/3ECD99482DD865AA7D42B2EF6AFEFA705294555C/456019.png",
+    "details": {
+      "type": "Rifle",
+      "precuName": "Le Chasseur",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 89266,
+    "maxCount": 1,
+    "name": "Plaques de jambes glorieuses du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/5ED5A6EB26540D3F933C9D2C4004C969FBB7AAB4/2063511.png",
+    "details": { "type": "Leggings", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 83702,
+    "maxCount": 1,
+    "name": "Plaques de jambes du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/97D26D98D3249A36F2EADECA9858F9DFBE1E2DC8/1701173.png",
+    "details": { "type": "Leggings", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 89126,
+    "maxCount": 1,
+    "name": "Chapeau glorieux du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/4F4C07660377CF2C4F363DA3FE1A652E245FE0D2/2063534.png",
+    "details": { "type": "Helm", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 82465,
+    "maxCount": 1,
+    "name": "Gantelets glorieux ardents",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/2E72F16CC7201A0D04B2B166C86FA8BF06262EE5/1614746.png",
+    "details": { "type": "Gloves", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 80557,
+    "maxCount": 1,
+    "name": "Grèves d'émissaire perfectionnées",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/E895D40AE0D1A500FFFDB955C27A98FF687AA4C1/1634562.png",
+    "details": { "type": "Boots", "weight": "Heavy", "provenance": "HL" }
+  },
+  {
+    "id": 82902,
+    "maxCount": 1,
+    "name": "Masque du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/0EDAC40348BC373C68FB73AD4CA7B0A91A5F0DED/1424099.png",
+    "details": { "type": "Helm", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 82456,
+    "maxCount": 1,
+    "name": "Gantelets du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/9D07B60141520863CE60D2391CFAA09DB9B8A0E1/1424086.png",
+    "details": { "type": "Gloves", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 84629,
+    "maxCount": 1,
+    "name": "Manchettes du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/0EE3370461A7AEE1C7530A745E747E9D0E68E034/1424098.png",
+    "details": { "type": "Gloves", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 83957,
+    "maxCount": 1,
+    "name": "Grèves de guerre glorieuses du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/462598914D3B2E51611DEE9D5AA3796C106E4608/867457.png",
+    "details": { "type": "Boots", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 89209,
+    "maxCount": 1,
+    "name": "Espauliers glorieux du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/36E874CF6330D4E4DC9FD7E3A400A4369096EFD4/2063512.png",
+    "details": { "type": "Shoulders", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 91234,
+    "maxCount": 1,
+    "name": "Coalescence",
+    "type": "Trinket",
+    "icon": "https://render.guildwars2.com/file/962F99162FDE4AF471DF9E3BCA712CD6F5050B53/2149899.png",
+    "details": { "provenance": "HL" }
+  },
+  {
+    "id": 84578,
+    "maxCount": 1,
+    "name": "Broigne triomphante du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/2F7CF5F3B3A06CD14565C132EE2C439E4B1027D5/1424109.png",
+    "details": { "type": "Coat", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 101568,
+    "maxCount": 1,
+    "name": "Cuissières lourdes d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/22BED3680AC1A1AB6B3ED4F8922891077DADF361/3256185.png",
+    "details": { "type": "Leggings", "weight": "Heavy", "provenance": "PvE" }
+  },
+  {
+    "id": 80131,
+    "maxCount": 1,
+    "name": "Houppelande d'émissaire perfectionnée",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/A77403E5F0EB03E46E686B12297A04707AF50278/1634579.png",
+    "details": { "type": "Shoulders", "weight": "Light", "provenance": "HL" }
+  },
+  {
+    "id": 83348,
+    "maxCount": 1,
+    "name": "Harnois glorieux ardent",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/E9531DD43D5AA5B15FC40C0F336357947B177B40/1614745.png",
+    "details": { "type": "Coat", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 30693,
+    "maxCount": 4,
+    "name": "Répartie",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/03342FFE0E35B35D5207B65ECB0C1D06442377AB/456018.png",
+    "details": {
+      "type": "Pistol",
+      "precuName": "Fusil du chaos",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 80281,
+    "maxCount": 1,
+    "name": "Bottes d'émissaire perfectionnées",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/BF4C6A48BA02BD6D6AC32F1E9C3F32A50399E336/1634590.png",
+    "details": { "type": "Boots", "weight": "Medium", "provenance": "HL" }
+  },
+  {
+    "id": 86098,
+    "maxCount": 2,
+    "name": "Lien d'Ipos",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/2C2D04DA23E54103AD4C082033090D78A91BA0EE/1894811.png",
+    "details": {
+      "type": "Focus",
+      "precuName": "Ars Goetia",
+      "extension": "Path of Fire"
+    }
+  },
+  {
+    "id": 82093,
+    "maxCount": 1,
+    "name": "Protège-tibias du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/0642ACDC7CDF58CF1D384A23E1B3B3E0590115C5/1424108.png",
+    "details": { "type": "Boots", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 83289,
+    "maxCount": 1,
+    "name": "Chaussures du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/309FA30E0915FA590A01DAA42370800AEE7D0506/1424096.png",
+    "details": { "type": "Boots", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 80435,
+    "maxCount": 1,
+    "name": "Espauliers d'émissaire perfectionnés",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/0F0F4BE73C9316BAA4956A3AA622CB0AE84D9CEA/1634567.png",
+    "details": { "type": "Shoulders", "weight": "Heavy", "provenance": "HL" }
+  },
+  {
+    "id": 30687,
+    "maxCount": 4,
+    "name": "Incinératrice",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/D9B12A1EBEDC04047295CF0A66E43E650297D429/456012.png",
+    "details": {
+      "type": "Dagger",
+      "precuName": "Étincelle",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 30704,
+    "maxCount": 2,
+    "name": "Crépuscule",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/CE3AF0B7B9BB6244726779F5B6A930541BA6C15F/456031.png",
+    "details": {
+      "type": "Greatsword",
+      "precuName": "Demi-jour",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 89093,
+    "maxCount": 1,
+    "name": "Gantelets glorieux du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/1BD17278253564D00DBC2AD8066D399DCD17CB00/2063509.png",
+    "details": { "type": "Gloves", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 89260,
+    "maxCount": 1,
+    "name": "Couronne glorieuse du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/51163A53D41CBC1C665E08547E36E7E8CC10150B/2063522.png",
+    "details": { "type": "Helm", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 101602,
+    "maxCount": 1,
+    "name": "Bottes intermédiaires d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/DBDB22ABE39D5BAA76C2F4FC9B294B7AF9FFF81B/3256200.png",
+    "details": { "type": "Boots", "weight": "Medium", "provenance": "PvE" }
+  },
+  {
+    "id": 84508,
+    "maxCount": 1,
+    "name": "Parure du Héros triomphant de la forge des Brumes sublime",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/28CD680D1095B053CFDDC06A382551FFA9E4095D/1701177.png",
+    "details": { "type": "Coat", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 30689,
+    "maxCount": 2,
+    "name": "Eternité",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/A30DA1A1EF05BD080C95AE2EF0067BADCDD0D89D/456014.png",
+    "details": {
+      "type": "Greatsword",
+      "precuName": "Aurore",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 97377,
+    "maxCount": 2,
+    "name": "Persuasion d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/7309BE5518786B002106F59110E7F9CDFE541969/2596715.png",
+    "details": {
+      "type": "Rifle",
+      "precuName": "Persuasion draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 82925,
+    "maxCount": 1,
+    "name": "Masque du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/A86FC7A04C2CCE9A024C2B7C6A41E04C78926304/1701179.png",
+    "details": { "type": "Helm", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 80145,
+    "maxCount": 1,
+    "name": "Protège-épaules d'émissaire perfectionnés",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/CF7609512FC6527D805F2B74F26AF4549FF4E808/1634591.png",
+    "details": { "type": "Shoulders", "weight": "Medium", "provenance": "HL" }
+  },
+  {
+    "id": 82963,
+    "maxCount": 1,
+    "name": "Espauliers du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/BD48962D7D3475E359DD9B34A5EF5B2F9204009E/1424089.png",
+    "details": { "type": "Shoulders", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 80296,
+    "maxCount": 1,
+    "name": "Masque d'émissaire perfectionné",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/49092A1358E528DEC67EFA1C090546ED034642E2/1634588.png",
+    "details": { "type": "Helm", "weight": "Medium", "provenance": "HL" }
+  },
+  {
+    "id": 82245,
+    "maxCount": 1,
+    "name": "Protège-poignets glorieux ardents",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/B7CBE0606944F6983F5A95DFAB7E53CB4245B40F/1614760.png",
+    "details": { "type": "Gloves", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 89235,
+    "maxCount": 1,
+    "name": "Protège-tibias glorieux du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/640277D15B9425D604EFDEFD183E159926BE7A9B/2063531.png",
+    "details": { "type": "Boots", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 82173,
+    "maxCount": 1,
+    "name": "Épaulettes du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/6D1E1A9C49365C704BB7167BF5980EC5F695A706/1424101.png",
+    "details": { "type": "Shoulders", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 84461,
+    "maxCount": 1,
+    "name": "Manchettes glorieuses du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/259878409911636CDA0A80BB6B6EE623D304DECF/867463.png",
+    "details": { "type": "Gloves", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 82348,
+    "maxCount": 1,
+    "name": "Gantelets du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/4D2A4C28F657368066E747BF66923376D3456FBA/1701171.png",
+    "details": { "type": "Gloves", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 30696,
+    "maxCount": 2,
+    "name": "Les Prophéties du Chercheur de la Flamme",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/BE58181BEA0559E60873ED940D0408D0596B4464/456021.png",
+    "details": {
+      "type": "Shield",
+      "precuName": "L'Élu",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 89174,
+    "maxCount": 1,
+    "name": "Parure glorieuse du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/2306F165D380319A6921670D96559EE50DF05963/2063520.png",
+    "details": { "type": "Coat", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 84633,
+    "maxCount": 1,
+    "name": "Couronne glorieuse ardente",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/5BCC779A79759760D73EBFA20A56332E3D076301/1614753.png",
+    "details": { "type": "Helm", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 84301,
+    "maxCount": 1,
+    "name": "Heaume de guerre du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/FAE5DC7E0F07BC030716C1F4EAF6CDC8664F07B7/1701172.png",
+    "details": { "type": "Helm", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 101516,
+    "maxCount": 1,
+    "name": "Couronne légère d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/1CC5E39F6362AD5B25081C090CBCB4F12512EB22/3256197.png",
+    "details": { "type": "Helm", "weight": "Light", "provenance": "PvE" }
+  },
+  {
+    "id": 96652,
+    "maxCount": 2,
+    "name": "Perspicacité d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/3B74D76E0400CC03E17097CE5E0BEFC0325EAD21/2596889.png",
+    "details": {
+      "type": "Staff",
+      "precuName": "Perspicacité draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 84481,
+    "maxCount": 1,
+    "name": "Harnois triomphant du Héros de la forge des Brumes sublime",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/BE5BD50D0DDD3A0261D5155EDEE591317E4101B6/1701170.png",
+    "details": { "type": "Coat", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 97590,
+    "maxCount": 2,
+    "name": "Vol d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/F36B984CF57CF901A00526BAC1FA56979904C929/2593844.png",
+    "details": {
+      "type": "LongBow",
+      "precuName": "Vol draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 96203,
+    "maxCount": 4,
+    "name": "Griffe d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/08769D9DC9EC1A9D94EC19A802DA2106CB0CF741/2594358.png",
+    "details": {
+      "type": "Dagger",
+      "precuName": "Griffe draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 82109,
+    "maxCount": 1,
+    "name": "Manchettes du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/6F1ECE71967A6214E702CB1D7F40E1DCD7A5AE12/1701178.png",
+    "details": { "type": "Gloves", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 82423,
+    "maxCount": 1,
+    "name": "Couronne glorieuse du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/F2521B01F9D7730A5FCD07959D2800F7B063B2AE/867464.png",
+    "details": { "type": "Helm", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 89183,
+    "maxCount": 1,
+    "name": "Broigne glorieuse du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/AC000A5328F5A2D5C824DEFCE4FA07C501E2A64B/2063532.png",
+    "details": { "type": "Coat", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 30688,
+    "maxCount": 2,
+    "name": "Le Ménestrel",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/D3DBEB4FE4C81401AF6EA905FE16E4F3050F540B/456013.png",
+    "details": {
+      "type": "Focus",
+      "precuName": "Le Barde",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 71383,
+    "maxCount": 2,
+    "name": "Jamais plus",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/5346383A9218504978A57642D9F664DB6EE9984D/1206505.png",
+    "details": {
+      "type": "Staff",
+      "precuName": "Le Bâton corbeau",
+      "extension": "Heart of Thorns"
+    }
+  },
+  {
+    "id": 101462,
+    "maxCount": 1,
+    "name": "Houppelande légère d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/0CAFA9029802161CF256331DC94480C76F413B5A/3256199.png",
+    "details": { "type": "Shoulders", "weight": "Light", "provenance": "PvE" }
+  },
+  {
+    "id": 82102,
+    "maxCount": 1,
+    "name": "Broigne du Héros triomphant de la forge des Brumes sublime",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/19AA55591F1D989CF93906429DCBD71477420EAC/1701184.png",
+    "details": { "type": "Coat", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 97783,
+    "maxCount": 2,
+    "name": "Voix d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/480D1EBF4A468059631D11C100406AE1C617C3D4/2597054.png",
+    "details": {
+      "type": "Warhorn",
+      "precuName": "Voix draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 83929,
+    "maxCount": 1,
+    "name": "Garde-épaules glorieux ardents",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/5553497B9B78200DE192611BBD037AD96E5439EF/1614763.png",
+    "details": { "type": "Shoulders", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 80488,
+    "maxCount": 2,
+    "name": "Le V.S.M. Divinité",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/0E9706D871154B6D43B62CC2969C2108905B9A12/1634157.png",
+    "details": {
+      "type": "Rifle",
+      "precuName": "Navire de guerre",
+      "extension": "Path of Fire"
+    }
+  },
+  {
+    "id": 101556,
+    "maxCount": 1,
+    "name": "Veste intermédiaire d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/A7DB4B5B5244D8B9D6CC6F5ED9303CE63BE06BF2/3256201.png",
+    "details": { "type": "Coat", "weight": "Medium", "provenance": "PvE" }
+  },
+  {
+    "id": 83240,
+    "maxCount": 1,
+    "name": "Garde-jambes glorieux du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/332262EC51D5C97678FE7399E2BAB8B1A3060137/867471.png",
+    "details": { "type": "Leggings", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 82801,
+    "maxCount": 1,
+    "name": "Grèves de guerre du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/9DF8D839C6DABFBC783CA1DFBEFE1DA957581F47/1424084.png",
+    "details": { "type": "Boots", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 80190,
+    "maxCount": 1,
+    "name": "Habits d'émissaire perfectionnés",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/C8FB494379CC98171EFB0F13923CACFD047743B3/1634574.png",
+    "details": { "type": "Coat", "weight": "Light", "provenance": "HL" }
+  },
+  {
+    "id": 84723,
+    "maxCount": 1,
+    "name": "Épaulettes glorieuses du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/80CEAB015B31400F0995FFBA3634D6F923ED5701/867466.png",
+    "details": { "type": "Shoulders", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 81957,
+    "maxCount": 4,
+    "name": "La Lame brillante",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/DB4197185C097D04569265051654AA121F459A1D/1729769.png",
+    "details": {
+      "type": "Sword",
+      "precuName": "Sauveuse de reine",
+      "extension": "Path of Fire"
+    }
+  },
+  {
+    "id": 78556,
+    "maxCount": 2,
+    "name": "Chuka et Champawat",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/6AA4DCD7BFD228EF1658DE017FF114700260D316/1423757.png",
+    "details": {
+      "type": "ShortBow",
+      "precuName": "Tigris",
+      "extension": "Heart of Thorns"
+    }
+  },
+  {
+    "id": 89252,
+    "maxCount": 1,
+    "name": "Grèves de guerre glorieuses du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/FAB26D72EA23FCDD0BEB69506B5D4B02D53F0C9B/2063507.png",
+    "details": { "type": "Boots", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 30685,
+    "maxCount": 2,
+    "name": "Kudzu",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/B604C764D3E19E391F5E24CCFBC414500606BD29/456010.png",
+    "details": {
+      "type": "LongBow",
+      "precuName": "Feuille de Kudzu",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 101544,
+    "maxCount": 1,
+    "name": "Heaume lourd d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/C905E4515CFB4AA52C7C57DF2F98D4DB0D04055D/3256184.png",
+    "details": { "type": "Helm", "weight": "Heavy", "provenance": "PvE" }
+  },
+  {
+    "id": 101521,
+    "maxCount": 1,
+    "name": "Harnois lourd d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/0E039364A11D5B9A0F40ADB9D0A7FD6FEDB64DB0/3256182.png",
+    "details": { "type": "Coat", "weight": "Heavy", "provenance": "PvE" }
+  },
+  {
+    "id": 83127,
+    "maxCount": 1,
+    "name": "Espauliers glorieux ardents",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/06EA1DCD71DD4125DAF401C36D560CABFC6950B4/1614749.png",
+    "details": { "type": "Shoulders", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 82334,
+    "maxCount": 1,
+    "name": "Harnois glorieux du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/93F94B9B505AA7FD2216387E4D2734F20A50380F/867455.png",
+    "details": { "type": "Coat", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 82214,
+    "maxCount": 1,
+    "name": "Protège-tibias glorieux ardents",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/14ED04F94CF35A1ACA51C4FAED01F7BEB209FC63/1614758.png",
+    "details": { "type": "Boots", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 84655,
+    "maxCount": 1,
+    "name": "Grèves de guerre glorieuses ardentes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/B8230ABBBAB60034D7EE4C59C53944DCEB22D6AE/1614744.png",
+    "details": { "type": "Boots", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 30691,
+    "maxCount": 4,
+    "name": "Kamohoali'i Kotaki",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/4705EC549A3296F493312C4018754816175E5D28/456016.png",
+    "details": {
+      "type": "Harpoon",
+      "precuName": "Carcharias",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 82519,
+    "maxCount": 1,
+    "name": "Chaussures glorieuses ardentes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/77B399C6021A5FF0A03E3D0CCAB6C47408F90BE2/1614750.png",
+    "details": { "type": "Boots", "weight": "Light", "provenance": "PvP" }
+  },
+  {
+    "id": 76158,
+    "maxCount": 4,
+    "name": "Astralaria",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/13B9B1A4A85E775E267D33B6B7FA2D436DEA0BA1/1200325.png",
+    "details": {
+      "type": "Axe",
+      "precuName": "Le Mécanisme",
+      "extension": "Heart of Thorns"
+    }
+  },
+  {
+    "id": 101551,
+    "maxCount": 1,
+    "name": "Espauliers lourds d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/BAC307B13FD2A4A803CA5CED056916D7B34DDFF8/3256186.png",
+    "details": { "type": "Shoulders", "weight": "Heavy", "provenance": "PvE" }
+  },
+  {
+    "id": 83699,
+    "maxCount": 1,
+    "name": "Protège-tibias du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/5814F309A80957720C94711EAD1E9302A8410E3B/1701182.png",
+    "details": { "type": "Boots", "weight": "Medium", "provenance": "WvW" }
+  },
+  {
+    "id": 82698,
+    "maxCount": 1,
+    "name": "Heaume de plates glorieux du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/76D5CDC8D84A0218BD069DEDC25E1A5EB2601600/867458.png",
+    "details": { "type": "Helm", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 95675,
+    "maxCount": 4,
+    "name": "Croc d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/CD7F0C7B39AE4529781EE126D7F4B8FDE220FAD3/2596930.png",
+    "details": {
+      "type": "Sword",
+      "precuName": "Croc draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 30703,
+    "maxCount": 2,
+    "name": "Aurore",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/EFF16C4F19792627355DC294E6D7093F544921E7/456030.png",
+    "details": {
+      "type": "Greatsword",
+      "precuName": "Aube",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 101579,
+    "maxCount": 1,
+    "name": "Jambières intermédiaires d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/A021E1194C612DC313D62F73EA5799ED021C3D4F/3256204.png",
+    "details": { "type": "Leggings", "weight": "Medium", "provenance": "PvE" }
+  },
+  {
+    "id": 89117,
+    "maxCount": 1,
+    "name": "Heaume de plates glorieux du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/A62FA5F4E525921C390F3C2D016C25FE0177B50A/2063510.png",
+    "details": { "type": "Helm", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 81908,
+    "maxCount": 1,
+    "name": "Aurora",
+    "type": "Trinket",
+    "icon": "https://render.guildwars2.com/file/2E5391DBF100D5A4413A07C3A13FC3513F29C394/1729332.png",
+    "details": { "provenance": "PvE" }
+  },
+  {
+    "id": 82098,
+    "maxCount": 1,
+    "name": "Broigne glorieuse du Héros",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/93B86EC1355512F733F67E66C3B9084E0B78AF0F/867468.png",
+    "details": { "type": "Coat", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 80277,
+    "maxCount": 1,
+    "name": "Tassettes d'émissaire perfectionnées",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/EA9294557C175A43567906721E43962EC4B12D34/1634566.png",
+    "details": { "type": "Leggings", "weight": "Heavy", "provenance": "HL" }
+  },
+  {
+    "id": 103815,
+    "maxCount": 4,
+    "name": "Klobjarne Geirr",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/BC680270399F49A15415E402623AD4E5A09A6411/3442617.png",
+    "details": {
+      "type": "Harpoon",
+      "precuName": "Nyr Hrammr",
+      "extension": "Janthir Wilds"
+    }
+  },
+  {
+    "id": 96356,
+    "maxCount": 2,
+    "name": "Morsure d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/94D19303448005274F24F433016D2CE1AC54057E/2594851.png",
+    "details": {
+      "type": "Greatsword",
+      "precuName": "Morsure draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 82512,
+    "maxCount": 1,
+    "name": "Garde-jambes glorieux ardents",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/6BD2EEC59E31C6D605F49AF4C93F1CF46D3F2B66/1614762.png",
+    "details": { "type": "Leggings", "weight": "Medium", "provenance": "PvP" }
+  },
+  {
+    "id": 101645,
+    "maxCount": 1,
+    "name": "Épaulières intermédiaires d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/B2EE31E7095A7028CABB9462EA27433CDB340C48/3256205.png",
+    "details": { "type": "Shoulders", "weight": "Medium", "provenance": "PvE" }
+  },
+  {
+    "id": 30699,
+    "maxCount": 4,
+    "name": "Éclair",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/FE47E046D10DF27508910869B5EB040F6BBBE793/456026.png",
+    "details": {
+      "type": "Sword",
+      "precuName": "Atomisation",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 88576,
+    "maxCount": 2,
+    "name": "Xiuquatl",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/B51C094561D8D8DD30B8006E3DB84C149B3F1D90/2038676.png",
+    "details": {
+      "type": "Scepter",
+      "precuName": "Tlehco",
+      "extension": "Path of Fire"
+    }
+  },
+  {
+    "id": 80205,
+    "maxCount": 1,
+    "name": "Gantelets d'émissaire perfectionnés",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/A5DD0D661970F02CC26D04B510C7C94259B99520/1634564.png",
+    "details": { "type": "Gloves", "weight": "Heavy", "provenance": "HL" }
+  },
+  {
+    "id": 80578,
+    "maxCount": 1,
+    "name": "Pourpoint d'émissaire perfectionné",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/57360F35D1210D12010F6AE772382450A07D08F6/1634586.png",
+    "details": { "type": "Coat", "weight": "Medium", "provenance": "HL" }
+  },
+  {
+    "id": 95684,
+    "maxCount": 2,
+    "name": "Poids d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/C1B30BCF7A11E56066A46004262D01F67094B834/2595011.png",
+    "details": {
+      "type": "Hammer",
+      "precuName": "Poids draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 82196,
+    "maxCount": 1,
+    "name": "Plaques de jambes du Héros triomphant",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/6C9F11AC46DDD4755ED3ADEA07A90F2A05951B94/1424088.png",
+    "details": { "type": "Leggings", "weight": "Heavy", "provenance": "WvW" }
+  },
+  {
+    "id": 80356,
+    "maxCount": 1,
+    "name": "Pantalon d'émissaire perfectionné",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/65A4D3A41592D10EEABD0BC0D611F13A383B0261/1634577.png",
+    "details": { "type": "Leggings", "weight": "Light", "provenance": "HL" }
+  },
+  {
+    "id": 89152,
+    "maxCount": 1,
+    "name": "Harnois glorieux du Héros de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/5799E5D9CB303C1E97032C2356BE786F0EF00B22/2063508.png",
+    "details": { "type": "Coat", "weight": "Heavy", "provenance": "PvP" }
+  },
+  {
+    "id": 30695,
+    "maxCount": 2,
+    "name": "Météorologicus",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/AC940BF377C5D3EF13B2060D53EF19F1BC34BE48/456020.png",
+    "details": {
+      "type": "Scepter",
+      "precuName": "Tempête",
+      "extension": "Origins"
+    }
+  },
+  {
+    "id": 79562,
+    "maxCount": 4,
+    "name": "Euréka",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/D24F4476F94842E4A8B1F9650DA92A72B590DC02/1493252.png",
+    "details": {
+      "type": "Mace",
+      "precuName": "Ébauche",
+      "extension": "Path of Fire"
+    }
+  },
+  {
+    "id": 92991,
+    "maxCount": 1,
+    "name": "Transcendance",
+    "type": "Trinket",
+    "icon": "https://render.guildwars2.com/file/0C0D5BBDDD412439FE5F620253EFADAEF6CB760E/2270218.png",
+    "details": { "provenance": "PvP" }
+  },
+  {
+    "id": 95808,
+    "maxCount": 4,
+    "name": "Argument d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/42B56CCE6997200828B06B7652F5DEAC0507A95E/2595779.png",
+    "details": {
+      "type": "Pistol",
+      "precuName": "Argument draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 101501,
+    "maxCount": 1,
+    "name": "Pantalon léger d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/CE032615F504521DC30C6F780C09FBF137A5FA7A/3256198.png",
+    "details": { "type": "Leggings", "weight": "Light", "provenance": "PvE" }
+  },
+  {
+    "id": 101614,
+    "maxCount": 1,
+    "name": "Masque intermédiaire d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/297112AF99D72E081010FE01DFD0EF4649192654/3256203.png",
+    "details": { "type": "Helm", "weight": "Medium", "provenance": "PvE" }
+  },
+  {
+    "id": 101499,
+    "maxCount": 1,
+    "name": "Tenue régalienne légère d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/46F1D0D780A0930E936B48B9B9BF720A7B239339/3256195.png",
+    "details": { "type": "Coat", "weight": "Light", "provenance": "PvE" }
+  },
+  {
+    "id": 80399,
+    "maxCount": 1,
+    "name": "Chausses d'émissaire perfectionnées",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/FD60D4E3986FA46F4FEBB8131B65159195260B19/1634578.png",
+    "details": { "type": "Boots", "weight": "Light", "provenance": "HL" }
+  },
+  {
+    "id": 101460,
+    "maxCount": 1,
+    "name": "Grèves lourdes d'obsidienne",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/0EB6787B05B90E21D7982A3B2E75460166C6520D/3256181.png",
+    "details": { "type": "Boots", "weight": "Heavy", "provenance": "PvE" }
+  },
+  {
+    "id": 87109,
+    "maxCount": 4,
+    "name": "Griffe du Khan-Ur",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/0F210EEC4136273F5224D21C28F50B48B4AA5756/1947147.png",
+    "details": {
+      "type": "Dagger",
+      "precuName": "Griffe de résolution",
+      "extension": "Path of Fire"
+    }
+  },
+  {
+    "id": 82502,
+    "maxCount": 1,
+    "name": "Jambières du Héros triomphant de la forge des Brumes",
+    "type": "Armor",
+    "icon": "https://render.guildwars2.com/file/042F109538659229627BD244BC290FADC00E0619/1701180.png",
+    "details": { "type": "Leggings", "weight": "Light", "provenance": "WvW" }
+  },
+  {
+    "id": 96937,
+    "maxCount": 4,
+    "name": "Lacération d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/7AE67A529B6960E955B8BCDE02343C704D01B7F8/2593577.png",
+    "details": {
+      "type": "Axe",
+      "precuName": "Lacération draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 74155,
+    "maxCount": 1,
+    "name": "Ad Infinitum",
+    "type": "Back",
+    "icon": "https://render.guildwars2.com/file/562A009CE8D66B63B975251BC97041BFBE0E07E1/1202351.png",
+    "details": { "provenance": "HL" }
+  },
+  {
+    "id": 97165,
+    "maxCount": 2,
+    "name": "Regard d'Aurene",
+    "type": "Weapon",
+    "icon": "https://render.guildwars2.com/file/3FFD5043BAB5710341A166C900BED8D47409600F/2594769.png",
+    "details": {
+      "type": "Focus",
+      "precuName": "Regard draconique",
+      "extension": "End of Dragons"
+    }
+  },
+  {
+    "id": 101582,
+    "maxCount": 1,
+    "name": "Relique légendaire",
+    "type": "Relic",
+    "icon": "https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png",
+    "details": { "provenance": "PvE" }
   }
 ]

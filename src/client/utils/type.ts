@@ -1,3 +1,5 @@
+import { Details } from "@mui/icons-material";
+
 export type Item = {
   id: number;
   name: string;
@@ -35,32 +37,40 @@ export enum Status {
   crafted = 3,
 }
 
-export type Legendary = {
-  type: string;
-  idLeg: number;
-  idLegSkin: number;
-  leg: string;
-  idPrecu: number;
-  idPrecuSkin: number;
-  idPrecuAchiev: number;
-  precu: string;
-  idPerf: number;
-  idPerfSkin: number;
-  idPerfAchiev: number;
-  perf: string;
-  idProto: number;
-  idProtoSkin: number;
-  idProtoAchiev: number;
-  proto: string;
-  protoStatus?: Status;
-  perfStatus?: Status;
-  precuStatus?: Status;
-  legStatus?: Status;
-  iconLeg?: string;
-  iconPrecu?: string;
-  iconPerf?: string;
-  iconProto?: string;
+type CommonLegendary = {
+  id: number;
+  maxCount: number;
+  count?: number;
+  name: string;
+  icon: string;
 };
+
+export type WeaponLegendary = CommonLegendary & {
+  type: "Weapon";
+  details: {
+    type: string;
+    precuName?: string;
+    extension: string;
+  };
+};
+
+export type ArmorLegendary = CommonLegendary & {
+  type: "Armor";
+  details: {
+    type: string;
+    weight: string;
+    provenance: string;
+  };
+};
+
+export type OtherLegendary = CommonLegendary & {
+  type: "Trinket" | "Back" | "UpgradeComponent" | "Relic";
+  details: {
+    provenance: string;
+  };
+};
+
+export type Legendary = WeaponLegendary | ArmorLegendary | OtherLegendary;
 
 export type Achievement = {
   id: number;

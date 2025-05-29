@@ -91,7 +91,6 @@ const RecipesProcess = () => {
       if (a[sort.key] > b[sort.key]) return sort.order === "asc" ? 1 : -1;
       return 0;
     });
-    console.log("sorted", sorted);
     return sorted;
   }, [rows, sort]);
 

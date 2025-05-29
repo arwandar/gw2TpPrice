@@ -40,7 +40,6 @@ const ImportShoppingList = () => {
             for (let i = 0; i < header.length; i++) {
               obj[header[i]] = values[i];
             }
-            console.log("obj", obj);
             return obj;
           })
           .map((row: Record<string, string>) => {

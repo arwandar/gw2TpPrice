@@ -1,7 +1,7 @@
 {
   "name": "vite-react-typescript-starter",
   "private": true,
-  "version": "2.2.2",
+  "version": "2.3.0",
   "type": "module",
   "scripts": {
     "dev": "nodemon -w src/server -x tsx src/server/main.ts",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "itemsList": "nodemon -w src/script/itemsList.js src/script/itemsList.js",
     "recipesList": "nodemon -w src/script/recipesList.js src/script/recipesList.js",
-    "legendaries": "nodemon -w src/script/legendaries.js src/script/legendaries.js",
+    "legendaries": "nodemon -w src/script/legendaries src/script/legendaries/legendaries.js",
     "guildTreks": "nodemon -w src/script/guildTreks.js src/script/guildTreks.js",
     "postversion": "git push && git push --tags"
   },
