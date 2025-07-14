@@ -44,14 +44,16 @@ const ImportShoppingList = () => {
           })
           .map((row: Record<string, string>) => {
             const obj: Item = {
-              count: parseInt(row["Shopping List Amount"]),
-              name: row["Name"],
-              id: getBuyableId(row["Item ID"]),
-              price: parseInt(row["Price Each"]),
+              count: parseInt(row["Montant de la liste de courses"]),
+              name: row["Nom"],
+              id: getBuyableId(row["ID de l'article"]),
+              price: parseInt(row["Prix unitaire"]),
             };
             return obj;
           })
           .filter((item) => item.id !== 0 && item.count > 0);
+
+        console.log("arrayOfObjects", arrayOfObjects);
 
         setEfficiencyShoppingList(arrayOfObjects);
       }
