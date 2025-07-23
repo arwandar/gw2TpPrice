@@ -12,6 +12,7 @@ export const getProvenance = (name) => {
       "Relique légendaire",
       "Cachet légendaire",
       "Rune légendaire",
+      "Orrax conjuré",
     ].includes(name)
   )
     return "PvE";

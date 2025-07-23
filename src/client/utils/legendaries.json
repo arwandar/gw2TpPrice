@@ -584,6 +584,14 @@
     "details": { "type": "Gloves", "weight": "Medium", "provenance": "WvW" }
   },
   {
+    "id": 104857,
+    "maxCount": 1,
+    "name": "Orrax conjuré",
+    "type": "Back",
+    "icon": "https://render.guildwars2.com/file/9C5948587832ACA31FD01298DE081BDE626CC607/3629149.png",
+    "details": { "provenance": "PvE" }
+  },
+  {
     "id": 83323,
     "maxCount": 1,
     "name": "Plaques de jambes glorieuses ardentes",
