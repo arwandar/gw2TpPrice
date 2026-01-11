@@ -19,7 +19,7 @@ export const splitPrice = (price: number) => {
   const isNeg = price < 0;
   price = Math.abs(price);
 
-  const str = price.toString().padStart(5, "0");
+  const str = Math.round(price).toString().padStart(5, "0");
 
   const pc = Number.parseInt(str.slice(-2), 10);
   const pa = Number.parseInt(str.slice(-4, -2), 10);

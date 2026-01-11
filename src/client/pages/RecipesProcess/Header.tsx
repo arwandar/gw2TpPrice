@@ -12,7 +12,7 @@ const Header = ({
   onSort,
   sort,
 }: {
-  onSort: Dispatch<SetStateAction<{ key: SortKey; order: "asc" | "desc" }>>;
+  onSort: CallableFunction;
   sort: { key: string; order: "asc" | "desc" };
 }) => {
   const handleSort = (key: SortKey) => {

@@ -14,7 +14,6 @@ import { Context } from "../../Context";
 import Header from "./Header";
 import { Recipe } from "../../utils/type";
 import Row from "./Row";
-import TablePaginationActions from "@mui/material/TablePagination/TablePaginationActions";
 import { getCurrentPrices } from "../../utils/gw2Api";
 import recipes from "../../utils/recipes.json";
 
@@ -162,7 +161,7 @@ const RecipesProcess = () => {
                 page={page}
                 onPageChange={handleChangePage}
                 onRowsPerPageChange={handleChangeRowsPerPage}
-                ActionsComponent={TablePaginationActions}
+
               />
             </TableRow>
           </TableFooter>

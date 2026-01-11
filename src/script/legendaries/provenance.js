@@ -1,5 +1,5 @@
 export const getProvenance = (name) => {
-  if (name.includes("obsidienne")) return "PvE";
+  if (name.includes("obsidienne") || name.includes('Eikasia')) return "PvE";
   if (name.includes("émissaire")) return "HL";
   if (name.includes("triomphant")) return "WvW";
   if (name.includes("glorieu")) return "PvP";
@@ -13,6 +13,7 @@ export const getProvenance = (name) => {
       "Cachet légendaire",
       "Rune légendaire",
       "Orrax conjuré",
+      "Sélachimorphe"
     ].includes(name)
   )
     return "PvE";
