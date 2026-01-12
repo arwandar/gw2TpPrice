@@ -110,6 +110,7 @@ const CleanStorage = () => {
             <TableCell onClick={() => handleSort(SortKey.price)} align="right">
               Effrice {getSortIcon(SortKey.price, sort)}
             </TableCell>
+            <TableCell align="right">Update</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

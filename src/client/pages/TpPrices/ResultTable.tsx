@@ -90,6 +90,7 @@ const ResultTable = () => {
             </TableCell>
             <TableCell align="right">Price</TableCell>
             <TableCell align="right">Discount</TableCell>
+            <TableCell align="right">Update</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

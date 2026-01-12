@@ -1,9 +1,10 @@
-import { TableCell, TableRow } from "@mui/material";
+import { IconButton, TableCell, TableRow } from "@mui/material";
 import { useContext, useEffect } from "react";
 
 import { Context } from "../../Context";
 import { Item } from "../../utils/type";
 import Price from "../../components/Price";
+import { Update } from "@mui/icons-material";
 
 const Row = ({ row }: { row: Item }) => {
   const { prices, getPrice } = useContext(Context);
@@ -45,6 +46,11 @@ const Row = ({ row }: { row: Item }) => {
       </TableCell>
       <TableCell align="right">
         <Price price={price ? (row.price - price) * row.count : undefined} />
+      </TableCell>
+      <TableCell align="right">
+        <IconButton onClick={() => getPrice(row.id)}>
+          <Update />
+        </IconButton>
       </TableCell>
     </TableRow>
   );

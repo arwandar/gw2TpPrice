@@ -1,17 +1,18 @@
-import { TableCell, TableRow } from "@mui/material";
-import { useContext, useEffect, useState } from "react";
+import { IconButton, TableCell, TableRow } from "@mui/material";
+import { useCallback, useEffect, useState } from "react";
 
 import { Context } from "../../Context";
 import { Item } from "./type";
 import Price from "../../components/Price";
 import { getPriceById } from "../../utils/gw2TpApi";
 import { getLabelById } from "../../utils/gw2Api";
+import { Update } from "@mui/icons-material";
 
 const Row = ({ row }: { row: Item }) => {
   const [price, setPrice] = useState<number>();
   const [label, setLabel] = useState<string | undefined>(row.label);
 
-  useEffect(() => {
+  const updatePrice = useCallback(() => {
     const getPrice = async () => {
       const res = await getPriceById(row.id, true);
       setPrice(res);
@@ -26,6 +27,8 @@ const Row = ({ row }: { row: Item }) => {
 
     if (!row.label) getLabel();
   }, []);
+
+  useEffect(updatePrice, []);
 
   return (
     <TableRow
@@ -42,6 +45,11 @@ const Row = ({ row }: { row: Item }) => {
       <TableCell align="right">{row.count}</TableCell>
       <TableCell align="right">
         <Price price={price} />
+      </TableCell>
+      <TableCell align="right">
+        <IconButton onClick={updatePrice}>
+          <Update />
+        </IconButton>
       </TableCell>
     </TableRow>
   );
