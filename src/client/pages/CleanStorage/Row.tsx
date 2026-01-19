@@ -1,7 +1,6 @@
 import { IconButton, TableCell, TableRow } from "@mui/material";
 import { useCallback, useEffect, useState } from "react";
 
-import { Context } from "../../Context";
 import { Item } from "./type";
 import Price from "../../components/Price";
 import { getPriceById } from "../../utils/gw2TpApi";
@@ -11,11 +10,14 @@ import { Update } from "@mui/icons-material";
 const Row = ({ row }: { row: Item }) => {
   const [price, setPrice] = useState<number>();
   const [label, setLabel] = useState<string | undefined>(row.label);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const updatePrice = useCallback(() => {
+    setIsLoading(true);
     const getPrice = async () => {
       const res = await getPriceById(row.id, true);
       setPrice(res);
+      setIsLoading(false);
     };
 
     if (!row.binding) getPrice();
@@ -47,9 +49,11 @@ const Row = ({ row }: { row: Item }) => {
         <Price price={price} />
       </TableCell>
       <TableCell align="right">
-        <IconButton onClick={updatePrice}>
-          <Update />
-        </IconButton>
+        {!row.binding && (
+          <IconButton disabled={isLoading} onClick={updatePrice}>
+            <Update />
+          </IconButton>
+        )}
       </TableCell>
     </TableRow>
   );
