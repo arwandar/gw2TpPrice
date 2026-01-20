@@ -1,5 +1,6 @@
 import express from "express";
 import ViteExpress from "vite-express";
+import axios from "axios";
 
 const app = express();
 
@@ -9,6 +10,19 @@ type CacheEntry = {
 };
 
 const cache = new Map<string, CacheEntry>();
+
+async function fetchGw2(id: string) {
+  const res = await axios.get("https://fr.gw2tp.com/api/trends", {
+    params: { id },
+    timeout: 5000,
+    httpsAgent: new (require("https").Agent)({
+      keepAlive: true,
+      maxSockets: 4,
+    }),
+  });
+
+  return res.data;
+}
 
 app.get("/api/gw2tp/:id", async (req, resp) => {
   const id = req.params.id;
@@ -20,17 +34,16 @@ app.get("/api/gw2tp/:id", async (req, resp) => {
   }
 
   try {
-    const res = await fetch(`https://fr.gw2tp.com/api/trends?id=${id}`);
-    const data = await res.json();
+    const data = await fetchGw2(id);
 
     cache.set(id, {
       data,
-      expires: now + 360_000,
+      expires: now + 60 * 60 * 1000,
     });
 
     resp.json(data);
   } catch (e) {
-    console.error(e);
+    console.error("GW2TP failed", e);
     resp.status(502).json({ error: "upstream failed" });
   }
 });
