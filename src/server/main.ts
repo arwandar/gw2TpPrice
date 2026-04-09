@@ -20,7 +20,7 @@ const cache = new Map<string, CacheEntry>();
 const fetchGw2 = async (id: string) => {
   const res = await axios.get("https://fr.gw2tp.com/api/trends-ohlc", {
     params: { id },
-    timeout: 5000,
+    timeout: 60000,
     httpsAgent,
     validateStatus: (status) => status < 500, // évite throw inutile
   });
