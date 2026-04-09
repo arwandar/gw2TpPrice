@@ -4,19 +4,24 @@ import { getId } from "./utils";
 
 export const getPriceById = async (
   id: number,
-  isSelling: boolean = false
+  isSelling: boolean = false,
 ): Promise<number> => {
   try {
     const res = await fetch(`/api/gw2tp/${id}`);
     const data = await res.json();
 
-    const dataSet = data
-      .reduce((toKeep: number[], d: number[]) => {
-        const date = new Date(d[0]);
-        if (isAfter(date, sub(new Date(), { weeks: 1 })))
-          toKeep.push(d[isSelling ? 1 : 2]);
-        return toKeep;
-      }, [])
+    const dataSet = data[isSelling ? "sell_sma" : "buy_sma"]
+      .reduce(
+        (
+          toKeep: number[],
+          { time, value }: { time: number; value: number },
+        ) => {
+          const date = new Date(time * 1000);
+          if (isAfter(date, sub(new Date(), { weeks: 1 }))) toKeep.push(value);
+          return toKeep;
+        },
+        [],
+      )
       .sort();
 
     const p = parseInt(localStorage.getItem("percentile") || "50") / 100;
@@ -48,7 +53,7 @@ export const getPriceByLabel = (label: string, isSelling?: boolean) => {
 export const getCurrentPercentile = async (
   id: number,
   value: number,
-  isSelling: boolean = false
+  isSelling: boolean = false,
 ) => {
   try {
     const res = await fetch(`/api/gw2tp/${id}`);

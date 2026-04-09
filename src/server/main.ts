@@ -18,7 +18,7 @@ type CacheEntry = {
 const cache = new Map<string, CacheEntry>();
 
 const fetchGw2 = async (id: string) => {
-  const res = await axios.get("https://fr.gw2tp.com/api/trends", {
+  const res = await axios.get("https://fr.gw2tp.com/api/trends-ohlc", {
     params: { id },
     timeout: 5000,
     httpsAgent,
